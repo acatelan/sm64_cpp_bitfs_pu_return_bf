@@ -79,7 +79,7 @@ void update_sliding(float normalX, float normalZ, int16_t floorType) {
 	float oldSpeed = 0.0;
 	float newSpeed = 0.0;
 
-	uint16_t intendedDYaw = (*marioIntYaw(game) - *marioMYaw(game) + 32768) % 65536;
+	uint16_t intendedDYaw = (*marioIntYaw(game) - *marioMYaw(game)) % 65536;
 	//printf("update_sliding\n%d %d %d\n", *marioIntYaw(game), *marioMYaw(game), intendedDYaw);
 	float forward;
 	float sideward;

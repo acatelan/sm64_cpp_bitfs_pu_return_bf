@@ -68,8 +68,8 @@ vector<Inputs> load_m64(const char* filename) {
 	return frames;
 }
 
-int main() {
-	vector<Inputs> m64 = load_m64("BitFS_poc_final_6.m64");
+int main(int argc, char* argv[]) {
+	vector<Inputs> m64 = load_m64("C:\\Users\\catel\\Documents\\sm64-abc\\multi-layer-brute-forcer-return-route\\c++ translation\\bitfs_pu_return_bf\\x64\\Debug\\BitFS_poc_final_6.m64");
 
 	Slot backup = game.alloc_slot();
 	Slot backupTemp = game.alloc_slot();

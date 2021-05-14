@@ -3,7 +3,7 @@
 
 #include "Game.h"
 
-Game game = Game("jp", "..\\sm64_jp.dll");
+Game game = Game("jp", "C:\\Users\\catel\\Documents\\sm64-abc\\multi-layer-brute-forcer-return-route\\c++ translation\\bitfs_pu_return_bf\\x64\\Debug\\sm64_jp.dll");
 
 void Game::advance_frame() {
 	FARPROC processID = GetProcAddress(dll, "sm64_update");

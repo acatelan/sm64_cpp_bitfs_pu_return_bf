@@ -123,7 +123,7 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 									*marioActionTimer(game) = 1;
 									game.advance_frame();
 								}
-								
+
 								*marioAction(game) = 0x04000440;
 								game.save_state(saveStateNext);
 								calc_next_node(true, saveStateNext);
@@ -153,6 +153,10 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 					if (input_yawmag_map.count(pair<int8_t, int8_t>(input_x, input_y)) == 0) {
 						calc_intended_yawmag(input_x, input_y, *marioAreaCameraYaw);
 						input_yawmag_map[pair<int8_t, int8_t>(input_x, input_y)] = pair<int16_t, float>(*marioIntYaw(game), *marioIntMag(game));
+
+						if (yawmags_tested.count(input_yawmag_map[pair<int8_t, int8_t>(input_x, input_y)]) == 1) {
+							continue;
+						}
 					}
 
 					//input inbounds precheck
