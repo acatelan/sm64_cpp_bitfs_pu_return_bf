@@ -41,13 +41,13 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 	int hau_offset_sign = 1;
 
 	/*
-	printf("marioX - %.8f, marioX^2 - %.8f\n", *marioX(game), pow(*marioX(game), 2));
-	printf("marioY - %.8f, marioY^2 - %.8f\n", *marioY(game), pow(*marioY(game), 2));
-	printf("marioZ - %.8f, marioZ^2 - %.8f\n", *marioZ(game), pow(*marioZ(game), 2));
+	printf("marioX - %.9f, marioX^2 - %.9f\n", *marioX(game), pow(*marioX(game), 2));
+	printf("marioY - %.9f, marioY^2 - %.9f\n", *marioY(game), pow(*marioY(game), 2));
+	printf("marioZ - %.9f, marioZ^2 - %.9f\n", *marioZ(game), pow(*marioZ(game), 2));
 	*/
 
 	if (isLeaf == false) {
-		printf("starting dist: %.8f\n", sqrt(pow(*marioX(game), 2) + pow(*marioY(game), 2) + pow(*marioZ(game), 2)));
+		printf("starting dist: %.9f\n", sqrt(pow(*marioX(game), 2) + pow(*marioY(game), 2) + pow(*marioZ(game), 2)));
 		printf("starting yaw: %.1f\n", fyaw_to_main_uni - fmodf(fyaw_to_main_uni, 16));
 	}
 
@@ -93,7 +93,7 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 				game.advance_frame();
 
 				if (abs(*marioX(game)) < 10000.0 && abs(*marioZ(game)) < 10000.0) {
-					printf("MAIN MAP: %.8f %.8f %.8f %d", *marioX(game), *marioY(game), *marioZ(game), fYaw);
+					printf("MAIN MAP: %.9f %.9f %.9f %d", *marioX(game), *marioY(game), *marioZ(game), fYaw);
 					fprintf(stderr, "found something\n");
 				}
 
@@ -109,9 +109,9 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 							float new_fyaw_to_main_uni = float(atan2(*marioX(game), *marioZ(game)) * 32768.0 / M_PI);
 							new_fyaw_to_main_uni = new_fyaw_to_main_uni - fmodf(new_fyaw_to_main_uni, 16);
 
-							printf("%.8f %d\n", *marioY(game), fYaw);
-							printf("distance to main uni: %.8f\n", sqrt(pow(*marioX(game), 2) + pow(*marioY(game), 2)));
-							printf("yaw to main uni: %.8f\n", new_fyaw_to_main_uni);
+							printf("%.9f %d\n", *marioY(game), fYaw);
+							printf("distance to main uni: %.9f\n", sqrt(pow(*marioX(game), 2) + pow(*marioY(game), 2)));
+							printf("yaw to main uni: %.9f\n", new_fyaw_to_main_uni);
 
 							if (recurse == true) {
 								//test if this node will return to main map
@@ -180,7 +180,7 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 					*marioZ(game) = float(*marioZ(game) + *marioZSlidSpd(game) * *marioFloorNormalY / 4.0);
 
 					if (check_if_inbounds(*marioX(game), *marioZ(game)) == true) {
-						//printf("Step 1 Predicted: %.8f %.8f %d %d\n", *marioX(game), *marioZ(game), *marioFYaw(game), *marioMYaw(game));
+						//printf("Step 1 Predicted: %.9f %.9f %d %d\n", *marioX(game), *marioZ(game), *marioFYaw(game), *marioMYaw(game));
 
 						*marioX(game) = float(*marioX(game) + *marioHSpd(game) * gSineTable[(uint16_t)(*marioFYaw(game)) >> 4] / 4.0);
 						*marioZ(game) = float(*marioZ(game) + *marioHSpd(game) * gCosineTable[(uint16_t)(*marioFYaw(game)) >> 4] / 4.0);
@@ -188,7 +188,7 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 						if (check_if_inbounds(*marioX(game), *marioZ(game)) == false) {
 							continue;
 						}
-						//printf("Step 2 Predicted: %.8f %.8f %d %d\n", *marioX(game), *marioZ(game), *marioFYaw(game), *marioMYaw(game));
+						//printf("Step 2 Predicted: %.9f %.9f %d %d\n", *marioX(game), *marioZ(game), *marioFYaw(game), *marioMYaw(game));
 					}
 					else {
 						continue;
@@ -205,7 +205,7 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 					game.advance_frame();
 
 					//printf("%d %d\n", *marioFYaw(game) + 32768, *marioMYaw(game));
-					//printf("Step 1 Actual: %.8f %.8f %d %d\n", *marioX(game), *marioZ(game), *marioFYaw(game), *marioMYaw(game));
+					//printf("Step 1 Actual: %.9f %.9f %d %d\n", *marioX(game), *marioZ(game), *marioFYaw(game), *marioMYaw(game));
 
 					if (abs(*marioHSpd(game)) < 1000.0) {
 						continue;
@@ -213,7 +213,7 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 					else if (*marioAction(game) == 0x0100088C) {
 						/*
 						* if (input_yawmag_map[pair<int8_t, int8_t>(input_x, input_y)] != pair<int16_t, float>(*marioIntYaw(game), *marioIntMag(game))) {
-						*     printf("(%d, %.8f) (%d, %.8f)\n", input_yawmag_map[pair<int8_t, int8_t>(input_x, input_y)].first, input_yawmag_map[pair<int8_t, int8_t>(input_x, input_y)].second, *marioIntYaw(game), *marioIntMag(game));
+						*     printf("(%d, %.9f) (%d, %.9f)\n", input_yawmag_map[pair<int8_t, int8_t>(input_x, input_y)].first, input_yawmag_map[pair<int8_t, int8_t>(input_x, input_y)].second, *marioIntYaw(game), *marioIntMag(game));
 						*     printf("%#X %#X\n", input_yawmag_map[pair<int8_t, int8_t>(input_x, input_y)].first - 1187, *marioIntYaw(game) - 1187);
 						*     printf("%d %d\n", input_x, input_y);
 						* }
@@ -222,9 +222,9 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 							set_inputs(game, Inputs(0b0000000000010000, 0, 0));
 							game.advance_frame();
 
-							//printf("Step 2+ Actual: %.8f %.8f %d %d\n", *marioX(game), *marioZ(game), *marioFYaw(game), *marioMYaw(game));
+							//printf("Step 2+ Actual: %.9f %.9f %d %d\n", *marioX(game), *marioZ(game), *marioFYaw(game), *marioMYaw(game));
 							if (abs(*marioX(game)) < 10000.0 && abs(*marioZ(game)) < 10000.0) {
-								printf("MAIN MAP: %.8f %.8f %.8f %d %d %d\n", *marioX(game), *marioY(game), *marioZ(game), fYaw, input_x, input_y);
+								printf("MAIN MAP: %.9f %.9f %.9f %d %d %d\n", *marioX(game), *marioY(game), *marioZ(game), fYaw, input_x, input_y);
 								fprintf(stderr, "found something\n");
 							}
 
@@ -240,9 +240,9 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 										float new_fyaw_to_main_uni = float(atan2(*marioX(game), *marioZ(game)) * 32768.0 / M_PI);
 										new_fyaw_to_main_uni = new_fyaw_to_main_uni - fmodf(new_fyaw_to_main_uni, 16);
 
-										printf("%.8f %d %d %d\n", *marioY(game), fYaw, input_x, input_y);
-										printf("distance to main uni: %.8f\n", sqrt(pow(*marioX(game), 2) + pow(*marioY(game), 2) + pow(*marioZ(game), 2)));
-										printf("yaw to main uni: %.8f\n", new_fyaw_to_main_uni);
+										printf("%.9f %d %d %d\n", *marioY(game), fYaw, input_x, input_y);
+										printf("distance to main uni: %.9f\n", sqrt(pow(*marioX(game), 2) + pow(*marioY(game), 2) + pow(*marioZ(game), 2)));
+										printf("yaw to main uni: %.9f\n", new_fyaw_to_main_uni);
 
 										if (recurse == true) {
 											//test if this node will return to main map
@@ -289,6 +289,10 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 		if (isLeaf == true && hau_index > 3) {
 			printf("Tested L2 node.\n");
 			return;
+		}
+
+		if (hau_index > 2048) {
+			break;
 		}
 	}
 
