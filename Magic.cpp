@@ -2,7 +2,7 @@
 #include "Trig.h"
 
 int16_t atan2_lookup(float z, float x) {
-	int angle = 0;
+	int16_t angle = 0;
 
 	if (x == 0) {
 		angle = gArctanTable[0];
@@ -15,7 +15,7 @@ int16_t atan2_lookup(float z, float x) {
 }
 
 int16_t atan2s(float z, float x) {
-	int angle = 0;
+	int16_t angle = 0;
 
 	if (x >= 0) {
 		if (z >= 0) {

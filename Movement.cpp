@@ -18,7 +18,7 @@ void set_inputs(Game game, Inputs input) {
 }
 
 void update_sliding_angle(float accel, float lossFactor, float normalX, float normalZ) {
-	int16_t newFacingDYaw = 0;
+	int32_t newFacingDYaw = 0;
 	int16_t facingDYaw = 0;
 
 	int16_t slopeAngle = atan2s(normalZ, normalX);
@@ -104,16 +104,16 @@ void update_sliding(float normalX, float normalZ, int16_t floorType) {
 		lossFactor = float(*marioIntMag(game) / 32.0 * forward * 0.02 + 0.92);
 	}
 
-	oldSpeed = sqrt(pow(*marioIntMag(game), 2) + pow(*marioZSlidSpd(game), 2));
+	oldSpeed = sqrt(pow(*marioXSlidSpd(game), 2) + pow(*marioZSlidSpd(game), 2));
 
-	*marioXSlidSpd(game) = float(*marioXSlidSpd(game) + *marioZSlidSpd(game) * (*marioIntMag(game) / 32.0) * sideward * 0.05);
-	*marioZSlidSpd(game) = float(*marioZSlidSpd(game) + *marioXSlidSpd(game) * (*marioIntMag(game) / 32.0) * sideward * 0.05);
+	*marioXSlidSpd(game) = *marioXSlidSpd(game) + *marioZSlidSpd(game) * (*marioIntMag(game) / 32.0) * sideward * 0.05;
+	*marioZSlidSpd(game) = *marioZSlidSpd(game) - *marioXSlidSpd(game) * (*marioIntMag(game) / 32.0) * sideward * 0.05;
 
-	newSpeed = sqrt(pow(*marioIntMag(game), 2) + pow(*marioZSlidSpd(game), 2));
+	newSpeed = sqrt(pow(*marioXSlidSpd(game), 2) + pow(*marioZSlidSpd(game), 2));
 
 	if (oldSpeed > 0.0 && newSpeed > 0.0) {
-		*marioXSlidSpd(game) = float(*marioXSlidSpd(game) * oldSpeed / newSpeed);
-		*marioZSlidSpd(game) = float(*marioZSlidSpd(game) * oldSpeed / newSpeed);
+		*marioXSlidSpd(game) = *marioXSlidSpd(game) * float(oldSpeed / newSpeed);
+		*marioZSlidSpd(game) = *marioZSlidSpd(game) * float(oldSpeed / newSpeed);
 	}
 
 	update_sliding_angle(accel, lossFactor, normalX, normalZ);

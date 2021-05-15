@@ -9,16 +9,63 @@ tested all inputs for fYaw 3808
 updating fYaw to -448
 tested all inputs for fYaw -448
 updating fYaw to 3824
+410.00000000 3824 53 -55
+distance to main uni: 8625915.16759655
+yaw to main uni: -2080.00000000
+Tested L2 node.
+410.00000000 3824 54 -56
+distance to main uni: 8625915.16759655
+yaw to main uni: -2080.00000000
+Tested L2 node.
+410.00000000 3824 55 -57
+distance to main uni: 8625915.16759655
+yaw to main uni: -2080.00000000
+Tested L2 node.
 tested all inputs for fYaw 3824
 updating fYaw to -464
+313.52941895 -464 -62 31
+distance to main uni: 28203783.49113673
+yaw to main uni: 31280.00000000
+Tested L2 node.
+410.00000000 -464 -60 -19
+distance to main uni: 13678427.10833749
+yaw to main uni: 3184.00000000
+Tested L2 node.
+wtf 75531353 -464 -346
+wtf 75531353 -464 -478
+417.18948364 -464 49 24
+distance to main uni: 8769337.96218666
+yaw to main uni: 6576.00000000
+Tested L2 node.
 tested all inputs for fYaw -464
 updating fYaw to 3840
+410.00000000 3840 41 40
+distance to main uni: 13565929.89182658
+yaw to main uni: 32.00000000
+Tested L2 node.
+wtf 75531353 3840 3399
+wtf 75531353 3840 3399
 tested all inputs for fYaw 3840
 updating fYaw to -480
+236.44947815 -480 -127 -21
+distance to main uni: 217682845.96319366
+yaw to main uni: 32576.00000000
+Tested L2 node.
+236.44947815 -480 -126 -21
+distance to main uni: 217682845.96319366
+yaw to main uni: 32576.00000000
+Tested L2 node.
 tested all inputs for fYaw -480
 updating fYaw to 3856
+wtf 75531353 3856 3544
+wtf 75531353 3856 3544
 tested all inputs for fYaw 3856
 updating fYaw to -496
+224.87013245 -496 -128 -21
+distance to main uni: 217682992.81913319
+yaw to main uni: 32576.00000000
+Tested L2 node.
+wtf 75531353 -496 -234
 tested all inputs for fYaw -496
 updating fYaw to 3872
 tested all inputs for fYaw 3872
@@ -37,12 +84,28 @@ tested all inputs for fYaw 3920
 updating fYaw to -560
 tested all inputs for fYaw -560
 updating fYaw to 3936
+wtf 75531353 3936 3472
 tested all inputs for fYaw 3936
 updating fYaw to -576
+410.00000000 -576 -9 -38
+distance to main uni: 33886186.73660447
+yaw to main uni: 30496.00000000
+Tested L2 node.
+410.00000000 -576 27 -36
+distance to main uni: 13890585.80759412
+yaw to main uni: 3648.00000000
+Tested L2 node.
+wtf 75531353 -576 -1046
+wtf 75531353 -576 -1046
 tested all inputs for fYaw -576
 updating fYaw to 3952
+wtf 75531353 3952 3626
 tested all inputs for fYaw 3952
 updating fYaw to -592
+410.00000000 -592 25 -36
+distance to main uni: 8925549.08972028
+yaw to main uni: 6432.00000000
+Tested L2 node.
 tested all inputs for fYaw -592
 updating fYaw to 3968
 tested all inputs for fYaw 3968
@@ -55,30 +118,43 @@ tested all inputs for fYaw -624
 updating fYaw to 4000
 tested all inputs for fYaw 4000
 updating fYaw to -640
+410.00000000 -640 -47 34
+distance to main uni: 11637023.92692178
+yaw to main uni: 27952.00000000
+Tested L2 node.
 tested all inputs for fYaw -640
 updating fYaw to 4016
+wtf 75531353 4016 3580
 tested all inputs for fYaw 4016
 updating fYaw to -656
+wtf 75531353 -656 -356
+wtf 75531353 -656 -356
+wtf 75531353 -656 -356
 tested all inputs for fYaw -656
 updating fYaw to 4032
 tested all inputs for fYaw 4032
 updating fYaw to -672
+wtf 75531353 -672 -468
 tested all inputs for fYaw -672
 updating fYaw to 4048
 tested all inputs for fYaw 4048
 updating fYaw to -688
+wtf 75531353 -688 -1056
 tested all inputs for fYaw -688
 updating fYaw to 4064
 tested all inputs for fYaw 4064
 updating fYaw to -704
+wtf 75531353 -704 -570
 tested all inputs for fYaw -704
 updating fYaw to 4080
 tested all inputs for fYaw 4080
 updating fYaw to -720
+wtf 75531353 -720 -924
 tested all inputs for fYaw -720
 updating fYaw to 4096
 tested all inputs for fYaw 4096
 updating fYaw to -736
+wtf 75531353 -736 -224
 tested all inputs for fYaw -736
 updating fYaw to 4112
 tested all inputs for fYaw 4112
@@ -91,10 +167,20 @@ tested all inputs for fYaw -768
 updating fYaw to 4144
 tested all inputs for fYaw 4144
 updating fYaw to -784
+410.00000000 -784 -43 -52
+distance to main uni: 8976353.65274822
+yaw to main uni: 6128.00000000
+Tested L2 node.
+wtf 75531353 -784 -823
 tested all inputs for fYaw -784
 updating fYaw to 4160
 tested all inputs for fYaw 4160
 updating fYaw to -800
+410.00000000 -800 -34 -26
+distance to main uni: 13889645.49168167
+yaw to main uni: 3648.00000000
+Tested L2 node.
+wtf 75531353 -800 -833
 tested all inputs for fYaw -800
 updating fYaw to 4176
 tested all inputs for fYaw 4176
@@ -103,10 +189,12 @@ tested all inputs for fYaw -816
 updating fYaw to 4192
 tested all inputs for fYaw 4192
 updating fYaw to -832
+wtf 75531353 -832 -1066
 tested all inputs for fYaw -832
 updating fYaw to 4208
 tested all inputs for fYaw 4208
 updating fYaw to -848
+wtf 75531353 -848 -823
 tested all inputs for fYaw -848
 updating fYaw to 4224
 tested all inputs for fYaw 4224
@@ -115,10 +203,24 @@ tested all inputs for fYaw -864
 updating fYaw to 4240
 tested all inputs for fYaw 4240
 updating fYaw to -880
+241.23684692 -880 -55 -15
+distance to main uni: 206818463.15412340
+yaw to main uni: 31904.00000000
+Tested L2 node.
+wtf 75531353 -880 -833
+410.00000000 -880 39 -24
+distance to main uni: 14029508.02520145
+yaw to main uni: 3936.00000000
+Tested L2 node.
 tested all inputs for fYaw -880
 updating fYaw to 4256
 tested all inputs for fYaw 4256
 updating fYaw to -896
+410.00000000 -896 -46 -18
+distance to main uni: 8925508.85360483
+yaw to main uni: 6432.00000000
+Tested L2 node.
+wtf 75531353 -896 -1046
 tested all inputs for fYaw -896
 updating fYaw to 4272
 tested all inputs for fYaw 4272
@@ -131,6 +233,18 @@ tested all inputs for fYaw -928
 updating fYaw to 4304
 tested all inputs for fYaw 4304
 updating fYaw to -944
+410.00000000 -944 60 -50
+distance to main uni: 14300267.24960355
+yaw to main uni: 4160.00000000
+Tested L2 node.
+410.00000000 -944 65 -54
+distance to main uni: 14300267.24960355
+yaw to main uni: 4160.00000000
+Tested L2 node.
+410.00000000 -944 70 -58
+distance to main uni: 14300267.24960355
+yaw to main uni: 4160.00000000
+Tested L2 node.
 tested all inputs for fYaw -944
 updating fYaw to 4320
 tested all inputs for fYaw 4320
@@ -143,34 +257,67 @@ tested all inputs for fYaw -976
 updating fYaw to 4352
 tested all inputs for fYaw 4352
 updating fYaw to -992
+wtf 75531353 -992 -702
+410.00000000 -992 22 -25
+distance to main uni: 14030002.87197836
+yaw to main uni: 3936.00000000
+Tested L2 node.
 tested all inputs for fYaw -992
 updating fYaw to 4368
 tested all inputs for fYaw 4368
 updating fYaw to -1008
+410.00000000 -1008 73 -12
+distance to main uni: 14232131.46585739
+yaw to main uni: 4288.00000000
+Tested L2 node.
 tested all inputs for fYaw -1008
 updating fYaw to 4384
 tested all inputs for fYaw 4384
 updating fYaw to -1024
+410.00000000 -1024 13 -26
+distance to main uni: 14030804.74171066
+yaw to main uni: 3936.00000000
+Tested L2 node.
 tested all inputs for fYaw -1024
 updating fYaw to 4400
 tested all inputs for fYaw 4400
 updating fYaw to -1040
+wtf 75531353 -1040 -1177
 tested all inputs for fYaw -1040
 updating fYaw to 4416
 tested all inputs for fYaw 4416
 updating fYaw to -1056
+410.00000000 -1056 31 -52
+distance to main uni: 12727661.75360377
+yaw to main uni: 25328.00000000
+Tested L2 node.
+wtf 75531353 -1056 -1307
 tested all inputs for fYaw -1056
 updating fYaw to 4432
 tested all inputs for fYaw 4432
 updating fYaw to -1072
+wtf 75531353 -1072 -935
+410.00000000 -1072 -17 -22
+distance to main uni: 14029909.67323667
+yaw to main uni: 3936.00000000
+Tested L2 node.
 tested all inputs for fYaw -1072
 updating fYaw to 4448
 tested all inputs for fYaw 4448
 updating fYaw to -1088
+wtf 75531353 -1088 -935
 tested all inputs for fYaw -1088
 updating fYaw to 4464
 tested all inputs for fYaw 4464
 updating fYaw to -1104
+410.00000000 -1104 -26 -17
+distance to main uni: 14030346.18693038
+yaw to main uni: 3936.00000000
+Tested L2 node.
+410.00000000 -1104 55 -11
+distance to main uni: 9657297.88002349
+yaw to main uni: 7472.00000000
+Tested L2 node.
 tested all inputs for fYaw -1104
 updating fYaw to 4480
 tested all inputs for fYaw 4480
@@ -179,10 +326,22 @@ tested all inputs for fYaw -1120
 updating fYaw to 4496
 tested all inputs for fYaw 4496
 updating fYaw to -1136
+410.00000000 -1136 -32 -13
+distance to main uni: 14030712.58003046
+yaw to main uni: 3936.00000000
+Tested L2 node.
 tested all inputs for fYaw -1136
 updating fYaw to 4512
 tested all inputs for fYaw 4512
 updating fYaw to -1152
+471.00003052 -1152 25 75
+distance to main uni: 9105654.84626396
+yaw to main uni: 7440.00000000
+Tested L2 node.
+471.00003052 -1152 27 82
+distance to main uni: 9105654.84626396
+yaw to main uni: 7440.00000000
+Tested L2 node.
 tested all inputs for fYaw -1152
 updating fYaw to 4528
 tested all inputs for fYaw 4528
@@ -191,14 +350,28 @@ tested all inputs for fYaw -1168
 updating fYaw to 4544
 tested all inputs for fYaw 4544
 updating fYaw to -1184
+410.00000000 -1184 48 -8
+distance to main uni: 14179267.35644322
+yaw to main uni: 4192.00000000
+Tested L2 node.
 tested all inputs for fYaw -1184
 updating fYaw to 4560
 tested all inputs for fYaw 4560
 updating fYaw to -1200
+410.00000000 -1200 -12 115
+distance to main uni: 24229749.01519628
+yaw to main uni: 28928.00000000
+Tested L2 node.
+410.00000000 -1200 45 43
+distance to main uni: 14059763.40272097
+yaw to main uni: 4240.00000000
+Tested L2 node.
 tested all inputs for fYaw -1200
 updating fYaw to 4576
 tested all inputs for fYaw 4576
 updating fYaw to -1216
+wtf 75531353 -1216 -1187
+wtf 75531353 -1216 -1427
 tested all inputs for fYaw -1216
 updating fYaw to 4592
 tested all inputs for fYaw 4592
@@ -207,30 +380,56 @@ tested all inputs for fYaw -1232
 updating fYaw to 4608
 tested all inputs for fYaw 4608
 updating fYaw to -1248
+410.00000000 -1248 12 -73
+distance to main uni: 14420937.76289507
+yaw to main uni: 4128.00000000
+Tested L2 node.
+410.00000000 -1248 12 -72
+distance to main uni: 14420937.76289507
+yaw to main uni: 4128.00000000
+Tested L2 node.
 tested all inputs for fYaw -1248
 updating fYaw to 4624
 tested all inputs for fYaw 4624
 updating fYaw to -1264
+wtf 75531353 -1264 -1327
+wtf 75531353 -1264 -1327
 tested all inputs for fYaw -1264
 updating fYaw to 4640
 tested all inputs for fYaw 4640
 updating fYaw to -1280
+wtf 75531353 -1280 -1617
+wtf 75531353 -1280 -1617
 tested all inputs for fYaw -1280
 updating fYaw to 4656
 tested all inputs for fYaw 4656
 updating fYaw to -1296
+wtf 75531353 -1296 -1317
+410.00000000 -1296 37 10
+distance to main uni: 9657693.35425707
+yaw to main uni: 7472.00000000
+Tested L2 node.
 tested all inputs for fYaw -1296
 updating fYaw to 4672
 tested all inputs for fYaw 4672
 updating fYaw to -1312
+410.00000000 -1312 -51 11
+distance to main uni: 14029872.99589566
+yaw to main uni: 3936.00000000
+Tested L2 node.
+wtf 75531353 -1312 -1317
+wtf 75531353 -1312 -1317
 tested all inputs for fYaw -1312
 updating fYaw to 4688
 tested all inputs for fYaw 4688
 updating fYaw to -1328
+wtf 75531353 -1328 -1317
 tested all inputs for fYaw -1328
 updating fYaw to 4704
 tested all inputs for fYaw 4704
 updating fYaw to -1344
+wtf 75531353 -1344 -1317
+wtf 75531353 -1344 -1317
 tested all inputs for fYaw -1344
 updating fYaw to 4720
 tested all inputs for fYaw 4720
@@ -239,14 +438,59 @@ tested all inputs for fYaw -1360
 updating fYaw to 4736
 tested all inputs for fYaw 4736
 updating fYaw to -1376
+410.00000000 -1376 66 -30
+distance to main uni: 10332856.48403228
+yaw to main uni: 7952.00000000
+Tested L2 node.
+410.00000000 -1376 78 -35
+distance to main uni: 10333162.67665370
+yaw to main uni: 7952.00000000
+Tested L2 node.
+410.00000000 -1376 118 -51
+distance to main uni: 10333162.67665370
+yaw to main uni: 7952.00000000
+Tested L2 node.
 tested all inputs for fYaw -1376
 updating fYaw to 4752
 tested all inputs for fYaw 4752
 updating fYaw to -1392
+wtf 75531353 -1392 -1056
+410.00000000 -1392 20 54
+distance to main uni: 14059017.93721059
+yaw to main uni: 4240.00000000
+Tested L2 node.
 tested all inputs for fYaw -1392
 updating fYaw to 4768
 tested all inputs for fYaw 4768
 updating fYaw to -1408
+410.00000000 -1408 -126 104
+distance to main uni: 13860038.33003214
+yaw to main uni: 3872.00000000
+Tested L2 node.
+410.00000000 -1408 -125 103
+distance to main uni: 13860038.33003214
+yaw to main uni: 3872.00000000
+Tested L2 node.
+410.00000000 -1408 -124 102
+distance to main uni: 13860286.02017289
+yaw to main uni: 3872.00000000
+Tested L2 node.
+410.00000000 -1408 -121 100
+distance to main uni: 13860038.33003214
+yaw to main uni: 3872.00000000
+Tested L2 node.
+410.00000000 -1408 -119 98
+distance to main uni: 13860286.02017289
+yaw to main uni: 3872.00000000
+Tested L2 node.
+410.00000000 -1408 -118 97
+distance to main uni: 13860286.02017289
+yaw to main uni: 3872.00000000
+Tested L2 node.
+410.00000000 -1408 -35 -42
+distance to main uni: 17803823.83963816
+yaw to main uni: 27200.00000000
+Tested L2 node.
 tested all inputs for fYaw -1408
 updating fYaw to 4784
 tested all inputs for fYaw 4784
@@ -259,14 +503,21 @@ tested all inputs for fYaw -1440
 updating fYaw to 4816
 tested all inputs for fYaw 4816
 updating fYaw to -1456
+wtf 75531353 -1456 -1177
+440.99993896 -1456 -42 -38
+distance to main uni: 12730170.18844929
+yaw to main uni: 25328.00000000
+Tested L2 node.
 tested all inputs for fYaw -1456
 updating fYaw to 4832
 tested all inputs for fYaw 4832
 updating fYaw to -1472
+wtf 75531353 -1472 -1637
 tested all inputs for fYaw -1472
 updating fYaw to 4848
 tested all inputs for fYaw 4848
 updating fYaw to -1488
+wtf 75531353 -1488 -1527
 tested all inputs for fYaw -1488
 updating fYaw to 4864
 tested all inputs for fYaw 4864
@@ -275,26 +526,42 @@ tested all inputs for fYaw -1504
 updating fYaw to 4880
 tested all inputs for fYaw 4880
 updating fYaw to -1520
+wtf 75531353 -1520 -1307
 tested all inputs for fYaw -1520
 updating fYaw to 4896
 tested all inputs for fYaw 4896
 updating fYaw to -1536
+wtf 75531353 -1536 -1637
+410.00000000 -1536 81 24
+distance to main uni: 10330114.25247975
+yaw to main uni: 8224.00000000
+Tested L2 node.
 tested all inputs for fYaw -1536
 updating fYaw to 4912
 tested all inputs for fYaw 4912
 updating fYaw to -1552
+wtf 75531353 -1552 -1527
 tested all inputs for fYaw -1552
 updating fYaw to 4928
 tested all inputs for fYaw 4928
 updating fYaw to -1568
+410.00000000 -1568 -68 20
+distance to main uni: 9279832.68338154
+yaw to main uni: 6976.00000000
+Tested L2 node.
 tested all inputs for fYaw -1568
 updating fYaw to 4944
 tested all inputs for fYaw 4944
 updating fYaw to -1584
+410.00000000 -1584 -42 -58
+distance to main uni: 14421268.26045369
+yaw to main uni: 4128.00000000
+Tested L2 node.
 tested all inputs for fYaw -1584
 updating fYaw to 4960
 tested all inputs for fYaw 4960
 updating fYaw to -1600
+wtf 75531353 -1600 -1537
 tested all inputs for fYaw -1600
 updating fYaw to 4976
 tested all inputs for fYaw 4976
@@ -311,6 +578,9 @@ tested all inputs for fYaw -1648
 updating fYaw to 5024
 tested all inputs for fYaw 5024
 updating fYaw to -1664
+wtf 75531353 -1664 -1527
+wtf 75531353 -1664 -2149
+wtf 75531353 -1664 -2149
 tested all inputs for fYaw -1664
 updating fYaw to 5040
 tested all inputs for fYaw 5040
@@ -319,10 +589,14 @@ tested all inputs for fYaw -1680
 updating fYaw to 5056
 tested all inputs for fYaw 5056
 updating fYaw to -1696
+wtf 75531353 -1696 -1656
 tested all inputs for fYaw -1696
 updating fYaw to 5072
 tested all inputs for fYaw 5072
 updating fYaw to -1712
+wtf 75531353 -1712 -1277
+wtf 75531353 -1712 -1277
+wtf 75531353 -1712 -1277
 tested all inputs for fYaw -1712
 updating fYaw to 5088
 tested all inputs for fYaw 5088
@@ -339,18 +613,25 @@ tested all inputs for fYaw -1760
 updating fYaw to 5136
 tested all inputs for fYaw 5136
 updating fYaw to -1776
+wtf 75531353 -1776 -1287
 tested all inputs for fYaw -1776
 updating fYaw to 5152
 tested all inputs for fYaw 5152
 updating fYaw to -1792
+410.79882813 -1792 11 43
+distance to main uni: 10058770.78455916
+yaw to main uni: 7936.00000000
+Tested L2 node.
 tested all inputs for fYaw -1792
 updating fYaw to 5168
 tested all inputs for fYaw 5168
 updating fYaw to -1808
+wtf 75531353 -1808 -1982
 tested all inputs for fYaw -1808
 updating fYaw to 5184
 tested all inputs for fYaw 5184
 updating fYaw to -1824
+wtf 75531353 -1824 -1775
 tested all inputs for fYaw -1824
 updating fYaw to 5200
 tested all inputs for fYaw 5200
@@ -359,6 +640,10 @@ tested all inputs for fYaw -1840
 updating fYaw to 5216
 tested all inputs for fYaw 5216
 updating fYaw to -1856
+410.00000000 -1856 -60 32
+distance to main uni: 14179335.67800622
+yaw to main uni: 4192.00000000
+Tested L2 node.
 tested all inputs for fYaw -1856
 updating fYaw to 5232
 tested all inputs for fYaw 5232
@@ -371,14 +656,29 @@ tested all inputs for fYaw -1888
 updating fYaw to 5264
 tested all inputs for fYaw 5264
 updating fYaw to -1904
+410.00000000 -1904 -63 33
+distance to main uni: 14179126.51116863
+yaw to main uni: 4192.00000000
+Tested L2 node.
+wtf 75531353 -1904 -1775
 tested all inputs for fYaw -1904
 updating fYaw to 5280
 tested all inputs for fYaw 5280
 updating fYaw to -1920
+410.00000000 -1920 -119 59
+distance to main uni: 14180106.50674250
+yaw to main uni: 4192.00000000
+Tested L2 node.
+410.00000000 -1920 -115 57
+distance to main uni: 14180106.50674250
+yaw to main uni: 4192.00000000
+Tested L2 node.
+wtf 75531353 -1920 -1756
 tested all inputs for fYaw -1920
 updating fYaw to 5296
 tested all inputs for fYaw 5296
 updating fYaw to -1936
+wtf 75531353 -1936 -2353
 tested all inputs for fYaw -1936
 updating fYaw to 5312
 tested all inputs for fYaw 5312
@@ -387,18 +687,41 @@ tested all inputs for fYaw -1952
 updating fYaw to 5328
 tested all inputs for fYaw 5328
 updating fYaw to -1968
+410.00000000 -1968 25 -68
+distance to main uni: 14917098.38506656
+yaw to main uni: 4688.00000000
+Tested L2 node.
+410.00000000 -1968 26 -71
+distance to main uni: 14917135.38501247
+yaw to main uni: 4688.00000000
+Tested L2 node.
+410.00000000 -1968 27 -74
+distance to main uni: 14917135.38501247
+yaw to main uni: 4688.00000000
+Tested L2 node.
+410.00000000 -1968 28 -78
+distance to main uni: 14917098.38506656
+yaw to main uni: 4688.00000000
+Tested L2 node.
 tested all inputs for fYaw -1968
 updating fYaw to 5344
 tested all inputs for fYaw 5344
 updating fYaw to -1984
+410.00000000 -1984 40 8
+distance to main uni: 36079884.08589219
+yaw to main uni: 28032.00000000
+Tested L2 node.
 tested all inputs for fYaw -1984
 updating fYaw to 5360
 tested all inputs for fYaw 5360
 updating fYaw to -2000
+wtf 75531353 -2000 -2012
 tested all inputs for fYaw -2000
 updating fYaw to 5376
 tested all inputs for fYaw 5376
 updating fYaw to -2016
+wtf 75531353 -2016 -2002
+wtf 75531353 -2016 -2100
 tested all inputs for fYaw -2016
 updating fYaw to 5392
 tested all inputs for fYaw 5392
@@ -411,6 +734,8 @@ tested all inputs for fYaw -2048
 updating fYaw to 5424
 tested all inputs for fYaw 5424
 updating fYaw to -2064
+wtf 75531353 -2064 -2012
+wtf 75531353 -2064 -2168
 tested all inputs for fYaw -2064
 updating fYaw to 5440
 tested all inputs for fYaw 5440
@@ -419,6 +744,10 @@ tested all inputs for fYaw -2080
 updating fYaw to 5456
 tested all inputs for fYaw 5456
 updating fYaw to -2096
+316.79757690 -2096 67 -24
+distance to main uni: 9971853.05397015
+yaw to main uni: 14240.00000000
+Tested L2 node.
 tested all inputs for fYaw -2096
 updating fYaw to 5472
 tested all inputs for fYaw 5472
@@ -427,25 +756,5272 @@ tested all inputs for fYaw -2112
 updating fYaw to 5488
 tested all inputs for fYaw 5488
 updating fYaw to -2128
+410.00000000 -2128 -68 11
+distance to main uni: 10067096.50925942
+yaw to main uni: 7648.00000000
+Tested L2 node.
+wtf 75531353 -2128 -2012
 tested all inputs for fYaw -2128
 updating fYaw to 5504
 tested all inputs for fYaw 5504
 updating fYaw to -2144
+wtf 75531353 -2144 -1646
+wtf 75531353 -2144 -1646
+410.00000000 -2144 71 22
+distance to main uni: 14859552.62832835
+yaw to main uni: 5008.00000000
+Tested L2 node.
+410.00000000 -2144 83 25
+distance to main uni: 14859552.62832835
+yaw to main uni: 5008.00000000
+Tested L2 node.
+410.00000000 -2144 100 29
+distance to main uni: 14859963.84643933
+yaw to main uni: 5008.00000000
+Tested L2 node.
 tested all inputs for fYaw -2144
 updating fYaw to 5520
 tested all inputs for fYaw 5520
 updating fYaw to -2160
+wtf 75531353 -2160 -1656
+wtf 75531353 -2160 -1656
+wtf 75531353 -2160 -1656
+wtf 75531353 -2160 -1656
+wtf 75531353 -2160 -2632
+wtf 75531353 -2160 -2632
+332.24758911 -2160 57 -60
+distance to main uni: 11449521.34686708
+yaw to main uni: 8480.00000000
+Tested L2 node.
+332.24758911 -2160 58 -61
+distance to main uni: 11449521.34686708
+yaw to main uni: 8480.00000000
+Tested L2 node.
+332.24758911 -2160 59 -62
+distance to main uni: 11449521.34686708
+yaw to main uni: 8480.00000000
+Tested L2 node.
+wtf 75531353 -2160 -2632
 tested all inputs for fYaw -2160
 updating fYaw to 5536
 tested all inputs for fYaw 5536
 updating fYaw to -2176
+wtf 75531353 -2176 -2324
+410.00000000 -2176 66 23
+distance to main uni: 14859318.10383492
+yaw to main uni: 5008.00000000
+Tested L2 node.
 tested all inputs for fYaw -2176
 updating fYaw to 5552
 tested all inputs for fYaw 5552
 updating fYaw to -2192
+wtf 75531353 -2192 -1874
+wtf 75531353 -2192 -2324
 tested all inputs for fYaw -2192
 updating fYaw to 5568
 tested all inputs for fYaw 5568
 updating fYaw to -2208
 tested all inputs for fYaw -2208
-updating f
+updating fYaw to 5584
+tested all inputs for fYaw 5584
+updating fYaw to -2224
+410.00000000 -2224 -19 -62
+distance to main uni: 14917331.78179131
+yaw to main uni: 4688.00000000
+Tested L2 node.
+410.00000000 -2224 53 26
+distance to main uni: 14799468.02325199
+yaw to main uni: 4928.00000000
+Tested L2 node.
+tested all inputs for fYaw -2224
+updating fYaw to 5600
+tested all inputs for fYaw 5600
+updating fYaw to -2240
+wtf 75531353 -2240 -2324
+tested all inputs for fYaw -2240
+updating fYaw to 5616
+tested all inputs for fYaw 5616
+updating fYaw to -2256
+tested all inputs for fYaw -2256
+updating fYaw to 5632
+tested all inputs for fYaw 5632
+updating fYaw to -2272
+wtf 75531353 -2272 -2440
+wtf 75531353 -2272 -2440
+wtf 75531353 -2272 -2440
+tested all inputs for fYaw -2272
+updating fYaw to 5648
+tested all inputs for fYaw 5648
+updating fYaw to -2288
+tested all inputs for fYaw -2288
+updating fYaw to 5664
+tested all inputs for fYaw 5664
+updating fYaw to -2304
+tested all inputs for fYaw -2304
+updating fYaw to 5680
+tested all inputs for fYaw 5680
+updating fYaw to -2320
+tested all inputs for fYaw -2320
+updating fYaw to 5696
+tested all inputs for fYaw 5696
+updating fYaw to -2336
+wtf 75531353 -2336 -2831
+tested all inputs for fYaw -2336
+updating fYaw to 5712
+tested all inputs for fYaw 5712
+updating fYaw to -2352
+410.00000000 -2352 69 -8
+distance to main uni: 15098592.97580241
+yaw to main uni: 5136.00000000
+Tested L2 node.
+tested all inputs for fYaw -2352
+updating fYaw to 5728
+tested all inputs for fYaw 5728
+updating fYaw to -2368
+468.00000000 -2368 -15 -31
+distance to main uni: 19869468.34811360
+yaw to main uni: 25200.00000000
+Tested L2 node.
+410.00000000 -2368 59 -11
+distance to main uni: 15036080.42828387
+yaw to main uni: 5056.00000000
+Tested L2 node.
+tested all inputs for fYaw -2368
+updating fYaw to 5744
+tested all inputs for fYaw 5744
+updating fYaw to -2384
+tested all inputs for fYaw -2384
+updating fYaw to 5760
+tested all inputs for fYaw 5760
+updating fYaw to -2400
+tested all inputs for fYaw -2400
+updating fYaw to 5776
+tested all inputs for fYaw 5776
+updating fYaw to -2416
+tested all inputs for fYaw -2416
+updating fYaw to 5792
+tested all inputs for fYaw 5792
+updating fYaw to -2432
+wtf 75531353 -2432 -2266
+tested all inputs for fYaw -2432
+updating fYaw to 5808
+tested all inputs for fYaw 5808
+updating fYaw to -2448
+tested all inputs for fYaw -2448
+updating fYaw to 5824
+tested all inputs for fYaw 5824
+updating fYaw to -2464
+370.18170166 -2464 -8 -105
+distance to main uni: 97267597.18607233
+yaw to main uni: 29008.00000000
+Tested L2 node.
+410.00000000 -2464 70 -34
+distance to main uni: 10792870.11275342
+yaw to main uni: 14144.00000000
+Tested L2 node.
+410.00000000 -2464 79 -38
+distance to main uni: 10792870.11275342
+yaw to main uni: 14144.00000000
+Tested L2 node.
+tested all inputs for fYaw -2464
+updating fYaw to 5840
+tested all inputs for fYaw 5840
+updating fYaw to -2480
+410.00000000 -2480 76 13
+distance to main uni: 15160706.97218402
+yaw to main uni: 5216.00000000
+Tested L2 node.
+410.00000000 -2480 77 13
+distance to main uni: 15161103.08062909
+yaw to main uni: 5216.00000000
+Tested L2 node.
+410.00000000 -2480 78 13
+distance to main uni: 15161103.08062909
+yaw to main uni: 5216.00000000
+Tested L2 node.
+tested all inputs for fYaw -2480
+updating fYaw to 5856
+tested all inputs for fYaw 5856
+updating fYaw to -2496
+317.67684937 -2496 13 -51
+distance to main uni: 11449346.31969960
+yaw to main uni: 8480.00000000
+Tested L2 node.
+tested all inputs for fYaw -2496
+updating fYaw to 5872
+tested all inputs for fYaw 5872
+updating fYaw to -2512
+wtf 75531353 -2512 -2488
+tested all inputs for fYaw -2512
+updating fYaw to 5888
+tested all inputs for fYaw 5888
+updating fYaw to -2528
+tested all inputs for fYaw -2528
+updating fYaw to 5904
+tested all inputs for fYaw 5904
+updating fYaw to -2544
+tested all inputs for fYaw -2544
+updating fYaw to 5920
+tested all inputs for fYaw 5920
+updating fYaw to -2560
+tested all inputs for fYaw -2560
+updating fYaw to 5936
+tested all inputs for fYaw 5936
+updating fYaw to -2576
+410.00000000 -2576 -60 -39
+distance to main uni: 14917008.16135099
+yaw to main uni: 4688.00000000
+Tested L2 node.
+410.00000000 -2576 -8 51
+distance to main uni: 14800006.67565945
+yaw to main uni: 4928.00000000
+Tested L2 node.
+410.00000000 -2576 23 -45
+distance to main uni: 15152139.21599667
+yaw to main uni: 5008.00000000
+Tested L2 node.
+410.00000000 -2576 43 -37
+distance to main uni: 15213414.83476824
+yaw to main uni: 5088.00000000
+Tested L2 node.
+tested all inputs for fYaw -2576
+updating fYaw to 5952
+tested all inputs for fYaw 5952
+updating fYaw to -2592
+wtf 75531353 -2592 -2440
+tested all inputs for fYaw -2592
+updating fYaw to 5968
+tested all inputs for fYaw 5968
+updating fYaw to -2608
+410.00000000 -2608 -13 52
+distance to main uni: 14799048.06698813
+yaw to main uni: 4928.00000000
+Tested L2 node.
+tested all inputs for fYaw -2608
+updating fYaw to 5984
+tested all inputs for fYaw 5984
+updating fYaw to -2624
+tested all inputs for fYaw -2624
+updating fYaw to 6000
+tested all inputs for fYaw 6000
+updating fYaw to -2640
+tested all inputs for fYaw -2640
+updating fYaw to 6016
+tested all inputs for fYaw 6016
+updating fYaw to -2656
+tested all inputs for fYaw -2656
+updating fYaw to 6032
+tested all inputs for fYaw 6032
+updating fYaw to -2672
+410.00000000 -2672 28 26
+distance to main uni: 15037103.16420633
+yaw to main uni: 5056.00000000
+Tested L2 node.
+410.00000000 -2672 33 -36
+distance to main uni: 15213399.33169941
+yaw to main uni: 5088.00000000
+Tested L2 node.
+tested all inputs for fYaw -2672
+updating fYaw to 6048
+tested all inputs for fYaw 6048
+updating fYaw to -2688
+tested all inputs for fYaw -2688
+updating fYaw to 6064
+tested all inputs for fYaw 6064
+updating fYaw to -2704
+410.00000000 -2704 22 30
+distance to main uni: 11458143.49486758
+yaw to main uni: 8736.00000000
+Tested L2 node.
+tested all inputs for fYaw -2704
+updating fYaw to 6080
+tested all inputs for fYaw 6080
+updating fYaw to -2720
+tested all inputs for fYaw -2720
+updating fYaw to 6096
+tested all inputs for fYaw 6096
+updating fYaw to -2736
+tested all inputs for fYaw -2736
+updating fYaw to 6112
+tested all inputs for fYaw 6112
+updating fYaw to -2752
+410.00000000 -2752 10 35
+distance to main uni: 11458317.58852878
+yaw to main uni: 8736.00000000
+Tested L2 node.
+tested all inputs for fYaw -2752
+updating fYaw to 6128
+tested all inputs for fYaw 6128
+updating fYaw to -2768
+wtf 75531353 -2768 -2869
+tested all inputs for fYaw -2768
+updating fYaw to 6144
+tested all inputs for fYaw 6144
+updating fYaw to -2784
+tested all inputs for fYaw -2784
+updating fYaw to 6160
+tested all inputs for fYaw 6160
+updating fYaw to -2800
+410.00000000 -2800 45 58
+distance to main uni: 15045577.76443431
+yaw to main uni: 5248.00000000
+Tested L2 node.
+wtf 75531353 -2800 -2916
+wtf 75531353 -2800 -2916
+410.00000000 -2800 50 65
+distance to main uni: 15045202.74796179
+yaw to main uni: 5248.00000000
+Tested L2 node.
+410.00000000 -2800 62 81
+distance to main uni: 15045202.74796179
+yaw to main uni: 5248.00000000
+Tested L2 node.
+410.00000000 -2800 83 109
+distance to main uni: 15045202.74796179
+yaw to main uni: 5248.00000000
+Tested L2 node.
+tested all inputs for fYaw -2800
+updating fYaw to 6176
+tested all inputs for fYaw 6176
+updating fYaw to -2816
+tested all inputs for fYaw -2816
+updating fYaw to 6192
+tested all inputs for fYaw 6192
+updating fYaw to -2832
+410.00000000 -2832 -20 38
+distance to main uni: 15036450.80199676
+yaw to main uni: 5056.00000000
+Tested L2 node.
+410.00000000 -2832 65 35
+distance to main uni: 15288083.66344912
+yaw to main uni: 5360.00000000
+Tested L2 node.
+410.00000000 -2832 67 36
+distance to main uni: 15288083.66344912
+yaw to main uni: 5360.00000000
+Tested L2 node.
+410.00000000 -2832 75 40
+distance to main uni: 15287655.75709487
+yaw to main uni: 5360.00000000
+Tested L2 node.
+410.00000000 -2832 85 45
+distance to main uni: 15287655.75709487
+yaw to main uni: 5360.00000000
+Tested L2 node.
+tested all inputs for fYaw -2832
+updating fYaw to 6208
+tested all inputs for fYaw 6208
+updating fYaw to -2848
+407.86465454 -2848 -128 -123
+distance to main uni: 30190122.22658825
+yaw to main uni: 26528.00000000
+Tested L2 node.
+407.86465454 -2848 -109 -105
+distance to main uni: 30190122.22658825
+yaw to main uni: 26528.00000000
+Tested L2 node.
+407.86465454 -2848 -107 -103
+distance to main uni: 30190122.22658825
+yaw to main uni: 26528.00000000
+Tested L2 node.
+410.00000000 -2848 18 41
+distance to main uni: 15098352.00874695
+yaw to main uni: 5136.00000000
+Tested L2 node.
+wtf 75531353 -2848 -2916
+wtf 75531353 -2848 -3168
+wtf 75531353 -2848 -3168
+tested all inputs for fYaw -2848
+updating fYaw to 6224
+tested all inputs for fYaw 6224
+updating fYaw to -2864
+tested all inputs for fYaw -2864
+updating fYaw to 6240
+tested all inputs for fYaw 6240
+updating fYaw to -2880
+410.00000000 -2880 -46 31
+distance to main uni: 14975740.08535909
+yaw to main uni: 4960.00000000
+Tested L2 node.
+410.00000000 -2880 -22 -27
+distance to main uni: 15213636.91796680
+yaw to main uni: 5088.00000000
+Tested L2 node.
+wtf 75531353 -2880 -2944
+tested all inputs for fYaw -2880
+updating fYaw to 6256
+tested all inputs for fYaw 6256
+updating fYaw to -2896
+wtf 75531353 -2896 -2973
+410.00000000 -2896 29 -67
+distance to main uni: 92966608.47708538
+yaw to main uni: 28192.00000000
+Tested L2 node.
+410.00000000 -2896 41 -99
+distance to main uni: 92966608.47708538
+yaw to main uni: 28192.00000000
+Tested L2 node.
+tested all inputs for fYaw -2896
+updating fYaw to 6272
+tested all inputs for fYaw 6272
+updating fYaw to -2912
+410.00000000 -2912 -29 -22
+distance to main uni: 15213913.88069158
+yaw to main uni: 5088.00000000
+Tested L2 node.
+410.00000000 -2912 -7 45
+distance to main uni: 15097593.14830417
+yaw to main uni: 5136.00000000
+Tested L2 node.
+388.77197266 -2912 58 39
+distance to main uni: 12056087.58619354
+yaw to main uni: 9184.00000000
+Tested L2 node.
+tested all inputs for fYaw -2912
+updating fYaw to 6288
+tested all inputs for fYaw 6288
+updating fYaw to -2928
+wtf 75531353 -2928 -2982
+wtf 75531353 -2928 -3057
+tested all inputs for fYaw -2928
+updating fYaw to 6304
+tested all inputs for fYaw 6304
+updating fYaw to -2944
+340.28662109 -2944 -60 -16
+distance to main uni: 11449365.27246455
+yaw to main uni: 8480.00000000
+Tested L2 node.
+410.00000000 -2944 -34 40
+distance to main uni: 11457850.60358797
+yaw to main uni: 8736.00000000
+Tested L2 node.
+410.00000000 -2944 25 46
+distance to main uni: 15160675.56024150
+yaw to main uni: 5216.00000000
+Tested L2 node.
+wtf 75531353 -2944 -3243
+wtf 75531353 -2944 -3390
+317.67684937 -2944 45 -68
+distance to main uni: 11680641.88133424
+yaw to main uni: 13840.00000000
+Tested L2 node.
+wtf 75531353 -2944 -3390
+317.67684937 -2944 55 -84
+distance to main uni: 11680641.88133424
+yaw to main uni: 13840.00000000
+Tested L2 node.
+tested all inputs for fYaw -2944
+updating fYaw to 6320
+tested all inputs for fYaw 6320
+updating fYaw to -2960
+tested all inputs for fYaw -2960
+updating fYaw to 6336
+tested all inputs for fYaw 6336
+updating fYaw to -2976
+wtf 75531353 -2976 -2973
+tested all inputs for fYaw -2976
+updating fYaw to 6352
+tested all inputs for fYaw 6352
+updating fYaw to -2992
+410.00000000 -2992 -18 -9
+distance to main uni: 15276217.12847995
+yaw to main uni: 5168.00000000
+Tested L2 node.
+410.00000000 -2992 -18 -8
+distance to main uni: 15275502.26892567
+yaw to main uni: 5168.00000000
+Tested L2 node.
+410.00000000 -2992 24 67
+distance to main uni: 15045497.13964481
+yaw to main uni: 5248.00000000
+Tested L2 node.
+tested all inputs for fYaw -2992
+updating fYaw to 6368
+tested all inputs for fYaw 6368
+updating fYaw to -3008
+410.00000000 -3008 -22 8
+distance to main uni: 15275420.19953720
+yaw to main uni: 5168.00000000
+Tested L2 node.
+tested all inputs for fYaw -3008
+updating fYaw to 6384
+tested all inputs for fYaw 6384
+updating fYaw to -3024
+410.00000000 -3024 -23 48
+distance to main uni: 15098041.36915786
+yaw to main uni: 5136.00000000
+Tested L2 node.
+410.00000000 -3024 12 51
+distance to main uni: 15159958.69635687
+yaw to main uni: 5200.00000000
+Tested L2 node.
+410.00000000 -3024 23 79
+distance to main uni: 15045259.10375306
+yaw to main uni: 5248.00000000
+Tested L2 node.
+410.00000000 -3024 24 83
+distance to main uni: 15045259.10375306
+yaw to main uni: 5248.00000000
+Tested L2 node.
+tested all inputs for fYaw -3024
+updating fYaw to 6400
+tested all inputs for fYaw 6400
+updating fYaw to -3040
+wtf 75531353 -3040 -3010
+tested all inputs for fYaw -3040
+updating fYaw to 6416
+tested all inputs for fYaw 6416
+updating fYaw to -3056
+wtf 75531353 -3056 -2784
+tested all inputs for fYaw -3056
+updating fYaw to 6432
+tested all inputs for fYaw 6432
+updating fYaw to -3072
+410.00000000 -3072 -32 15
+distance to main uni: 15275775.07576035
+yaw to main uni: 5168.00000000
+Tested L2 node.
+wtf 75531353 -3072 -3243
+wtf 75531353 -3072 -3499
+tested all inputs for fYaw -3072
+updating fYaw to 6448
+tested all inputs for fYaw 6448
+updating fYaw to -3088
+wtf 75531353 -3088 -3279
+wtf 75531353 -3088 -3279
+wtf 75531353 -3088 -3279
+tested all inputs for fYaw -3088
+updating fYaw to 6464
+tested all inputs for fYaw 6464
+updating fYaw to -3104
+tested all inputs for fYaw -3104
+updating fYaw to 6480
+tested all inputs for fYaw 6480
+updating fYaw to -3120
+wtf 75531353 -3120 -2608
+wtf 75531353 -3120 -2608
+tested all inputs for fYaw -3120
+updating fYaw to 6496
+tested all inputs for fYaw 6496
+updating fYaw to -3136
+tested all inputs for fYaw -3136
+updating fYaw to 6512
+tested all inputs for fYaw 6512
+updating fYaw to -3152
+410.00000000 -3152 -37 50
+distance to main uni: 15097683.30170404
+yaw to main uni: 5136.00000000
+Tested L2 node.
+tested all inputs for fYaw -3152
+updating fYaw to 6528
+tested all inputs for fYaw 6528
+updating fYaw to -3168
+tested all inputs for fYaw -3168
+updating fYaw to 6544
+tested all inputs for fYaw 6544
+updating fYaw to -3184
+wtf 75531353 -3184 -3094
+tested all inputs for fYaw -3184
+updating fYaw to 6560
+tested all inputs for fYaw 6560
+updating fYaw to -3200
+410.00000000 -3200 -23 33
+distance to main uni: 15338071.27697522
+yaw to main uni: 5248.00000000
+Tested L2 node.
+410.00000000 -3200 64 -37
+distance to main uni: 15890364.66416315
+yaw to main uni: 5536.00000000
+Tested L2 node.
+410.00000000 -3200 66 -38
+distance to main uni: 15890128.36228345
+yaw to main uni: 5536.00000000
+Tested L2 node.
+410.00000000 -3200 68 -39
+distance to main uni: 15890128.36228345
+yaw to main uni: 5536.00000000
+Tested L2 node.
+410.00000000 -3200 77 -44
+distance to main uni: 15890364.66416315
+yaw to main uni: 5536.00000000
+Tested L2 node.
+tested all inputs for fYaw -3200
+updating fYaw to 6576
+tested all inputs for fYaw 6576
+updating fYaw to -3216
+tested all inputs for fYaw -3216
+updating fYaw to 6592
+tested all inputs for fYaw 6592
+updating fYaw to -3232
+410.00000000 -3232 -69 16
+distance to main uni: 15152605.68849524
+yaw to main uni: 5008.00000000
+Tested L2 node.
+tested all inputs for fYaw -3232
+updating fYaw to 6608
+tested all inputs for fYaw 6608
+updating fYaw to -3248
+410.00000000 -3248 21 61
+distance to main uni: 15287887.89328565
+yaw to main uni: 5360.00000000
+Tested L2 node.
+tested all inputs for fYaw -3248
+updating fYaw to 6624
+tested all inputs for fYaw 6624
+updating fYaw to -3264
+tested all inputs for fYaw -3264
+updating fYaw to 6640
+tested all inputs for fYaw 6640
+updating fYaw to -3280
+tested all inputs for fYaw -3280
+updating fYaw to 6656
+tested all inputs for fYaw 6656
+updating fYaw to -3296
+wtf 75531353 -3296 -3243
+wtf 75531353 -3296 -3426
+tested all inputs for fYaw -3296
+updating fYaw to 6672
+tested all inputs for fYaw 6672
+updating fYaw to -3312
+410.00000000 -3312 -34 58
+distance to main uni: 11752912.56666075
+yaw to main uni: 8960.00000000
+Tested L2 node.
+tested all inputs for fYaw -3312
+updating fYaw to 6688
+tested all inputs for fYaw 6688
+updating fYaw to -3328
+tested all inputs for fYaw -3328
+updating fYaw to 6704
+tested all inputs for fYaw 6704
+updating fYaw to -3344
+410.00000000 -3344 -40 -48
+distance to main uni: 59055489.37367421
+yaw to main uni: 27456.00000000
+Tested L2 node.
+wtf 75531353 -3344 -3463
+tested all inputs for fYaw -3344
+updating fYaw to 6720
+tested all inputs for fYaw 6720
+updating fYaw to -3360
+wtf 75531353 -3360 -3353
+tested all inputs for fYaw -3360
+updating fYaw to 6736
+tested all inputs for fYaw 6736
+updating fYaw to -3376
+410.00000000 -3376 -40 59
+distance to main uni: 15159892.83025411
+yaw to main uni: 5200.00000000
+Tested L2 node.
+wtf 75531353 -3376 -3875
+wtf 75531353 -3376 -3875
+wtf 75531353 -3376 -3875
+tested all inputs for fYaw -3376
+updating fYaw to 6752
+tested all inputs for fYaw 6752
+updating fYaw to -3392
+tested all inputs for fYaw -3392
+updating fYaw to 6768
+tested all inputs for fYaw 6768
+updating fYaw to -3408
+wtf 75531353 -3408 -3653
+410.00000000 -3408 31 49
+distance to main uni: 15532301.89086511
+yaw to main uni: 5472.00000000
+Tested L2 node.
+tested all inputs for fYaw -3408
+updating fYaw to 6784
+tested all inputs for fYaw 6784
+updating fYaw to -3424
+wtf 75531353 -3424 -3499
+tested all inputs for fYaw -3424
+updating fYaw to 6800
+tested all inputs for fYaw 6800
+updating fYaw to -3440
+tested all inputs for fYaw -3440
+updating fYaw to 6816
+tested all inputs for fYaw 6816
+updating fYaw to -3456
+wtf 75531353 -3456 -3571
+tested all inputs for fYaw -3456
+updating fYaw to 6832
+tested all inputs for fYaw 6832
+updating fYaw to -3472
+wtf 75531353 -3472 -3353
+410.00000000 -3472 62 -46
+distance to main uni: 13013746.52030176
+yaw to main uni: 13888.00000000
+Tested L2 node.
+tested all inputs for fYaw -3472
+updating fYaw to 6848
+tested all inputs for fYaw 6848
+updating fYaw to -3488
+410.00000000 -3488 -28 122
+distance to main uni: 15287418.02208708
+yaw to main uni: 5360.00000000
+Tested L2 node.
+410.00000000 -3488 -28 123
+distance to main uni: 15287418.02208708
+yaw to main uni: 5360.00000000
+Tested L2 node.
+410.00000000 -3488 -27 118
+distance to main uni: 15287503.42144603
+yaw to main uni: 5360.00000000
+Tested L2 node.
+tested all inputs for fYaw -3488
+updating fYaw to 6864
+tested all inputs for fYaw 6864
+updating fYaw to -3504
+wtf 75531353 -3504 -3644
+wtf 75531353 -3504 -3644
+wtf 75531353 -3504 -3644
+tested all inputs for fYaw -3504
+updating fYaw to 6880
+tested all inputs for fYaw 6880
+updating fYaw to -3520
+tested all inputs for fYaw -3520
+updating fYaw to 6896
+tested all inputs for fYaw 6896
+updating fYaw to -3536
+331.49392700 -3536 -47 -34
+distance to main uni: 26598357.86856024
+yaw to main uni: 24640.00000000
+Tested L2 node.
+tested all inputs for fYaw -3536
+updating fYaw to 6912
+tested all inputs for fYaw 6912
+updating fYaw to -3552
+tested all inputs for fYaw -3552
+updating fYaw to 6928
+tested all inputs for fYaw 6928
+updating fYaw to -3568
+wtf 75531353 -3568 -3724
+410.00000000 -3568 43 33
+distance to main uni: 15777989.94110138
+yaw to main uni: 5584.00000000
+Tested L2 node.
+tested all inputs for fYaw -3568
+updating fYaw to 6944
+tested all inputs for fYaw 6944
+updating fYaw to -3584
+343.55245972 -3584 -13 -34
+distance to main uni: 12886965.44365540
+yaw to main uni: 9120.00000000
+Tested L2 node.
+tested all inputs for fYaw -3584
+updating fYaw to 6960
+tested all inputs for fYaw 6960
+updating fYaw to -3600
+wtf 75531353 -3600 -3094
+wtf 75531353 -3600 -3094
+tested all inputs for fYaw -3600
+updating fYaw to 6976
+tested all inputs for fYaw 6976
+updating fYaw to -3616
+410.00000000 -3616 69 40
+distance to main uni: 109446152.78185306
+yaw to main uni: 27648.00000000
+Tested L2 node.
+410.00000000 -3616 82 47
+distance to main uni: 109446152.78185306
+yaw to main uni: 27648.00000000
+Tested L2 node.
+tested all inputs for fYaw -3616
+updating fYaw to 6992
+tested all inputs for fYaw 6992
+updating fYaw to -3632
+tested all inputs for fYaw -3632
+updating fYaw to 7008
+tested all inputs for fYaw 7008
+updating fYaw to -3648
+419.58596802 -3648 -121 -37
+distance to main uni: 26234471.02944171
+yaw to main uni: 24784.00000000
+Tested L2 node.
+wtf 75531353 -3648 -3426
+wtf 75531353 -3648 -3535
+446.74612427 -3648 26 -20
+distance to main uni: 12447326.17772054
+yaw to main uni: 14000.00000000
+Tested L2 node.
+tested all inputs for fYaw -3648
+updating fYaw to 7024
+tested all inputs for fYaw 7024
+updating fYaw to -3664
+tested all inputs for fYaw -3664
+updating fYaw to 7040
+tested all inputs for fYaw 7040
+updating fYaw to -3680
+tested all inputs for fYaw -3680
+updating fYaw to 7056
+tested all inputs for fYaw 7056
+updating fYaw to -3696
+wtf 75531353 -3696 -3206
+wtf 75531353 -3696 -3206
+wtf 75531353 -3696 -3206
+tested all inputs for fYaw -3696
+updating fYaw to 7072
+tested all inputs for fYaw 7072
+updating fYaw to -3712
+404.85003662 -3712 11 -15
+distance to main uni: 83805688.89385742
+yaw to main uni: 27488.00000000
+Tested L2 node.
+tested all inputs for fYaw -3712
+updating fYaw to 7088
+tested all inputs for fYaw 7088
+updating fYaw to -3728
+wtf 75531353 -3728 -3724
+wtf 75531353 -3728 -3724
+410.00000000 -3728 -15 -8
+distance to main uni: 83804361.17443763
+yaw to main uni: 27488.00000000
+Tested L2 node.
+410.00000000 -3728 -14 -9
+distance to main uni: 118374600.97170211
+yaw to main uni: 27936.00000000
+Tested L2 node.
+417.98828125 -3728 -12 -11
+distance to main uni: 27726928.76063316
+yaw to main uni: 24224.00000000
+Tested L2 node.
+wtf 75531353 -3728 -3875
+tested all inputs for fYaw -3728
+updating fYaw to 7104
+tested all inputs for fYaw 7104
+updating fYaw to -3744
+wtf 75531353 -3744 -3243
+wtf 75531353 -3744 -3243
+410.00000000 -3744 -58 -126
+distance to main uni: 16116546.92486691
+yaw to main uni: 5456.00000000
+Tested L2 node.
+410.00000000 -3744 -57 -127
+distance to main uni: 13288804.55504016
+yaw to main uni: 8976.00000000
+Tested L2 node.
+410.00000000 -3744 -57 -124
+distance to main uni: 16116546.92486691
+yaw to main uni: 5456.00000000
+Tested L2 node.
+410.00000000 -3744 -56 -125
+distance to main uni: 13288765.27111906
+yaw to main uni: 8976.00000000
+Tested L2 node.
+410.00000000 -3744 -54 -120
+distance to main uni: 13288765.27111906
+yaw to main uni: 8976.00000000
+Tested L2 node.
+340.91464233 -3744 -42 -11
+distance to main uni: 12887057.17941500
+yaw to main uni: 9120.00000000
+Tested L2 node.
+tested all inputs for fYaw -3744
+updating fYaw to 7120
+tested all inputs for fYaw 7120
+updating fYaw to -3760
+410.00000000 -3760 -63 -127
+distance to main uni: 16117021.09059544
+yaw to main uni: 5456.00000000
+Tested L2 node.
+410.00000000 -3760 -61 -123
+distance to main uni: 16117338.89042853
+yaw to main uni: 5456.00000000
+Tested L2 node.
+410.00000000 -3760 -56 -112
+distance to main uni: 16117021.09059544
+yaw to main uni: 5456.00000000
+Tested L2 node.
+461.99993896 -3760 -56 -12
+distance to main uni: 12737876.41174353
+yaw to main uni: 9024.00000000
+Tested L2 node.
+410.00000000 -3760 -23 12
+distance to main uni: 72337760.79470375
+yaw to main uni: 27248.00000000
+Tested L2 node.
+tested all inputs for fYaw -3760
+updating fYaw to 7136
+tested all inputs for fYaw 7136
+updating fYaw to -3776
+401.33294678 -3776 26 88
+distance to main uni: 91751153.27259102
+yaw to main uni: 27728.00000000
+Tested L2 node.
+401.33294678 -3776 29 100
+distance to main uni: 91751153.27259102
+yaw to main uni: 27728.00000000
+Tested L2 node.
+tested all inputs for fYaw -3776
+updating fYaw to 7152
+tested all inputs for fYaw 7152
+updating fYaw to -3792
+323.70611572 -3792 -68 -11
+distance to main uni: 13428734.14323755
+yaw to main uni: 18432.00000000
+Tested L2 node.
+tested all inputs for fYaw -3792
+updating fYaw to 7168
+tested all inputs for fYaw 7168
+updating fYaw to -3808
+410.00000000 -3808 30 -36
+distance to main uni: 16137255.27929670
+yaw to main uni: 5648.00000000
+Tested L2 node.
+wtf 75531353 -3808 -3796
+tested all inputs for fYaw -3808
+updating fYaw to 7184
+tested all inputs for fYaw 7184
+updating fYaw to -3824
+410.00000000 -3824 -30 65
+distance to main uni: 15531830.06867166
+yaw to main uni: 5472.00000000
+Tested L2 node.
+tested all inputs for fYaw -3824
+updating fYaw to 7200
+tested all inputs for fYaw 7200
+updating fYaw to -3840
+410.00000000 -3840 -87 -124
+distance to main uni: 16117124.37807331
+yaw to main uni: 5456.00000000
+Tested L2 node.
+410.00000000 -3840 -83 -118
+distance to main uni: 16117124.37807331
+yaw to main uni: 5456.00000000
+Tested L2 node.
+wtf 75531353 -3840 -3653
+wtf 75531353 -3840 -4025
+wtf 75531353 -3840 -4310
+wtf 75531353 -3840 -4310
+tested all inputs for fYaw -3840
+updating fYaw to 7216
+tested all inputs for fYaw 7216
+updating fYaw to -3856
+410.00000000 -3856 -95 -127
+distance to main uni: 16116737.69579608
+yaw to main uni: 5456.00000000
+Tested L2 node.
+410.00000000 -3856 -89 -119
+distance to main uni: 16116737.69579608
+yaw to main uni: 5456.00000000
+Tested L2 node.
+410.00000000 -3856 -87 -116
+distance to main uni: 16116737.69579608
+yaw to main uni: 5456.00000000
+Tested L2 node.
+410.00000000 -3856 -35 21
+distance to main uni: 112601815.21318145
+yaw to main uni: 27888.00000000
+Tested L2 node.
+wtf 75531353 -3856 -3787
+tested all inputs for fYaw -3856
+updating fYaw to 7232
+tested all inputs for fYaw 7232
+updating fYaw to -3872
+wtf 75531353 -3872 -3804
+410.00000000 -3872 -98 -125
+distance to main uni: 13288451.63869083
+yaw to main uni: 8976.00000000
+Tested L2 node.
+wtf 75531353 -3872 -3804
+410.00000000 -3872 -92 -117
+distance to main uni: 13288451.63869083
+yaw to main uni: 8976.00000000
+Tested L2 node.
+wtf 75531353 -3872 -3804
+tested all inputs for fYaw -3872
+updating fYaw to 7248
+tested all inputs for fYaw 7248
+updating fYaw to -3888
+wtf 75531353 -3888 -3831
+tested all inputs for fYaw -3888
+updating fYaw to 7264
+tested all inputs for fYaw 7264
+updating fYaw to -3904
+wtf 75531353 -3904 -3831
+376.46221924 -3904 60 33
+distance to main uni: 13656030.96879514
+yaw to main uni: 9600.00000000
+Tested L2 node.
+tested all inputs for fYaw -3904
+updating fYaw to 7280
+tested all inputs for fYaw 7280
+updating fYaw to -3920
+tested all inputs for fYaw -3920
+updating fYaw to 7296
+tested all inputs for fYaw 7296
+updating fYaw to -3936
+tested all inputs for fYaw -3936
+updating fYaw to 7312
+tested all inputs for fYaw 7312
+updating fYaw to -3952
+tested all inputs for fYaw -3952
+updating fYaw to 7328
+tested all inputs for fYaw 7328
+updating fYaw to -3968
+wtf 75531353 -3968 -4051
+tested all inputs for fYaw -3968
+updating fYaw to 7344
+tested all inputs for fYaw 7344
+updating fYaw to -3984
+410.00000000 -3984 -18 -26
+distance to main uni: 16137561.85557053
+yaw to main uni: 5648.00000000
+Tested L2 node.
+tested all inputs for fYaw -3984
+updating fYaw to 7360
+tested all inputs for fYaw 7360
+updating fYaw to -4000
+wtf 75531353 -4000 -4512
+wtf 75531353 -4000 -4512
+wtf 75531353 -4000 -4512
+410.00000000 -4000 60 -63
+distance to main uni: 16635678.22730724
+yaw to main uni: 5840.00000000
+Tested L2 node.
+410.00000000 -4000 61 -64
+distance to main uni: 16635678.22730724
+yaw to main uni: 5840.00000000
+Tested L2 node.
+410.00000000 -4000 62 -65
+distance to main uni: 16635678.22730724
+yaw to main uni: 5840.00000000
+Tested L2 node.
+410.00000000 -4000 63 -66
+distance to main uni: 16635576.73750447
+yaw to main uni: 5840.00000000
+Tested L2 node.
+410.00000000 -4000 64 -67
+distance to main uni: 16635576.73750447
+yaw to main uni: 5840.00000000
+Tested L2 node.
+410.00000000 -4000 66 -69
+distance to main uni: 16635576.73750447
+yaw to main uni: 5840.00000000
+Tested L2 node.
+410.00000000 -4000 67 -70
+distance to main uni: 16635473.34622375
+yaw to main uni: 5840.00000000
+Tested L2 node.
+410.00000000 -4000 68 -71
+distance to main uni: 16635473.34622375
+yaw to main uni: 5840.00000000
+Tested L2 node.
+410.00000000 -4000 70 -73
+distance to main uni: 16635473.34622375
+yaw to main uni: 5840.00000000
+Tested L2 node.
+tested all inputs for fYaw -4000
+updating fYaw to 7376
+tested all inputs for fYaw 7376
+updating fYaw to -4016
+tested all inputs for fYaw -4016
+updating fYaw to 7392
+tested all inputs for fYaw 7392
+updating fYaw to -4032
+wtf 75531353 -4032 -3840
+410.00000000 -4032 62 -23
+distance to main uni: 16524136.13041847
+yaw to main uni: 5888.00000000
+Tested L2 node.
+tested all inputs for fYaw -4032
+updating fYaw to 7408
+tested all inputs for fYaw 7408
+updating fYaw to -4048
+tested all inputs for fYaw -4048
+updating fYaw to 7424
+tested all inputs for fYaw 7424
+updating fYaw to -4064
+wtf 75531353 -4064 -3571
+wtf 75531353 -4064 -3571
+wtf 75531353 -4064 -3571
+wtf 75531353 -4064 -3571
+wtf 75531353 -4064 -3571
+wtf 75531353 -4064 -3571
+tested all inputs for fYaw -4064
+updating fYaw to 7440
+tested all inputs for fYaw 7440
+updating fYaw to -4080
+wtf 75531353 -4080 -3769
+410.00000000 -4080 -34 60
+distance to main uni: 15777526.17535995
+yaw to main uni: 5584.00000000
+Tested L2 node.
+wtf 75531353 -4080 -4138
+tested all inputs for fYaw -4080
+updating fYaw to 7456
+tested all inputs for fYaw 7456
+updating fYaw to -4096
+tested all inputs for fYaw -4096
+updating fYaw to 7472
+tested all inputs for fYaw 7472
+updating fYaw to -4112
+tested all inputs for fYaw -4112
+updating fYaw to 7488
+tested all inputs for fYaw 7488
+updating fYaw to -4128
+tested all inputs for fYaw -4128
+updating fYaw to 7504
+tested all inputs for fYaw 7504
+updating fYaw to -4144
+tested all inputs for fYaw -4144
+updating fYaw to 7520
+tested all inputs for fYaw 7520
+updating fYaw to -4160
+410.00000000 -4160 -44 13
+distance to main uni: 16137758.55864156
+yaw to main uni: 5648.00000000
+Tested L2 node.
+wtf 75531353 -4160 -4250
+wtf 75531353 -4160 -4622
+tested all inputs for fYaw -4160
+updating fYaw to 7536
+tested all inputs for fYaw 7536
+updating fYaw to -4176
+wtf 75531353 -4176 -4051
+tested all inputs for fYaw -4176
+updating fYaw to 7552
+tested all inputs for fYaw 7552
+updating fYaw to -4192
+tested all inputs for fYaw -4192
+updating fYaw to 7568
+tested all inputs for fYaw 7568
+updating fYaw to -4208
+wtf 75531353 -4208 -4095
+tested all inputs for fYaw -4208
+updating fYaw to 7584
+tested all inputs for fYaw 7584
+updating fYaw to -4224
+wtf 75531353 -4224 -4250
+tested all inputs for fYaw -4224
+updating fYaw to 7600
+tested all inputs for fYaw 7600
+updating fYaw to -4240
+wtf 75531353 -4240 -3875
+tested all inputs for fYaw -4240
+updating fYaw to 7616
+tested all inputs for fYaw 7616
+updating fYaw to -4256
+wtf 75531353 -4256 -4095
+tested all inputs for fYaw -4256
+updating fYaw to 7632
+tested all inputs for fYaw 7632
+updating fYaw to -4272
+410.00000000 -4272 72 15
+distance to main uni: 16665718.45287703
+yaw to main uni: 6016.00000000
+Tested L2 node.
+410.00000000 -4272 73 15
+distance to main uni: 16666127.97035427
+yaw to main uni: 6016.00000000
+Tested L2 node.
+410.00000000 -4272 81 16
+distance to main uni: 16666537.77971118
+yaw to main uni: 6016.00000000
+Tested L2 node.
+410.00000000 -4272 86 17
+distance to main uni: 16665718.45287703
+yaw to main uni: 6016.00000000
+Tested L2 node.
+410.00000000 -4272 87 17
+distance to main uni: 16666127.97035427
+yaw to main uni: 6016.00000000
+Tested L2 node.
+tested all inputs for fYaw -4272
+updating fYaw to 7648
+tested all inputs for fYaw 7648
+updating fYaw to -4288
+wtf 75531353 -4288 -4454
+wtf 75531353 -4288 -4454
+410.00000000 -4288 8 42
+distance to main uni: 28959521.06988850
+yaw to main uni: 23568.00000000
+Tested L2 node.
+tested all inputs for fYaw -4288
+updating fYaw to 7664
+tested all inputs for fYaw 7664
+updating fYaw to -4304
+tested all inputs for fYaw -4304
+updating fYaw to 7680
+tested all inputs for fYaw 7680
+updating fYaw to -4320
+wtf 75531353 -4320 -4310
+tested all inputs for fYaw -4320
+updating fYaw to 7696
+tested all inputs for fYaw 7696
+updating fYaw to -4336
+tested all inputs for fYaw -4336
+updating fYaw to 7712
+tested all inputs for fYaw 7712
+updating fYaw to -4352
+tested all inputs for fYaw -4352
+updating fYaw to 7728
+tested all inputs for fYaw 7728
+updating fYaw to -4368
+wtf 75531353 -4368 -3884
+wtf 75531353 -4368 -3884
+tested all inputs for fYaw -4368
+updating fYaw to 7744
+tested all inputs for fYaw 7744
+updating fYaw to -4384
+410.00000000 -4384 36 18
+distance to main uni: 16523802.14909752
+yaw to main uni: 5888.00000000
+Tested L2 node.
+tested all inputs for fYaw -4384
+updating fYaw to 7760
+tested all inputs for fYaw 7760
+updating fYaw to -4400
+wtf 75531353 -4400 -4779
+tested all inputs for fYaw -4400
+updating fYaw to 7776
+tested all inputs for fYaw 7776
+updating fYaw to -4416
+410.00000000 -4416 31 23
+distance to main uni: 16524275.86798665
+yaw to main uni: 5888.00000000
+Tested L2 node.
+tested all inputs for fYaw -4416
+updating fYaw to 7792
+tested all inputs for fYaw 7792
+updating fYaw to -4432
+wtf 75531353 -4432 -4250
+410.00000000 -4432 -25 48
+distance to main uni: 39700492.99024455
+yaw to main uni: 24976.00000000
+Tested L2 node.
+tested all inputs for fYaw -4432
+updating fYaw to 7808
+tested all inputs for fYaw 7808
+updating fYaw to -4448
+wtf 75531353 -4448 -4522
+tested all inputs for fYaw -4448
+updating fYaw to 7824
+tested all inputs for fYaw 7824
+updating fYaw to -4464
+tested all inputs for fYaw -4464
+updating fYaw to 7840
+tested all inputs for fYaw 7840
+updating fYaw to -4480
+wtf 75531353 -4480 -4828
+wtf 75531353 -4480 -4828
+tested all inputs for fYaw -4480
+updating fYaw to 7856
+tested all inputs for fYaw 7856
+updating fYaw to -4496
+wtf 75531353 -4496 -4513
+wtf 75531353 -4496 -4828
+tested all inputs for fYaw -4496
+updating fYaw to 7872
+tested all inputs for fYaw 7872
+updating fYaw to -4512
+410.00000000 -4512 12 36
+distance to main uni: 14205371.63664760
+yaw to main uni: 9552.00000000
+Tested L2 node.
+tested all inputs for fYaw -4512
+updating fYaw to 7888
+tested all inputs for fYaw 7888
+updating fYaw to -4528
+wtf 75531353 -4528 -4779
+wtf 75531353 -4528 -4779
+tested all inputs for fYaw -4528
+updating fYaw to 7904
+tested all inputs for fYaw 7904
+updating fYaw to -4544
+410.00000000 -4544 19 59
+distance to main uni: 16413506.54307461
+yaw to main uni: 5920.00000000
+Tested L2 node.
+wtf 75531353 -4544 -4622
+410.00000000 -4544 46 -55
+distance to main uni: 17138502.76303729
+yaw to main uni: 6016.00000000
+Tested L2 node.
+tested all inputs for fYaw -4544
+updating fYaw to 7920
+tested all inputs for fYaw 7920
+updating fYaw to -4560
+tested all inputs for fYaw -4560
+updating fYaw to 7936
+tested all inputs for fYaw 7936
+updating fYaw to -4576
+wtf 75531353 -4576 -4933
+tested all inputs for fYaw -4576
+updating fYaw to 7952
+tested all inputs for fYaw 7952
+updating fYaw to -4592
+wtf 75531353 -4592 -4622
+tested all inputs for fYaw -4592
+updating fYaw to 7968
+tested all inputs for fYaw 7968
+updating fYaw to -4608
+315.79272461 -4608 -126 28
+distance to main uni: 13334167.93051348
+yaw to main uni: 13728.00000000
+Tested L2 node.
+wtf 75531353 -4608 -4721
+tested all inputs for fYaw -4608
+updating fYaw to 7984
+tested all inputs for fYaw 7984
+updating fYaw to -4624
+wtf 75531353 -4624 -4353
+410.00000000 -4624 63 -48
+distance to main uni: 17211016.31167143
+yaw to main uni: 6096.00000000
+Tested L2 node.
+410.00000000 -4624 71 -54
+distance to main uni: 17211016.31167143
+yaw to main uni: 6096.00000000
+Tested L2 node.
+410.00000000 -4624 75 -57
+distance to main uni: 17211185.00953086
+yaw to main uni: 6096.00000000
+Tested L2 node.
+410.00000000 -4624 83 -63
+distance to main uni: 17211185.00953086
+yaw to main uni: 6096.00000000
+Tested L2 node.
+tested all inputs for fYaw -4624
+updating fYaw to 8000
+tested all inputs for fYaw 8000
+updating fYaw to -4640
+tested all inputs for fYaw -4640
+updating fYaw to 8016
+tested all inputs for fYaw 8016
+updating fYaw to -4656
+wtf 75531353 -4656 -4513
+wtf 75531353 -4656 -4622
+tested all inputs for fYaw -4656
+updating fYaw to 8032
+tested all inputs for fYaw 8032
+updating fYaw to -4672
+410.00000000 -4672 -33 -43
+distance to main uni: 16815310.49292626
+yaw to main uni: 5856.00000000
+Tested L2 node.
+tested all inputs for fYaw -4672
+updating fYaw to 8048
+tested all inputs for fYaw 8048
+updating fYaw to -4688
+tested all inputs for fYaw -4688
+updating fYaw to 8064
+tested all inputs for fYaw 8064
+updating fYaw to -4704
+wtf 75531353 -4704 -4672
+410.00000000 -4704 -11 66
+distance to main uni: 16413458.14338404
+yaw to main uni: 5920.00000000
+Tested L2 node.
+tested all inputs for fYaw -4704
+updating fYaw to 8080
+tested all inputs for fYaw 8080
+updating fYaw to -4720
+wtf 75531353 -4720 -4672
+tested all inputs for fYaw -4720
+updating fYaw to 8096
+tested all inputs for fYaw 8096
+updating fYaw to -4736
+410.00000000 -4736 71 -33
+distance to main uni: 15501571.60718951
+yaw to main uni: 9712.00000000
+Tested L2 node.
+410.00000000 -4736 76 -35
+distance to main uni: 15501571.60718951
+yaw to main uni: 9712.00000000
+Tested L2 node.
+tested all inputs for fYaw -4736
+updating fYaw to 8112
+tested all inputs for fYaw 8112
+updating fYaw to -4752
+wtf 75531353 -4752 -4250
+wtf 75531353 -4752 -4250
+tested all inputs for fYaw -4752
+updating fYaw to 8128
+tested all inputs for fYaw 8128
+updating fYaw to -4768
+410.00000000 -4768 -17 68
+distance to main uni: 16414052.97547151
+yaw to main uni: 5920.00000000
+Tested L2 node.
+tested all inputs for fYaw -4768
+updating fYaw to 8144
+tested all inputs for fYaw 8144
+updating fYaw to -4784
+wtf 75531353 -4784 -5101
+tested all inputs for fYaw -4784
+updating fYaw to 8160
+tested all inputs for fYaw 8160
+updating fYaw to -4800
+tested all inputs for fYaw -4800
+updating fYaw to 8176
+tested all inputs for fYaw 8176
+updating fYaw to -4816
+wtf 75531353 -4816 -4672
+wtf 75531353 -4816 -5251
+tested all inputs for fYaw -4816
+updating fYaw to 8192
+tested all inputs for fYaw 8192
+updating fYaw to -4832
+410.00000000 -4832 -52 -25
+distance to main uni: 16815977.59249470
+yaw to main uni: 5856.00000000
+Tested L2 node.
+228.30516052 -4832 45 -36
+distance to main uni: 236196178.08185989
+yaw to main uni: 26944.00000000
+Tested L2 node.
+tested all inputs for fYaw -4832
+updating fYaw to 8208
+tested all inputs for fYaw 8208
+updating fYaw to -4848
+410.00000000 -4848 -41 -49
+distance to main uni: 16996078.15850727
+yaw to main uni: 5888.00000000
+Tested L2 node.
+410.00000000 -4848 14 60
+distance to main uni: 16666068.75486685
+yaw to main uni: 6016.00000000
+Tested L2 node.
+tested all inputs for fYaw -4848
+updating fYaw to 8224
+tested all inputs for fYaw 8224
+updating fYaw to -4864
+wtf 75531353 -4864 -5149
+tested all inputs for fYaw -4864
+updating fYaw to 8240
+tested all inputs for fYaw 8240
+updating fYaw to -4880
+410.00000000 -4880 -60 -127
+distance to main uni: 17177567.92326332
+yaw to main uni: 5920.00000000
+Tested L2 node.
+410.00000000 -4880 -59 -125
+distance to main uni: 17177567.92326332
+yaw to main uni: 5920.00000000
+Tested L2 node.
+410.00000000 -4880 -58 -123
+distance to main uni: 17177900.27594190
+yaw to main uni: 5920.00000000
+Tested L2 node.
+410.00000000 -4880 -57 -121
+distance to main uni: 17177900.27594190
+yaw to main uni: 5920.00000000
+Tested L2 node.
+wtf 75531353 -4880 -4885
+tested all inputs for fYaw -4880
+updating fYaw to 8256
+tested all inputs for fYaw 8256
+updating fYaw to -4896
+wtf 75531353 -4896 -4885
+410.00000000 -4896 58 -42
+distance to main uni: 15777203.93288316
+yaw to main uni: 9696.00000000
+Tested L2 node.
+tested all inputs for fYaw -4896
+updating fYaw to 8272
+tested all inputs for fYaw 8272
+updating fYaw to -4912
+tested all inputs for fYaw -4912
+updating fYaw to 8288
+tested all inputs for fYaw 8288
+updating fYaw to -4928
+tested all inputs for fYaw -4928
+updating fYaw to 8304
+tested all inputs for fYaw 8304
+updating fYaw to -4944
+tested all inputs for fYaw -4944
+updating fYaw to 8320
+tested all inputs for fYaw 8320
+updating fYaw to -4960
+410.00000000 -4960 54 -40
+distance to main uni: 17464835.12715239
+yaw to main uni: 6176.00000000
+Tested L2 node.
+tested all inputs for fYaw -4960
+updating fYaw to 8336
+tested all inputs for fYaw 8336
+updating fYaw to -4976
+wtf 75531353 -4976 -5352
+tested all inputs for fYaw -4976
+updating fYaw to 8352
+tested all inputs for fYaw 8352
+updating fYaw to -4992
+wtf 75531353 -4992 -4990
+tested all inputs for fYaw -4992
+updating fYaw to 8368
+tested all inputs for fYaw 8368
+updating fYaw to -5008
+245.00003052 -5008 30 -27
+distance to main uni: 224607779.89259237
+yaw to main uni: 26896.00000000
+Tested L2 node.
+tested all inputs for fYaw -5008
+updating fYaw to 8384
+tested all inputs for fYaw 8384
+updating fYaw to -5024
+tested all inputs for fYaw -5024
+updating fYaw to 8400
+tested all inputs for fYaw 8400
+updating fYaw to -5040
+wtf 75531353 -5040 -5038
+tested all inputs for fYaw -5040
+updating fYaw to 8416
+tested all inputs for fYaw 8416
+updating fYaw to -5056
+410.00000000 -5056 -15 55
+distance to main uni: 16846915.91346559
+yaw to main uni: 6048.00000000
+Tested L2 node.
+309.38659668 -5056 25 -24
+distance to main uni: 207236511.67485029
+yaw to main uni: 26848.00000000
+Tested L2 node.
+tested all inputs for fYaw -5056
+updating fYaw to 8432
+tested all inputs for fYaw 8432
+updating fYaw to -5072
+wtf 75531353 -5072 -5259
+wtf 75531353 -5072 -5259
+330.23782349 -5072 -8 38
+distance to main uni: 15071782.52252245
+yaw to main uni: 9664.00000000
+Tested L2 node.
+wtf 75531353 -5072 -5368
+tested all inputs for fYaw -5072
+updating fYaw to 8448
+tested all inputs for fYaw 8448
+updating fYaw to -5088
+421.98242188 -5088 -56 41
+distance to main uni: 14484872.07897875
+yaw to main uni: 9520.00000000
+Tested L2 node.
+410.00000000 -5088 24 -46
+distance to main uni: 137417622.82429531
+yaw to main uni: 26272.00000000
+Tested L2 node.
+wtf 75531353 -5088 -5290
+wtf 75531353 -5088 -5290
+tested all inputs for fYaw -5088
+updating fYaw to 8464
+tested all inputs for fYaw 8464
+updating fYaw to -5104
+tested all inputs for fYaw -5104
+updating fYaw to 8480
+tested all inputs for fYaw 8480
+updating fYaw to -5120
+wtf 75531353 -5120 -4730
+410.00000000 -5120 11 -18
+distance to main uni: 74701754.24963023
+yaw to main uni: 25472.00000000
+Tested L2 node.
+410.00000000 -5120 15 -19
+distance to main uni: 30713559.81509372
+yaw to main uni: 22224.00000000
+Tested L2 node.
+tested all inputs for fYaw -5120
+updating fYaw to 8496
+tested all inputs for fYaw 8496
+updating fYaw to -5136
+410.00000000 -5136 -67 -21
+distance to main uni: 16996370.90698262
+yaw to main uni: 5888.00000000
+Tested L2 node.
+tested all inputs for fYaw -5136
+updating fYaw to 8512
+tested all inputs for fYaw 8512
+updating fYaw to -5152
+310.39147949 -5152 -16 -8
+distance to main uni: 172513931.98891184
+yaw to main uni: 26688.00000000
+Tested L2 node.
+wtf 75531353 -5152 -5149
+tested all inputs for fYaw -5152
+updating fYaw to 8528
+tested all inputs for fYaw 8528
+updating fYaw to -5168
+410.00000000 -5168 -21 11
+distance to main uni: 109040456.43245471
+yaw to main uni: 26160.00000000
+Tested L2 node.
+315.41586304 -5168 -20 10
+distance to main uni: 160950890.11290261
+yaw to main uni: 26624.00000000
+Tested L2 node.
+tested all inputs for fYaw -5168
+updating fYaw to 8544
+tested all inputs for fYaw 8544
+updating fYaw to -5184
+wtf 75531353 -5184 -4779
+407.86465454 -5184 11 -42
+distance to main uni: 52193697.49935118
+yaw to main uni: 24304.00000000
+Tested L2 node.
+tested all inputs for fYaw -5184
+updating fYaw to 8560
+tested all inputs for fYaw 8560
+updating fYaw to -5200
+372.69390869 -5200 -25 16
+distance to main uni: 109042532.34711419
+yaw to main uni: 26160.00000000
+Tested L2 node.
+tested all inputs for fYaw -5200
+updating fYaw to 8576
+tested all inputs for fYaw 8576
+updating fYaw to -5216
+394.80123901 -5216 -27 18
+distance to main uni: 69028785.25451501
+yaw to main uni: 25296.00000000
+Tested L2 node.
+410.00000000 -5216 21 -68
+distance to main uni: 17755628.48886609
+yaw to main uni: 6160.00000000
+Tested L2 node.
+tested all inputs for fYaw -5216
+updating fYaw to 8592
+tested all inputs for fYaw 8592
+updating fYaw to -5232
+tested all inputs for fYaw -5232
+updating fYaw to 8608
+tested all inputs for fYaw 8608
+updating fYaw to -5248
+tested all inputs for fYaw -5248
+updating fYaw to 8624
+tested all inputs for fYaw 8624
+updating fYaw to -5264
+wtf 75531353 -5264 -5046
+400.83050537 -5264 -32 23
+distance to main uni: 57757630.45457783
+yaw to main uni: 24832.00000000
+Tested L2 node.
+tested all inputs for fYaw -5264
+updating fYaw to 8640
+tested all inputs for fYaw 8640
+updating fYaw to -5280
+wtf 75531353 -5280 -5528
+tested all inputs for fYaw -5280
+updating fYaw to 8656
+tested all inputs for fYaw 8656
+updating fYaw to -5296
+410.00000000 -5296 -68 126
+distance to main uni: 14793839.56081544
+yaw to main uni: 9696.00000000
+Tested L2 node.
+410.00000000 -5296 -57 105
+distance to main uni: 14793839.56081544
+yaw to main uni: 9696.00000000
+Tested L2 node.
+410.00000000 -5296 -35 26
+distance to main uni: 143618934.74227941
+yaw to main uni: 26512.00000000
+Tested L2 node.
+tested all inputs for fYaw -5296
+updating fYaw to 8672
+tested all inputs for fYaw 8672
+updating fYaw to -5312
+tested all inputs for fYaw -5312
+updating fYaw to 8688
+tested all inputs for fYaw 8688
+updating fYaw to -5328
+tested all inputs for fYaw -5328
+updating fYaw to 8704
+tested all inputs for fYaw 8704
+updating fYaw to -5344
+tested all inputs for fYaw -5344
+updating fYaw to 8720
+tested all inputs for fYaw 8720
+updating fYaw to -5360
+410.00000000 -5360 23 -16
+distance to main uni: 17465583.08211280
+yaw to main uni: 6176.00000000
+Tested L2 node.
+tested all inputs for fYaw -5360
+updating fYaw to 8736
+tested all inputs for fYaw 8736
+updating fYaw to -5376
+410.00000000 -5376 21 -13
+distance to main uni: 17465725.12365041
+yaw to main uni: 6176.00000000
+Tested L2 node.
+tested all inputs for fYaw -5376
+updating fYaw to 8752
+tested all inputs for fYaw 8752
+updating fYaw to -5392
+wtf 75531353 -5392 -4885
+wtf 75531353 -5392 -4885
+wtf 75531353 -5392 -4885
+410.00000000 -5392 18 -9
+distance to main uni: 17465626.42575445
+yaw to main uni: 6176.00000000
+Tested L2 node.
+410.00000000 -5392 18 -8
+distance to main uni: 17464778.44295839
+yaw to main uni: 6176.00000000
+Tested L2 node.
+wtf 75531353 -5392 -5513
+tested all inputs for fYaw -5392
+updating fYaw to 8768
+tested all inputs for fYaw 8768
+updating fYaw to -5408
+410.00000000 -5408 12 11
+distance to main uni: 17465658.86808125
+yaw to main uni: 6176.00000000
+Tested L2 node.
+410.00000000 -5408 12 12
+distance to main uni: 17465065.94429397
+yaw to main uni: 6176.00000000
+Tested L2 node.
+tested all inputs for fYaw -5408
+updating fYaw to 8784
+tested all inputs for fYaw 8784
+updating fYaw to -5424
+410.00000000 -5424 -10 17
+distance to main uni: 17465133.80025816
+yaw to main uni: 6176.00000000
+Tested L2 node.
+tested all inputs for fYaw -5424
+updating fYaw to 8800
+tested all inputs for fYaw 8800
+updating fYaw to -5440
+410.00000000 -5440 -15 19
+distance to main uni: 17465358.45842452
+yaw to main uni: 6176.00000000
+Tested L2 node.
+wtf 75531353 -5440 -5899
+wtf 75531353 -5440 -5899
+tested all inputs for fYaw -5440
+updating fYaw to 8816
+tested all inputs for fYaw 8816
+updating fYaw to -5456
+wtf 75531353 -5456 -5306
+410.00000000 -5456 61 53
+distance to main uni: 17505223.76061929
+yaw to main uni: 6352.00000000
+Tested L2 node.
+410.00000000 -5456 81 70
+distance to main uni: 17505223.76061929
+yaw to main uni: 6352.00000000
+Tested L2 node.
+tested all inputs for fYaw -5456
+updating fYaw to 8832
+tested all inputs for fYaw 8832
+updating fYaw to -5472
+tested all inputs for fYaw -5472
+updating fYaw to 8848
+tested all inputs for fYaw 8848
+updating fYaw to -5488
+wtf 75531353 -5488 -5298
+tested all inputs for fYaw -5488
+updating fYaw to 8864
+tested all inputs for fYaw 8864
+updating fYaw to -5504
+tested all inputs for fYaw -5504
+updating fYaw to 8880
+tested all inputs for fYaw 8880
+updating fYaw to -5520
+wtf 75531353 -5520 -5892
+wtf 75531353 -5520 -5834
+tested all inputs for fYaw -5520
+updating fYaw to 8896
+tested all inputs for fYaw 8896
+updating fYaw to -5536
+410.00000000 -5536 -15 -32
+distance to main uni: 17646550.78852907
+yaw to main uni: 6192.00000000
+Tested L2 node.
+tested all inputs for fYaw -5536
+updating fYaw to 8912
+tested all inputs for fYaw 8912
+updating fYaw to -5552
+tested all inputs for fYaw -5552
+updating fYaw to 8928
+tested all inputs for fYaw 8928
+updating fYaw to -5568
+tested all inputs for fYaw -5568
+updating fYaw to 8944
+tested all inputs for fYaw 8944
+updating fYaw to -5584
+358.24880981 -5584 -47 -23
+distance to main uni: 15897669.84533266
+yaw to main uni: 9584.00000000
+Tested L2 node.
+wtf 75531353 -5584 -5679
+tested all inputs for fYaw -5584
+updating fYaw to 8960
+tested all inputs for fYaw 8960
+updating fYaw to -5600
+410.00000000 -5600 -35 32
+distance to main uni: 17465383.18611799
+yaw to main uni: 6176.00000000
+Tested L2 node.
+tested all inputs for fYaw -5600
+updating fYaw to 8976
+tested all inputs for fYaw 8976
+updating fYaw to -5616
+tested all inputs for fYaw -5616
+updating fYaw to 8992
+tested all inputs for fYaw 8992
+updating fYaw to -5632
+wtf 75531353 -5632 -5204
+410.00000000 -5632 41 64
+distance to main uni: 17505181.73661479
+yaw to main uni: 6352.00000000
+Tested L2 node.
+410.00000000 -5632 55 87
+distance to main uni: 17505181.73661479
+yaw to main uni: 6352.00000000
+Tested L2 node.
+tested all inputs for fYaw -5632
+updating fYaw to 9008
+tested all inputs for fYaw 9008
+updating fYaw to -5648
+410.00000000 -5648 -128 105
+distance to main uni: 114792657.21861525
+yaw to main uni: 26224.00000000
+Tested L2 node.
+410.00000000 -5648 -122 100
+distance to main uni: 114792657.21861525
+yaw to main uni: 26224.00000000
+Tested L2 node.
+410.00000000 -5648 42 70
+distance to main uni: 17505544.13127901
+yaw to main uni: 6352.00000000
+Tested L2 node.
+410.00000000 -5648 46 77
+distance to main uni: 17505544.13127901
+yaw to main uni: 6352.00000000
+Tested L2 node.
+tested all inputs for fYaw -5648
+updating fYaw to 9024
+tested all inputs for fYaw 9024
+updating fYaw to -5664
+410.00000000 -5664 15 -75
+distance to main uni: 18193432.28398328
+yaw to main uni: 6256.00000000
+Tested L2 node.
+tested all inputs for fYaw -5664
+updating fYaw to 9040
+tested all inputs for fYaw 9040
+updating fYaw to -5680
+wtf 75531353 -5680 -5731
+tested all inputs for fYaw -5680
+updating fYaw to 9056
+tested all inputs for fYaw 9056
+updating fYaw to -5696
+478.69921875 -5696 -58 29
+distance to main uni: 26044898.70093201
+yaw to main uni: 20816.00000000
+Tested L2 node.
+tested all inputs for fYaw -5696
+updating fYaw to 9072
+tested all inputs for fYaw 9072
+updating fYaw to -5712
+tested all inputs for fYaw -5712
+updating fYaw to 9088
+tested all inputs for fYaw 9088
+updating fYaw to -5728
+tested all inputs for fYaw -5728
+updating fYaw to 9104
+tested all inputs for fYaw 9104
+updating fYaw to -5744
+410.00000000 -5744 53 -54
+distance to main uni: 17944426.17086041
+yaw to main uni: 13168.00000000
+Tested L2 node.
+410.00000000 -5744 55 -56
+distance to main uni: 17944426.17086041
+yaw to main uni: 13168.00000000
+Tested L2 node.
+410.00000000 -5744 58 -59
+distance to main uni: 17944426.17086041
+yaw to main uni: 13168.00000000
+Tested L2 node.
+410.00000000 -5744 61 -62
+distance to main uni: 17944685.55042334
+yaw to main uni: 13168.00000000
+Tested L2 node.
+410.00000000 -5744 64 -65
+distance to main uni: 17944685.55042334
+yaw to main uni: 13168.00000000
+Tested L2 node.
+410.00000000 -5744 68 -69
+distance to main uni: 17944685.55042334
+yaw to main uni: 13168.00000000
+Tested L2 node.
+410.00000000 -5744 72 -73
+distance to main uni: 17944685.55042334
+yaw to main uni: 13168.00000000
+Tested L2 node.
+tested all inputs for fYaw -5744
+updating fYaw to 9120
+tested all inputs for fYaw 9120
+updating fYaw to -5760
+410.00000000 -5760 38 54
+distance to main uni: 17687968.74661477
+yaw to main uni: 6368.00000000
+Tested L2 node.
+410.00000000 -5760 65 35
+distance to main uni: 17946020.03628350
+yaw to main uni: 6448.00000000
+Tested L2 node.
+410.00000000 -5760 67 36
+distance to main uni: 17946020.03628350
+yaw to main uni: 6448.00000000
+Tested L2 node.
+tested all inputs for fYaw -5760
+updating fYaw to 9136
+tested all inputs for fYaw 9136
+updating fYaw to -5776
+tested all inputs for fYaw -5776
+updating fYaw to 9152
+tested all inputs for fYaw 9152
+updating fYaw to -5792
+tested all inputs for fYaw -5792
+updating fYaw to 9168
+tested all inputs for fYaw 9168
+updating fYaw to -5808
+409.62319946 -5808 12 58
+distance to main uni: 27301787.00666453
+yaw to main uni: 20592.00000000
+Tested L2 node.
+333.75491333 -5808 19 -46
+distance to main uni: 23312417.99068740
+yaw to main uni: 18416.00000000
+Tested L2 node.
+410.00000000 -5808 24 -59
+distance to main uni: 18267372.46297442
+yaw to main uni: 6320.00000000
+Tested L2 node.
+410.00000000 -5808 68 18
+distance to main uni: 18128527.54564198
+yaw to main uni: 6464.00000000
+Tested L2 node.
+tested all inputs for fYaw -5808
+updating fYaw to 9184
+tested all inputs for fYaw 9184
+updating fYaw to -5824
+tested all inputs for fYaw -5824
+updating fYaw to 9200
+tested all inputs for fYaw 9200
+updating fYaw to -5840
+tested all inputs for fYaw -5840
+updating fYaw to 9216
+tested all inputs for fYaw 9216
+updating fYaw to -5856
+wtf 75531353 -5856 -5513
+tested all inputs for fYaw -5856
+updating fYaw to 9232
+tested all inputs for fYaw 9232
+updating fYaw to -5872
+410.00000000 -5872 -51 47
+distance to main uni: 17465700.68329101
+yaw to main uni: 6176.00000000
+Tested L2 node.
+wtf 75531353 -5872 -5899
+410.00000000 -5872 52 20
+distance to main uni: 18053078.37114668
+yaw to main uni: 6400.00000000
+Tested L2 node.
+tested all inputs for fYaw -5872
+updating fYaw to 9248
+tested all inputs for fYaw 9248
+updating fYaw to -5888
+tested all inputs for fYaw -5888
+updating fYaw to 9264
+tested all inputs for fYaw 9264
+updating fYaw to -5904
+tested all inputs for fYaw -5904
+updating fYaw to 9280
+tested all inputs for fYaw 9280
+updating fYaw to -5920
+410.00000000 -5920 -128 118
+distance to main uni: 17465742.19956598
+yaw to main uni: 6176.00000000
+Tested L2 node.
+410.00000000 -5920 -127 117
+distance to main uni: 17465742.19956598
+yaw to main uni: 6176.00000000
+Tested L2 node.
+wtf 75531353 -5920 -5408
+wtf 75531353 -5920 -5408
+wtf 75531353 -5920 -5408
+410.00000000 -5920 -117 108
+distance to main uni: 17465742.19956598
+yaw to main uni: 6176.00000000
+Tested L2 node.
+wtf 75531353 -5920 -6227
+wtf 75531353 -5920 -6227
+tested all inputs for fYaw -5920
+updating fYaw to 9296
+tested all inputs for fYaw 9296
+updating fYaw to -5936
+tested all inputs for fYaw -5936
+updating fYaw to 9312
+tested all inputs for fYaw 9312
+updating fYaw to -5952
+tested all inputs for fYaw -5952
+updating fYaw to 9328
+tested all inputs for fYaw 9328
+updating fYaw to -5968
+410.00000000 -5968 33 -22
+distance to main uni: 18160129.77874663
+yaw to main uni: 6368.00000000
+Tested L2 node.
+410.00000000 -5968 53 -9
+distance to main uni: 18236168.68381349
+yaw to main uni: 6416.00000000
+Tested L2 node.
+tested all inputs for fYaw -5968
+updating fYaw to 9344
+tested all inputs for fYaw 9344
+updating fYaw to -5984
+wtf 75531353 -5984 -6065
+tested all inputs for fYaw -5984
+updating fYaw to 9360
+tested all inputs for fYaw 9360
+updating fYaw to -6000
+wtf 75531353 -6000 -5834
+tested all inputs for fYaw -6000
+updating fYaw to 9376
+tested all inputs for fYaw 9376
+updating fYaw to -6016
+410.00000000 -6016 29 -16
+distance to main uni: 18160134.47678604
+yaw to main uni: 6368.00000000
+Tested L2 node.
+tested all inputs for fYaw -6016
+updating fYaw to 9392
+tested all inputs for fYaw 9392
+updating fYaw to -6032
+tested all inputs for fYaw -6032
+updating fYaw to 9408
+tested all inputs for fYaw 9408
+updating fYaw to -6048
+353.85244751 -6048 -35 -19
+distance to main uni: 16762326.46425536
+yaw to main uni: 9680.00000000
+Tested L2 node.
+wtf 75531353 -6048 -5936
+tested all inputs for fYaw -6048
+updating fYaw to 9424
+tested all inputs for fYaw 9424
+updating fYaw to -6064
+410.00000000 -6064 23 -7
+distance to main uni: 18159810.60788223
+yaw to main uni: 6368.00000000
+Tested L2 node.
+410.00000000 -6064 31 43
+distance to main uni: 18052639.25146982
+yaw to main uni: 6400.00000000
+Tested L2 node.
+wtf 75531353 -6064 -6192
+tested all inputs for fYaw -6064
+updating fYaw to 9440
+tested all inputs for fYaw 9440
+updating fYaw to -6080
+410.00000000 -6080 20 11
+distance to main uni: 18160804.51763456
+yaw to main uni: 6368.00000000
+Tested L2 node.
+wtf 75531353 -6080 -6100
+tested all inputs for fYaw -6080
+updating fYaw to 9456
+tested all inputs for fYaw 9456
+updating fYaw to -6096
+410.00000000 -6096 14 18
+distance to main uni: 18159935.00426530
+yaw to main uni: 6368.00000000
+Tested L2 node.
+tested all inputs for fYaw -6096
+updating fYaw to 9472
+tested all inputs for fYaw 9472
+updating fYaw to -6112
+410.00000000 -6112 42 21
+distance to main uni: 18236631.38866882
+yaw to main uni: 6432.00000000
+Tested L2 node.
+tested all inputs for fYaw -6112
+updating fYaw to 9488
+tested all inputs for fYaw 9488
+updating fYaw to -6128
+410.00000000 -6128 -10 24
+distance to main uni: 18160503.10969784
+yaw to main uni: 6368.00000000
+Tested L2 node.
+tested all inputs for fYaw -6128
+updating fYaw to 9504
+tested all inputs for fYaw 9504
+updating fYaw to -6144
+tested all inputs for fYaw -6144
+updating fYaw to 9520
+tested all inputs for fYaw 9520
+updating fYaw to -6160
+410.00000000 -6160 104 -103
+distance to main uni: 18784742.78848398
+yaw to main uni: 6480.00000000
+Tested L2 node.
+410.00000000 -6160 114 -113
+distance to main uni: 18784742.78848398
+yaw to main uni: 6480.00000000
+Tested L2 node.
+410.00000000 -6160 127 -126
+distance to main uni: 18784742.78848398
+yaw to main uni: 6480.00000000
+Tested L2 node.
+tested all inputs for fYaw -6160
+updating fYaw to 9536
+tested all inputs for fYaw 9536
+updating fYaw to -6176
+tested all inputs for fYaw -6176
+updating fYaw to 9552
+tested all inputs for fYaw 9552
+updating fYaw to -6192
+wtf 75531353 -6192 -6093
+410.00000000 -6192 32 33
+distance to main uni: 17076483.55275550
+yaw to main uni: 9824.00000000
+Tested L2 node.
+tested all inputs for fYaw -6192
+updating fYaw to 9568
+tested all inputs for fYaw 9568
+updating fYaw to -6208
+tested all inputs for fYaw -6208
+updating fYaw to 9584
+tested all inputs for fYaw 9584
+updating fYaw to -6224
+tested all inputs for fYaw -6224
+updating fYaw to 9600
+tested all inputs for fYaw 9600
+updating fYaw to -6240
+wtf 75531353 -6240 -6587
+tested all inputs for fYaw -6240
+updating fYaw to 9616
+tested all inputs for fYaw 9616
+updating fYaw to -6256
+tested all inputs for fYaw -6256
+updating fYaw to 9632
+tested all inputs for fYaw 9632
+updating fYaw to -6272
+wtf 75531353 -6272 -6289
+tested all inputs for fYaw -6272
+updating fYaw to 9648
+tested all inputs for fYaw 9648
+updating fYaw to -6288
+wtf 75531353 -6288 -5834
+410.00000000 -6288 -48 -16
+distance to main uni: 18268073.10983958
+yaw to main uni: 6320.00000000
+Tested L2 node.
+tested all inputs for fYaw -6288
+updating fYaw to 9664
+tested all inputs for fYaw 9664
+updating fYaw to -6304
+wtf 75531353 -6304 -6192
+tested all inputs for fYaw -6304
+updating fYaw to 9680
+tested all inputs for fYaw 9680
+updating fYaw to -6320
+wtf 75531353 -6320 -5993
+wtf 75531353 -6320 -6351
+tested all inputs for fYaw -6320
+updating fYaw to 9696
+tested all inputs for fYaw 9696
+updating fYaw to -6336
+tested all inputs for fYaw -6336
+updating fYaw to 9712
+tested all inputs for fYaw 9712
+updating fYaw to -6352
+wtf 75531353 -6352 -6848
+tested all inputs for fYaw -6352
+updating fYaw to 9728
+tested all inputs for fYaw 9728
+updating fYaw to -6368
+wtf 75531353 -6368 -6426
+tested all inputs for fYaw -6368
+updating fYaw to 9744
+tested all inputs for fYaw 9744
+updating fYaw to -6384
+wtf 75531353 -6384 -6254
+wtf 75531353 -6384 -6029
+tested all inputs for fYaw -6384
+updating fYaw to 9760
+tested all inputs for fYaw 9760
+updating fYaw to -6400
+tested all inputs for fYaw -6400
+updating fYaw to 9776
+tested all inputs for fYaw 9776
+updating fYaw to -6416
+wtf 75531353 -6416 -6358
+tested all inputs for fYaw -6416
+updating fYaw to 9792
+tested all inputs for fYaw 9792
+updating fYaw to -6432
+371.18661499 -6432 -85 126
+distance to main uni: 16645321.41123011
+yaw to main uni: 9792.00000000
+Tested L2 node.
+371.18661499 -6432 -68 100
+distance to main uni: 16645321.41123011
+yaw to main uni: 9792.00000000
+Tested L2 node.
+wtf 75531353 -6432 -6227
+tested all inputs for fYaw -6432
+updating fYaw to 9808
+tested all inputs for fYaw 9808
+updating fYaw to -6448
+wtf 75531353 -6448 -6254
+tested all inputs for fYaw -6448
+updating fYaw to 9824
+tested all inputs for fYaw 9824
+updating fYaw to -6464
+wtf 75531353 -6464 -6777
+tested all inputs for fYaw -6464
+updating fYaw to 9840
+tested all inputs for fYaw 9840
+updating fYaw to -6480
+wtf 75531353 -6480 -6527
+410.00000000 -6480 40 58
+distance to main uni: 18388739.87091005
+yaw to main uni: 6544.00000000
+Tested L2 node.
+tested all inputs for fYaw -6480
+updating fYaw to 9856
+tested all inputs for fYaw 9856
+updating fYaw to -6496
+481.00000000 -6496 -128 82
+distance to main uni: 16763430.08044863
+yaw to main uni: 9696.00000000
+Tested L2 node.
+481.00000000 -6496 -123 79
+distance to main uni: 16763430.08044863
+yaw to main uni: 9696.00000000
+Tested L2 node.
+wtf 75531353 -6496 -6493
+410.00000000 -6496 -20 57
+distance to main uni: 18235567.62241033
+yaw to main uni: 6432.00000000
+Tested L2 node.
+tested all inputs for fYaw -6496
+updating fYaw to 9872
+tested all inputs for fYaw 9872
+updating fYaw to -6512
+tested all inputs for fYaw -6512
+updating fYaw to 9888
+tested all inputs for fYaw 9888
+updating fYaw to -6528
+wtf 75531353 -6528 -6323
+tested all inputs for fYaw -6528
+updating fYaw to 9904
+tested all inputs for fYaw 9904
+updating fYaw to -6544
+410.00000000 -6544 -32 -125
+distance to main uni: 29185287.26246586
+yaw to main uni: 18928.00000000
+Tested L2 node.
+410.00000000 -6544 -31 -121
+distance to main uni: 29185287.26246586
+yaw to main uni: 18928.00000000
+Tested L2 node.
+wtf 75531353 -6544 -6192
+tested all inputs for fYaw -6544
+updating fYaw to 9920
+tested all inputs for fYaw 9920
+updating fYaw to -6560
+wtf 75531353 -6560 -6924
+tested all inputs for fYaw -6560
+updating fYaw to 9936
+tested all inputs for fYaw 9936
+updating fYaw to -6576
+wtf 75531353 -6576 -6848
+410.00000000 -6576 35 74
+distance to main uni: 18388228.12330041
+yaw to main uni: 6544.00000000
+Tested L2 node.
+410.00000000 -6576 53 116
+distance to main uni: 18388228.12330041
+yaw to main uni: 6544.00000000
+Tested L2 node.
+wtf 75531353 -6576 -7030
+wtf 75531353 -6576 -7030
+tested all inputs for fYaw -6576
+updating fYaw to 9952
+tested all inputs for fYaw 9952
+updating fYaw to -6592
+410.00000000 -6592 42 51
+distance to main uni: 18571069.61039013
+yaw to main uni: 6560.00000000
+Tested L2 node.
+tested all inputs for fYaw -6592
+updating fYaw to 9968
+tested all inputs for fYaw 9968
+updating fYaw to -6608
+tested all inputs for fYaw -6608
+updating fYaw to 9984
+tested all inputs for fYaw 9984
+updating fYaw to -6624
+tested all inputs for fYaw -6624
+updating fYaw to 10000
+tested all inputs for fYaw 10000
+updating fYaw to -6640
+410.00000000 -6640 24 -43
+distance to main uni: 18966741.32574660
+yaw to main uni: 6496.00000000
+Tested L2 node.
+wtf 75531353 -6640 -7037
+tested all inputs for fYaw -6640
+updating fYaw to 10016
+tested all inputs for fYaw 10016
+updating fYaw to -6656
+tested all inputs for fYaw -6656
+updating fYaw to 10032
+tested all inputs for fYaw 10032
+updating fYaw to -6672
+410.00000000 -6672 -61 127
+distance to main uni: 18236049.89255925
+yaw to main uni: 6432.00000000
+Tested L2 node.
+410.00000000 -6672 -59 123
+distance to main uni: 18236049.89255925
+yaw to main uni: 6432.00000000
+Tested L2 node.
+410.00000000 -6672 -58 120
+distance to main uni: 18236041.75099684
+yaw to main uni: 6432.00000000
+Tested L2 node.
+410.00000000 -6672 -57 118
+distance to main uni: 18236041.75099684
+yaw to main uni: 6432.00000000
+Tested L2 node.
+410.00000000 -6672 13 -80
+distance to main uni: 19256112.76456170
+yaw to main uni: 6464.00000000
+Tested L2 node.
+410.00000000 -6672 13 -79
+distance to main uni: 19256112.76456170
+yaw to main uni: 6464.00000000
+Tested L2 node.
+410.00000000 -6672 13 -78
+distance to main uni: 19256500.98757373
+yaw to main uni: 6464.00000000
+Tested L2 node.
+410.00000000 -6672 13 -77
+distance to main uni: 19256500.98757373
+yaw to main uni: 6464.00000000
+Tested L2 node.
+wtf 75531353 -6672 -7184
+wtf 75531353 -6672 -7184
+tested all inputs for fYaw -6672
+updating fYaw to 10048
+tested all inputs for fYaw 10048
+updating fYaw to -6688
+tested all inputs for fYaw -6688
+updating fYaw to 10064
+tested all inputs for fYaw 10064
+updating fYaw to -6704
+345.56219482 -6704 -37 -57
+distance to main uni: 132443738.25026180
+yaw to main uni: 24496.00000000
+Tested L2 node.
+tested all inputs for fYaw -6704
+updating fYaw to 10080
+tested all inputs for fYaw 10080
+updating fYaw to -6720
+tested all inputs for fYaw -6720
+updating fYaw to 10096
+tested all inputs for fYaw 10096
+updating fYaw to -6736
+tested all inputs for fYaw -6736
+updating fYaw to 10112
+tested all inputs for fYaw 10112
+updating fYaw to -6752
+wtf 75531353 -6752 -6613
+tested all inputs for fYaw -6752
+updating fYaw to 10128
+tested all inputs for fYaw 10128
+updating fYaw to -6768
+wtf 75531353 -6768 -6261
+wtf 75531353 -6768 -6261
+wtf 75531353 -6768 -7105
+tested all inputs for fYaw -6768
+updating fYaw to 10144
+tested all inputs for fYaw 10144
+updating fYaw to -6784
+wtf 75531353 -6784 -6757
+wtf 75531353 -6784 -6453
+tested all inputs for fYaw -6784
+updating fYaw to 10160
+tested all inputs for fYaw 10160
+updating fYaw to -6800
+410.00000000 -6800 -46 -49
+distance to main uni: 109898597.95873810
+yaw to main uni: 24192.00000000
+Tested L2 node.
+410.00000000 -6800 -11 -31
+distance to main uni: 18967377.26363295
+yaw to main uni: 6496.00000000
+Tested L2 node.
+tested all inputs for fYaw -6800
+updating fYaw to 10176
+tested all inputs for fYaw 10176
+updating fYaw to -6816
+wtf 75531353 -6816 -7196
+tested all inputs for fYaw -6816
+updating fYaw to 10192
+tested all inputs for fYaw 10192
+updating fYaw to -6832
+318.17926025 -6832 -67 9
+distance to main uni: 20748601.54745479
+yaw to main uni: 15712.00000000
+Tested L2 node.
+tested all inputs for fYaw -6832
+updating fYaw to 10208
+tested all inputs for fYaw 10208
+updating fYaw to -6848
+wtf 75531353 -6848 -6686
+410.00000000 -6848 -23 -22
+distance to main uni: 18967803.27935557
+yaw to main uni: 6496.00000000
+Tested L2 node.
+410.00000000 -6848 -22 -22
+distance to main uni: 18175802.31668547
+yaw to main uni: 9728.00000000
+Tested L2 node.
+wtf 75531353 -6848 -6540
+wtf 75531353 -6848 -6540
+410.00000000 -6848 22 93
+distance to main uni: 18571115.35638800
+yaw to main uni: 6560.00000000
+Tested L2 node.
+tested all inputs for fYaw -6848
+updating fYaw to 10224
+tested all inputs for fYaw 10224
+updating fYaw to -6864
+376.21099854 -6864 38 9
+distance to main uni: 19437143.05860486
+yaw to main uni: 12976.00000000
+Tested L2 node.
+tested all inputs for fYaw -6864
+updating fYaw to 10240
+tested all inputs for fYaw 10240
+updating fYaw to -6880
+tested all inputs for fYaw -6880
+updating fYaw to 10256
+tested all inputs for fYaw 10256
+updating fYaw to -6896
+410.00000000 -6896 -35 35
+distance to main uni: 111878193.69780092
+yaw to main uni: 24400.00000000
+Tested L2 node.
+tested all inputs for fYaw -6896
+updating fYaw to 10272
+tested all inputs for fYaw 10272
+updating fYaw to -6912
+tested all inputs for fYaw -6912
+updating fYaw to 10288
+tested all inputs for fYaw 10288
+updating fYaw to -6928
+wtf 75531353 -6928 -7105
+tested all inputs for fYaw -6928
+updating fYaw to 10304
+tested all inputs for fYaw 10304
+updating fYaw to -6944
+tested all inputs for fYaw -6944
+updating fYaw to 10320
+tested all inputs for fYaw 10320
+updating fYaw to -6960
+410.00000000 -6960 -29 -53
+distance to main uni: 19256547.55154467
+yaw to main uni: 6464.00000000
+Tested L2 node.
+tested all inputs for fYaw -6960
+updating fYaw to 10336
+tested all inputs for fYaw 10336
+updating fYaw to -6976
+410.00000000 -6976 18 32
+distance to main uni: 19043597.07983909
+yaw to main uni: 6544.00000000
+Tested L2 node.
+tested all inputs for fYaw -6976
+updating fYaw to 10352
+tested all inputs for fYaw 10352
+updating fYaw to -6992
+wtf 75531353 -6992 -6660
+wtf 75531353 -6992 -6660
+410.00000000 -6992 -33 -50
+distance to main uni: 19256038.71742867
+yaw to main uni: 6464.00000000
+Tested L2 node.
+tested all inputs for fYaw -6992
+updating fYaw to 10368
+tested all inputs for fYaw 10368
+updating fYaw to -7008
+410.00000000 -7008 -58 11
+distance to main uni: 18890384.00725525
+yaw to main uni: 6432.00000000
+Tested L2 node.
+wtf 75531353 -7008 -7018
+tested all inputs for fYaw -7008
+updating fYaw to 10384
+tested all inputs for fYaw 10384
+updating fYaw to -7024
+wtf 75531353 -7024 -6587
+wtf 75531353 -7024 -6613
+tested all inputs for fYaw -7024
+updating fYaw to 10400
+tested all inputs for fYaw 10400
+updating fYaw to -7040
+tested all inputs for fYaw -7040
+updating fYaw to 10416
+tested all inputs for fYaw 10416
+updating fYaw to -7056
+410.00000000 -7056 57 -20
+distance to main uni: 19487924.64510524
+yaw to main uni: 6640.00000000
+Tested L2 node.
+tested all inputs for fYaw -7056
+updating fYaw to 10432
+tested all inputs for fYaw 10432
+updating fYaw to -7072
+wtf 75531353 -7072 -7123
+tested all inputs for fYaw -7072
+updating fYaw to 10448
+tested all inputs for fYaw 10448
+updating fYaw to -7088
+410.00000000 -7088 -15 -69
+distance to main uni: 19622414.24223658
+yaw to main uni: 6496.00000000
+Tested L2 node.
+410.00000000 -7088 48 -59
+distance to main uni: 20773911.14603074
+yaw to main uni: 12640.00000000
+Tested L2 node.
+410.00000000 -7088 52 -64
+distance to main uni: 20773911.14603074
+yaw to main uni: 12640.00000000
+Tested L2 node.
+410.00000000 -7088 59 -73
+distance to main uni: 20773911.14603074
+yaw to main uni: 12640.00000000
+Tested L2 node.
+tested all inputs for fYaw -7088
+updating fYaw to 10464
+tested all inputs for fYaw 10464
+updating fYaw to -7104
+410.00000000 -7104 38 -45
+distance to main uni: 19593326.24410567
+yaw to main uni: 6592.00000000
+Tested L2 node.
+tested all inputs for fYaw -7104
+updating fYaw to 10480
+tested all inputs for fYaw 10480
+updating fYaw to -7120
+410.00000000 -7120 -47 -36
+distance to main uni: 19257187.35988483
+yaw to main uni: 6464.00000000
+Tested L2 node.
+tested all inputs for fYaw -7120
+updating fYaw to 10496
+tested all inputs for fYaw 10496
+updating fYaw to -7136
+wtf 75531353 -7136 -7105
+tested all inputs for fYaw -7136
+updating fYaw to 10512
+tested all inputs for fYaw 10512
+updating fYaw to -7152
+410.00000000 -7152 -50 -32
+distance to main uni: 19257356.11944963
+yaw to main uni: 6464.00000000
+Tested L2 node.
+wtf 75531353 -7152 -6962
+wtf 75531353 -7152 -6962
+tested all inputs for fYaw -7152
+updating fYaw to 10528
+tested all inputs for fYaw 10528
+updating fYaw to -7168
+tested all inputs for fYaw -7168
+updating fYaw to 10544
+tested all inputs for fYaw 10544
+updating fYaw to -7184
+wtf 75531353 -7184 -6777
+410.00000000 -7184 -22 49
+distance to main uni: 19044102.76041759
+yaw to main uni: 6544.00000000
+Tested L2 node.
+tested all inputs for fYaw -7184
+updating fYaw to 10560
+tested all inputs for fYaw 10560
+updating fYaw to -7200
+tested all inputs for fYaw -7200
+updating fYaw to 10576
+tested all inputs for fYaw 10576
+updating fYaw to -7216
+410.00000000 -7216 -49 40
+distance to main uni: 18966844.56081172
+yaw to main uni: 6496.00000000
+Tested L2 node.
+wtf 75531353 -7216 -6777
+wtf 75531353 -7216 -7612
+tested all inputs for fYaw -7216
+updating fYaw to 10592
+tested all inputs for fYaw 10592
+updating fYaw to -7232
+410.00000000 -7232 -29 -60
+distance to main uni: 19622536.60182180
+yaw to main uni: 6496.00000000
+Tested L2 node.
+tested all inputs for fYaw -7232
+updating fYaw to 10608
+tested all inputs for fYaw 10608
+updating fYaw to -7248
+wtf 75531353 -7248 -7346
+410.00000000 -7248 43 -59
+distance to main uni: 19960286.20448677
+yaw to main uni: 6624.00000000
+Tested L2 node.
+410.00000000 -7248 45 -62
+distance to main uni: 19960310.28362909
+yaw to main uni: 6624.00000000
+Tested L2 node.
+410.00000000 -7248 47 -65
+distance to main uni: 19960331.95699085
+yaw to main uni: 6624.00000000
+Tested L2 node.
+410.00000000 -7248 48 -66
+distance to main uni: 19960286.20448677
+yaw to main uni: 6624.00000000
+Tested L2 node.
+410.00000000 -7248 49 -68
+distance to main uni: 19960354.65273240
+yaw to main uni: 6624.00000000
+Tested L2 node.
+410.00000000 -7248 51 -71
+distance to main uni: 19960354.65273240
+yaw to main uni: 6624.00000000
+Tested L2 node.
+410.00000000 -7248 52 -72
+distance to main uni: 19960310.28362909
+yaw to main uni: 6624.00000000
+Tested L2 node.
+410.00000000 -7248 53 -74
+distance to main uni: 19960354.65273240
+yaw to main uni: 6624.00000000
+Tested L2 node.
+410.00000000 -7248 56 -78
+distance to main uni: 19960331.95699085
+yaw to main uni: 6624.00000000
+Tested L2 node.
+410.00000000 -7248 64 -89
+distance to main uni: 19960286.20448677
+yaw to main uni: 6624.00000000
+Tested L2 node.
+tested all inputs for fYaw -7248
+updating fYaw to 10624
+tested all inputs for fYaw 10624
+updating fYaw to -7264
+tested all inputs for fYaw -7264
+updating fYaw to 10640
+tested all inputs for fYaw 10640
+updating fYaw to -7280
+wtf 75531353 -7280 -6867
+wtf 75531353 -7280 -6867
+wtf 75531353 -7280 -7274
+394.80123901 -7280 57 -33
+distance to main uni: 80428224.84893917
+yaw to main uni: 22512.00000000
+Tested L2 node.
+tested all inputs for fYaw -7280
+updating fYaw to 10656
+tested all inputs for fYaw 10656
+updating fYaw to -7296
+tested all inputs for fYaw -7296
+updating fYaw to 10672
+tested all inputs for fYaw 10672
+updating fYaw to -7312
+334.25732422 -7312 -45 -7
+distance to main uni: 26105142.71707167
+yaw to main uni: 17248.00000000
+Tested L2 node.
+410.00000000 -7312 -11 -53
+distance to main uni: 101181491.82538792
+yaw to main uni: 23248.00000000
+Tested L2 node.
+tested all inputs for fYaw -7312
+updating fYaw to 10688
+tested all inputs for fYaw 10688
+updating fYaw to -7328
+tested all inputs for fYaw -7328
+updating fYaw to 10704
+tested all inputs for fYaw 10704
+updating fYaw to -7344
+346.06466675 -7344 -47 11
+distance to main uni: 26105052.02238503
+yaw to main uni: 17248.00000000
+Tested L2 node.
+405.10125732 -7344 22 -28
+distance to main uni: 19160870.48750842
+yaw to main uni: 9728.00000000
+Tested L2 node.
+tested all inputs for fYaw -7344
+updating fYaw to 10720
+tested all inputs for fYaw 10720
+updating fYaw to -7360
+tested all inputs for fYaw -7360
+updating fYaw to 10736
+tested all inputs for fYaw 10736
+updating fYaw to -7376
+wtf 75531353 -7376 -7440
+tested all inputs for fYaw -7376
+updating fYaw to 10752
+tested all inputs for fYaw 10752
+updating fYaw to -7392
+tested all inputs for fYaw -7392
+updating fYaw to 10768
+tested all inputs for fYaw 10768
+updating fYaw to -7408
+400.20245361 -7408 13 -20
+distance to main uni: 19160887.54509944
+yaw to main uni: 9728.00000000
+Tested L2 node.
+402.33782959 -7408 14 -20
+distance to main uni: 20439726.18797414
+yaw to main uni: 12720.00000000
+Tested L2 node.
+tested all inputs for fYaw -7408
+updating fYaw to 10784
+tested all inputs for fYaw 10784
+updating fYaw to -7424
+tested all inputs for fYaw -7424
+updating fYaw to 10800
+tested all inputs for fYaw 10800
+updating fYaw to -7440
+410.00000000 -7440 -17 -8
+distance to main uni: 19592979.79534241
+yaw to main uni: 6592.00000000
+Tested L2 node.
+tested all inputs for fYaw -7440
+updating fYaw to 10816
+tested all inputs for fYaw 10816
+updating fYaw to -7456
+wtf 75531353 -7456 -7434
+410.00000000 -7456 38 -58
+distance to main uni: 20143259.27949844
+yaw to main uni: 6640.00000000
+Tested L2 node.
+tested all inputs for fYaw -7456
+updating fYaw to 10832
+tested all inputs for fYaw 10832
+updating fYaw to -7472
+wtf 75531353 -7472 -7030
+wtf 75531353 -7472 -7030
+wtf 75531353 -7472 -7440
+tested all inputs for fYaw -7472
+updating fYaw to 10848
+tested all inputs for fYaw 10848
+updating fYaw to -7488
+410.00000000 -7488 -128 31
+distance to main uni: 19257147.01270674
+yaw to main uni: 6464.00000000
+Tested L2 node.
+410.00000000 -7488 -127 31
+distance to main uni: 19256811.88573540
+yaw to main uni: 6464.00000000
+Tested L2 node.
+410.00000000 -7488 -126 31
+distance to main uni: 19256811.88573540
+yaw to main uni: 6464.00000000
+Tested L2 node.
+410.00000000 -7488 -121 30
+distance to main uni: 19256476.17960173
+yaw to main uni: 6464.00000000
+Tested L2 node.
+410.00000000 -7488 -113 28
+distance to main uni: 19257147.01270674
+yaw to main uni: 6464.00000000
+Tested L2 node.
+tested all inputs for fYaw -7488
+updating fYaw to 10864
+tested all inputs for fYaw 10864
+updating fYaw to -7504
+tested all inputs for fYaw -7504
+updating fYaw to 10880
+tested all inputs for fYaw 10880
+updating fYaw to -7520
+tested all inputs for fYaw -7520
+updating fYaw to 10896
+tested all inputs for fYaw 10896
+updating fYaw to -7536
+wtf 75531353 -7536 -7352
+wtf 75531353 -7536 -7606
+tested all inputs for fYaw -7536
+updating fYaw to 10912
+tested all inputs for fYaw 10912
+updating fYaw to -7552
+wtf 75531353 -7552 -7440
+tested all inputs for fYaw -7552
+updating fYaw to 10928
+tested all inputs for fYaw 10928
+updating fYaw to -7568
+tested all inputs for fYaw -7568
+updating fYaw to 10944
+tested all inputs for fYaw 10944
+updating fYaw to -7584
+tested all inputs for fYaw -7584
+updating fYaw to 10960
+tested all inputs for fYaw 10960
+updating fYaw to -7600
+wtf 75531353 -7600 -7768
+tested all inputs for fYaw -7600
+updating fYaw to 10976
+tested all inputs for fYaw 10976
+updating fYaw to -7616
+wtf 75531353 -7616 -7606
+410.00000000 -7616 58 18
+distance to main uni: 19933341.38153521
+yaw to main uni: 6720.00000000
+Tested L2 node.
+tested all inputs for fYaw -7616
+updating fYaw to 10992
+tested all inputs for fYaw 10992
+updating fYaw to -7632
+tested all inputs for fYaw -7632
+updating fYaw to 11008
+tested all inputs for fYaw 11008
+updating fYaw to -7648
+wtf 75531353 -7648 -7595
+tested all inputs for fYaw -7648
+updating fYaw to 11024
+tested all inputs for fYaw 11024
+updating fYaw to -7664
+410.00000000 -7664 -53 -126
+distance to main uni: 20170982.59896042
+yaw to main uni: 6544.00000000
+Tested L2 node.
+tested all inputs for fYaw -7664
+updating fYaw to 11040
+tested all inputs for fYaw 11040
+updating fYaw to -7680
+wtf 75531353 -7680 -7691
+tested all inputs for fYaw -7680
+updating fYaw to 11056
+tested all inputs for fYaw 11056
+updating fYaw to -7696
+tested all inputs for fYaw -7696
+updating fYaw to 11072
+tested all inputs for fYaw 11072
+updating fYaw to -7712
+tested all inputs for fYaw -7712
+updating fYaw to 11088
+tested all inputs for fYaw 11088
+updating fYaw to -7728
+tested all inputs for fYaw -7728
+updating fYaw to 11104
+tested all inputs for fYaw 11104
+updating fYaw to -7744
+tested all inputs for fYaw -7744
+updating fYaw to 11120
+tested all inputs for fYaw 11120
+updating fYaw to -7760
+410.00000000 -7760 -118 11
+distance to main uni: 19622499.14894686
+yaw to main uni: 6496.00000000
+Tested L2 node.
+410.00000000 -7760 -116 11
+distance to main uni: 19622129.16864666
+yaw to main uni: 6496.00000000
+Tested L2 node.
+410.00000000 -7760 -113 11
+distance to main uni: 19622129.16864666
+yaw to main uni: 6496.00000000
+Tested L2 node.
+tested all inputs for fYaw -7760
+updating fYaw to 11136
+tested all inputs for fYaw 11136
+updating fYaw to -7776
+410.00000000 -7776 40 10
+distance to main uni: 20037747.93986812
+yaw to main uni: 6688.00000000
+Tested L2 node.
+tested all inputs for fYaw -7776
+updating fYaw to 11152
+tested all inputs for fYaw 11152
+updating fYaw to -7792
+wtf 75531353 -7792 -7768
+tested all inputs for fYaw -7792
+updating fYaw to 11168
+tested all inputs for fYaw 11168
+updating fYaw to -7808
+410.00000000 -7808 37 16
+distance to main uni: 20037894.88320849
+yaw to main uni: 6688.00000000
+Tested L2 node.
+tested all inputs for fYaw -7808
+updating fYaw to 11184
+tested all inputs for fYaw 11184
+updating fYaw to -7824
+tested all inputs for fYaw -7824
+updating fYaw to 11200
+tested all inputs for fYaw 11200
+updating fYaw to -7840
+wtf 75531353 -7840 -8352
+wtf 75531353 -7840 -8352
+tested all inputs for fYaw -7840
+updating fYaw to 11216
+tested all inputs for fYaw 11216
+updating fYaw to -7856
+410.00000000 -7856 55 -45
+distance to main uni: 20588458.88272537
+yaw to main uni: 6720.00000000
+Tested L2 node.
+tested all inputs for fYaw -7856
+updating fYaw to 11232
+tested all inputs for fYaw 11232
+updating fYaw to -7872
+tested all inputs for fYaw -7872
+updating fYaw to 11248
+tested all inputs for fYaw 11248
+updating fYaw to -7888
+wtf 75531353 -7888 -8026
+wtf 75531353 -7888 -8026
+tested all inputs for fYaw -7888
+updating fYaw to 11264
+tested all inputs for fYaw 11264
+updating fYaw to -7904
+410.00000000 -7904 23 34
+distance to main uni: 20037954.22917170
+yaw to main uni: 6688.00000000
+Tested L2 node.
+wtf 75531353 -7904 -7779
+tested all inputs for fYaw -7904
+updating fYaw to 11280
+tested all inputs for fYaw 11280
+updating fYaw to -7920
+wtf 75531353 -7920 -7606
+wtf 75531353 -7920 -7936
+410.00000000 -7920 -13 -59
+distance to main uni: 113672254.69385938
+yaw to main uni: 22704.00000000
+Tested L2 node.
+wtf 75531353 -7920 -8105
+tested all inputs for fYaw -7920
+updating fYaw to 11296
+tested all inputs for fYaw 11296
+updating fYaw to -7936
+408.36709595 -7936 48 -26
+distance to main uni: 64593855.25738423
+yaw to main uni: 21248.00000000
+Tested L2 node.
+tested all inputs for fYaw -7936
+updating fYaw to 11312
+tested all inputs for fYaw 11312
+updating fYaw to -7952
+410.00000000 -7952 26 -52
+distance to main uni: 20509971.31884550
+yaw to main uni: 6672.00000000
+Tested L2 node.
+wtf 75531353 -7952 -7861
+wtf 75531353 -7952 -7861
+wtf 75531353 -7952 -7861
+tested all inputs for fYaw -7952
+updating fYaw to 11328
+tested all inputs for fYaw 11328
+updating fYaw to -7968
+410.00000000 -7968 13 42
+distance to main uni: 20037749.99807536
+yaw to main uni: 6688.00000000
+Tested L2 node.
+tested all inputs for fYaw -7968
+updating fYaw to 11344
+tested all inputs for fYaw 11344
+updating fYaw to -7984
+wtf 75531353 -7984 -7691
+wtf 75531353 -7984 -8110
+tested all inputs for fYaw -7984
+updating fYaw to 11360
+tested all inputs for fYaw 11360
+updating fYaw to -8000
+wtf 75531353 -8000 -8021
+wtf 75531353 -8000 -7936
+410.00000000 -8000 9 45
+distance to main uni: 20037918.07081774
+yaw to main uni: 6688.00000000
+Tested L2 node.
+410.00000000 -8000 46 -20
+distance to main uni: 92778849.95715454
+yaw to main uni: 22272.00000000
+Tested L2 node.
+tested all inputs for fYaw -8000
+updating fYaw to 11376
+tested all inputs for fYaw 11376
+updating fYaw to -8016
+410.00000000 -8016 -59 -123
+distance to main uni: 20537510.48416580
+yaw to main uni: 6576.00000000
+Tested L2 node.
+410.00000000 -8016 -58 -121
+distance to main uni: 20537510.48416580
+yaw to main uni: 6576.00000000
+Tested L2 node.
+410.00000000 -8016 -34 12
+distance to main uni: 20143973.14730984
+yaw to main uni: 6640.00000000
+Tested L2 node.
+402.84027100 -8016 -23 -52
+distance to main uni: 52683345.48498978
+yaw to main uni: 20464.00000000
+Tested L2 node.
+tested all inputs for fYaw -8016
+updating fYaw to 11392
+tested all inputs for fYaw 11392
+updating fYaw to -8032
+wtf 75531353 -8032 -7763
+410.00000000 -8032 -35 15
+distance to main uni: 20143917.93230284
+yaw to main uni: 6640.00000000
+Tested L2 node.
+tested all inputs for fYaw -8032
+updating fYaw to 11408
+tested all inputs for fYaw 11408
+updating fYaw to -8048
+tested all inputs for fYaw -8048
+updating fYaw to 11424
+tested all inputs for fYaw 11424
+updating fYaw to -8064
+wtf 75531353 -8064 -8274
+400.62088013 -8064 43 -11
+distance to main uni: 75777853.20756656
+yaw to main uni: 21760.00000000
+Tested L2 node.
+wtf 75531353 -8064 -8187
+tested all inputs for fYaw -8064
+updating fYaw to 11440
+tested all inputs for fYaw 11440
+updating fYaw to -8080
+wtf 75531353 -8080 -8358
+wtf 75531353 -8080 -7856
+-2149.00000000 -8080 42 -8
+distance to main uni: 1042498391.98994482
+yaw to main uni: 24368.00000000
+Tested L2 node.
+230.49993896 -8080 70 35
+distance to main uni: 235446019.97096071
+yaw to main uni: 23664.00000000
+Tested L2 node.
+230.49993896 -8080 72 36
+distance to main uni: 235446019.97096071
+yaw to main uni: 23664.00000000
+Tested L2 node.
+tested all inputs for fYaw -8080
+updating fYaw to 11456
+tested all inputs for fYaw 11456
+updating fYaw to -8096
+tested all inputs for fYaw -8096
+updating fYaw to 11472
+tested all inputs for fYaw 11472
+updating fYaw to -8112
+tested all inputs for fYaw -8112
+updating fYaw to 11488
+tested all inputs for fYaw 11488
+updating fYaw to -8128
+410.00000000 -8128 -67 -19
+distance to main uni: 20170995.46632987
+yaw to main uni: 6544.00000000
+Tested L2 node.
+tested all inputs for fYaw -8128
+updating fYaw to 11504
+tested all inputs for fYaw 11504
+updating fYaw to -8144
+tested all inputs for fYaw -8144
+updating fYaw to 11520
+tested all inputs for fYaw 11520
+updating fYaw to -8160
+wtf 75531353 -8160 -8026
+wtf 75531353 -8160 -8026
+tested all inputs for fYaw -8160
+updating fYaw to 11536
+tested all inputs for fYaw 11536
+updating fYaw to -8176
+wtf 75531353 -8176 -8442
+wtf 75531353 -8176 -8442
+wtf 75531353 -8176 -7774
+wtf 75531353 -8176 -7774
+tested all inputs for fYaw -8176
+updating fYaw to 11552
+tested all inputs for fYaw 11552
+updating fYaw to -8192
+410.00000000 -8192 32 -56
+distance to main uni: 20877130.60653786
+yaw to main uni: 6688.00000000
+Tested L2 node.
+410.00000000 -8192 52 25
+distance to main uni: 20483737.08714872
+yaw to main uni: 6768.00000000
+Tested L2 node.
+tested all inputs for fYaw -8192
+updating fYaw to 11568
+tested all inputs for fYaw 11568
+updating fYaw to -8208
+366.91586304 -8208 -123 -14
+distance to main uni: 23980537.71364152
+yaw to main uni: 14656.00000000
+Tested L2 node.
+366.91586304 -8208 -122 -14
+distance to main uni: 23980537.71364152
+yaw to main uni: 14656.00000000
+Tested L2 node.
+wtf 75531353 -8208 -8187
+366.66467285 -8208 28 29
+distance to main uni: 132964690.75190912
+yaw to main uni: 22976.00000000
+Tested L2 node.
+tested all inputs for fYaw -8208
+updating fYaw to 11584
+tested all inputs for fYaw 11584
+updating fYaw to -8224
+tested all inputs for fYaw -8224
+updating fYaw to 11600
+tested all inputs for fYaw 11600
+updating fYaw to -8240
+410.00000000 -8240 -47 -25
+distance to main uni: 108028907.34547424
+yaw to main uni: 22608.00000000
+Tested L2 node.
+wtf 75531353 -8240 -7936
+410.00000000 -8240 -20 -27
+distance to main uni: 20510402.16936433
+yaw to main uni: 6672.00000000
+Tested L2 node.
+tested all inputs for fYaw -8240
+updating fYaw to 11616
+tested all inputs for fYaw 11616
+updating fYaw to -8256
+tested all inputs for fYaw -8256
+updating fYaw to 11632
+tested all inputs for fYaw 11632
+updating fYaw to -8272
+410.00000000 -8272 -25 62
+distance to main uni: 20037660.26375008
+yaw to main uni: 6688.00000000
+Tested L2 node.
+wtf 75531353 -8272 -8187
+wtf 75531353 -8272 -8605
+tested all inputs for fYaw -8272
+updating fYaw to 11648
+tested all inputs for fYaw 11648
+updating fYaw to -8288
+tested all inputs for fYaw -8288
+updating fYaw to 11664
+tested all inputs for fYaw 11664
+updating fYaw to -8304
+wtf 75531353 -8304 -8021
+410.00000000 -8304 37 13
+distance to main uni: 20588993.34924537
+yaw to main uni: 6720.00000000
+Tested L2 node.
+tested all inputs for fYaw -8304
+updating fYaw to 11680
+tested all inputs for fYaw 11680
+updating fYaw to -8320
+tested all inputs for fYaw -8320
+updating fYaw to 11696
+tested all inputs for fYaw 11696
+updating fYaw to -8336
+tested all inputs for fYaw -8336
+updating fYaw to 11712
+tested all inputs for fYaw 11712
+updating fYaw to -8352
+410.00000000 -8352 -35 13
+distance to main uni: 20509631.62918352
+yaw to main uni: 6672.00000000
+Tested L2 node.
+tested all inputs for fYaw -8352
+updating fYaw to 11728
+tested all inputs for fYaw 11728
+updating fYaw to -8368
+410.00000000 -8368 56 44
+distance to main uni: 20563296.57728157
+yaw to main uni: 6816.00000000
+Tested L2 node.
+tested all inputs for fYaw -8368
+updating fYaw to 11744
+tested all inputs for fYaw 11744
+updating fYaw to -8384
+wtf 75531353 -8384 -8616
+tested all inputs for fYaw -8384
+updating fYaw to 11760
+tested all inputs for fYaw 11760
+updating fYaw to -8400
+wtf 75531353 -8400 -8523
+410.00000000 -8400 70 32
+distance to main uni: 20747689.39955630
+yaw to main uni: 6832.00000000
+Tested L2 node.
+410.00000000 -8400 72 33
+distance to main uni: 20747235.21044703
+yaw to main uni: 6832.00000000
+Tested L2 node.
+410.00000000 -8400 77 35
+distance to main uni: 20747235.21044703
+yaw to main uni: 6832.00000000
+Tested L2 node.
+410.00000000 -8400 87 39
+distance to main uni: 20747689.39955630
+yaw to main uni: 6832.00000000
+Tested L2 node.
+tested all inputs for fYaw -8400
+updating fYaw to 11776
+tested all inputs for fYaw 11776
+updating fYaw to -8416
+231.17083740 -8416 -58 14
+distance to main uni: 227685675.01586497
+yaw to main uni: 23648.00000000
+Tested L2 node.
+wtf 75531353 -8416 -8352
+410.00000000 -8416 21 35
+distance to main uni: 20588416.05986058
+yaw to main uni: 6720.00000000
+Tested L2 node.
+wtf 75531353 -8416 -8269
+tested all inputs for fYaw -8416
+updating fYaw to 11792
+tested all inputs for fYaw 11792
+updating fYaw to -8432
+tested all inputs for fYaw -8432
+updating fYaw to 11808
+tested all inputs for fYaw 11808
+updating fYaw to -8448
+410.00000000 -8448 16 39
+distance to main uni: 20589218.56696402
+yaw to main uni: 6720.00000000
+Tested L2 node.
+tested all inputs for fYaw -8448
+updating fYaw to 11824
+tested all inputs for fYaw 11824
+updating fYaw to -8464
+410.00000000 -8464 -49 -126
+distance to main uni: 21086902.93784199
+yaw to main uni: 6624.00000000
+Tested L2 node.
+tested all inputs for fYaw -8464
+updating fYaw to 11840
+tested all inputs for fYaw 11840
+updating fYaw to -8480
+410.00000000 -8480 -40 31
+distance to main uni: 20510128.57074728
+yaw to main uni: 6672.00000000
+Tested L2 node.
+410.00000000 -8480 54 61
+distance to main uni: 20733355.00098303
+yaw to main uni: 9824.00000000
+Tested L2 node.
+410.00000000 -8480 55 62
+distance to main uni: 20733355.00098303
+yaw to main uni: 9824.00000000
+Tested L2 node.
+410.00000000 -8480 82 93
+distance to main uni: 20733355.00098303
+yaw to main uni: 9824.00000000
+Tested L2 node.
+tested all inputs for fYaw -8480
+updating fYaw to 11856
+tested all inputs for fYaw 11856
+updating fYaw to -8496
+tested all inputs for fYaw -8496
+updating fYaw to 11872
+tested all inputs for fYaw 11872
+updating fYaw to -8512
+410.00000000 -8512 9 -62
+distance to main uni: 109750284.43573058
+yaw to main uni: 21872.00000000
+Tested L2 node.
+tested all inputs for fYaw -8512
+updating fYaw to 11888
+tested all inputs for fYaw 11888
+updating fYaw to -8528
+410.00000000 -8528 -61 26
+distance to main uni: 113672113.31810914
+yaw to main uni: 22704.00000000
+Tested L2 node.
+wtf 75531353 -8528 -8512
+tested all inputs for fYaw -8528
+updating fYaw to 11904
+tested all inputs for fYaw 11904
+updating fYaw to -8544
+wtf 75531353 -8544 -8274
+wtf 75531353 -8544 -8274
+410.00000000 -8544 46 -12
+distance to main uni: 134194175.02363037
+yaw to main uni: 22448.00000000
+Tested L2 node.
+410.00000000 -8544 70 -19
+distance to main uni: 21218657.61029159
+yaw to main uni: 6816.00000000
+Tested L2 node.
+410.00000000 -8544 71 -19
+distance to main uni: 21218311.41880948
+yaw to main uni: 6816.00000000
+Tested L2 node.
+410.00000000 -8544 85 -22
+distance to main uni: 21218657.61029159
+yaw to main uni: 6816.00000000
+Tested L2 node.
+410.00000000 -8544 94 -24
+distance to main uni: 21219001.60906908
+yaw to main uni: 6816.00000000
+Tested L2 node.
+tested all inputs for fYaw -8544
+updating fYaw to 11920
+tested all inputs for fYaw 11920
+updating fYaw to -8560
+wtf 75531353 -8560 -8927
+tested all inputs for fYaw -8560
+updating fYaw to 11936
+tested all inputs for fYaw 11936
+updating fYaw to -8576
+wtf 75531353 -8576 -8523
+410.00000000 -8576 -43 40
+distance to main uni: 20510168.87858698
+yaw to main uni: 6672.00000000
+Tested L2 node.
+tested all inputs for fYaw -8576
+updating fYaw to 11952
+tested all inputs for fYaw 11952
+updating fYaw to -8592
+wtf 75531353 -8592 -8605
+410.00000000 -8592 53 49
+distance to main uni: 20747186.52693085
+yaw to main uni: 6832.00000000
+Tested L2 node.
+tested all inputs for fYaw -8592
+updating fYaw to 11968
+tested all inputs for fYaw 11968
+updating fYaw to -8608
+wtf 75531353 -8608 -8105
+wtf 75531353 -8608 -8105
+wtf 75531353 -8608 -8437
+wtf 75531353 -8608 -8852
+410.00000000 -8608 67 -13
+distance to main uni: 21218959.81818442
+yaw to main uni: 6816.00000000
+Tested L2 node.
+tested all inputs for fYaw -8608
+updating fYaw to 11984
+tested all inputs for fYaw 11984
+updating fYaw to -8624
+410.00000000 -8624 -28 -10
+distance to main uni: 20876615.76476812
+yaw to main uni: 6688.00000000
+Tested L2 node.
+wtf 75531353 -8624 -8512
+wtf 75531353 -8624 -8512
+wtf 75531353 -8624 -8512
+410.00000000 -8624 76 78
+distance to main uni: 20747294.46429823
+yaw to main uni: 6832.00000000
+Tested L2 node.
+410.00000000 -8624 79 81
+distance to main uni: 20747294.46429823
+yaw to main uni: 6832.00000000
+Tested L2 node.
+410.00000000 -8624 82 84
+distance to main uni: 20747294.46429823
+yaw to main uni: 6832.00000000
+Tested L2 node.
+410.00000000 -8624 85 87
+distance to main uni: 20747723.16297930
+yaw to main uni: 6832.00000000
+Tested L2 node.
+410.00000000 -8624 88 90
+distance to main uni: 20747723.16297930
+yaw to main uni: 6832.00000000
+Tested L2 node.
+410.00000000 -8624 92 94
+distance to main uni: 20747723.16297930
+yaw to main uni: 6832.00000000
+Tested L2 node.
+tested all inputs for fYaw -8624
+updating fYaw to 12000
+tested all inputs for fYaw 12000
+updating fYaw to -8640
+tested all inputs for fYaw -8640
+updating fYaw to 12016
+tested all inputs for fYaw 12016
+updating fYaw to -8656
+tested all inputs for fYaw -8656
+updating fYaw to 12032
+tested all inputs for fYaw 12032
+updating fYaw to -8672
+241.90771484 -8672 -48 127
+distance to main uni: 225746375.12178248
+yaw to main uni: 23632.00000000
+Tested L2 node.
+241.90771484 -8672 -47 124
+distance to main uni: 225746375.12178248
+yaw to main uni: 23632.00000000
+Tested L2 node.
+wtf 75531353 -8672 -8766
+tested all inputs for fYaw -8672
+updating fYaw to 12048
+tested all inputs for fYaw 12048
+updating fYaw to -8688
+wtf 75531353 -8688 -9104
+tested all inputs for fYaw -8688
+updating fYaw to 12064
+tested all inputs for fYaw 12064
+updating fYaw to -8704
+tested all inputs for fYaw -8704
+updating fYaw to 12080
+tested all inputs for fYaw 12080
+updating fYaw to -8720
+tested all inputs for fYaw -8720
+updating fYaw to 12096
+tested all inputs for fYaw 12096
+updating fYaw to -8736
+410.00000000 -8736 -31 -127
+distance to main uni: 21453722.11667281
+yaw to main uni: 6640.00000000
+Tested L2 node.
+410.00000000 -8736 -31 -126
+distance to main uni: 21453722.11667281
+yaw to main uni: 6640.00000000
+Tested L2 node.
+410.00000000 -8736 -30 -121
+distance to main uni: 21453419.78800825
+yaw to main uni: 6640.00000000
+Tested L2 node.
+tested all inputs for fYaw -8736
+updating fYaw to 12112
+tested all inputs for fYaw 12112
+updating fYaw to -8752
+tested all inputs for fYaw -8752
+updating fYaw to 12128
+tested all inputs for fYaw 12128
+updating fYaw to -8768
+410.00000000 -8768 -48 54
+distance to main uni: 20510108.88446368
+yaw to main uni: 6672.00000000
+Tested L2 node.
+wtf 75531353 -8768 -8950
+tested all inputs for fYaw -8768
+updating fYaw to 12144
+tested all inputs for fYaw 12144
+updating fYaw to -8784
+410.00000000 -8784 -24 63
+distance to main uni: 20589324.48286553
+yaw to main uni: 6720.00000000
+Tested L2 node.
+tested all inputs for fYaw -8784
+updating fYaw to 12160
+tested all inputs for fYaw 12160
+updating fYaw to -8800
+tested all inputs for fYaw -8800
+updating fYaw to 12176
+tested all inputs for fYaw 12176
+updating fYaw to -8816
+tested all inputs for fYaw -8816
+updating fYaw to 12192
+tested all inputs for fYaw 12192
+updating fYaw to -8832
+427.57424927 -8832 -37 -32
+distance to main uni: 87258987.54866846
+yaw to main uni: 21344.00000000
+Tested L2 node.
+410.00000000 -8832 13 46
+distance to main uni: 20955436.89936471
+yaw to main uni: 6752.00000000
+Tested L2 node.
+tested all inputs for fYaw -8832
+updating fYaw to 12208
+tested all inputs for fYaw 12208
+updating fYaw to -8848
+wtf 75531353 -8848 -8352
+wtf 75531353 -8848 -8352
+410.00000000 -8848 -47 125
+distance to main uni: 20588441.14216198
+yaw to main uni: 6720.00000000
+Tested L2 node.
+wtf 75531353 -8848 -8352
+410.00000000 -8848 -44 116
+distance to main uni: 20588441.14216198
+yaw to main uni: 6720.00000000
+Tested L2 node.
+410.00000000 -8848 -44 117
+distance to main uni: 20588490.81009247
+yaw to main uni: 6720.00000000
+Tested L2 node.
+410.00000000 -8848 -40 105
+distance to main uni: 20588490.81009247
+yaw to main uni: 6720.00000000
+Tested L2 node.
+410.00000000 -8848 32 -42
+distance to main uni: 21427701.64448488
+yaw to main uni: 6736.00000000
+Tested L2 node.
+tested all inputs for fYaw -8848
+updating fYaw to 12224
+tested all inputs for fYaw 12224
+updating fYaw to -8864
+tested all inputs for fYaw -8864
+updating fYaw to 12240
+tested all inputs for fYaw 12240
+updating fYaw to -8880
+wtf 75531353 -8880 -8772
+wtf 75531353 -8880 -9104
+tested all inputs for fYaw -8880
+updating fYaw to 12256
+tested all inputs for fYaw 12256
+updating fYaw to -8896
+410.00000000 -8896 24 -64
+distance to main uni: 21716009.79293353
+yaw to main uni: 6704.00000000
+Tested L2 node.
+tested all inputs for fYaw -8896
+updating fYaw to 12272
+tested all inputs for fYaw 12272
+updating fYaw to -8912
+wtf 75531353 -8912 -8523
+tested all inputs for fYaw -8912
+updating fYaw to 12288
+tested all inputs for fYaw 12288
+updating fYaw to -8928
+410.00000000 -8928 -46 -16
+distance to main uni: 121073440.36281498
+yaw to main uni: 22064.00000000
+Tested L2 node.
+tested all inputs for fYaw -8928
+updating fYaw to 12304
+tested all inputs for fYaw 12304
+updating fYaw to -8944
+tested all inputs for fYaw -8944
+updating fYaw to 12320
+tested all inputs for fYaw 12320
+updating fYaw to -8960
+tested all inputs for fYaw -8960
+updating fYaw to 12336
+tested all inputs for fYaw 12336
+updating fYaw to -8976
+tested all inputs for fYaw -8976
+updating fYaw to 12352
+tested all inputs for fYaw 12352
+updating fYaw to -8992
+tested all inputs for fYaw -8992
+updating fYaw to 12368
+tested all inputs for fYaw 12368
+updating fYaw to -9008
+tested all inputs for fYaw -9008
+updating fYaw to 12384
+tested all inputs for fYaw 12384
+updating fYaw to -9024
+410.00000000 -9024 23 -24
+distance to main uni: 21427128.41679071
+yaw to main uni: 6736.00000000
+Tested L2 node.
+tested all inputs for fYaw -9024
+updating fYaw to 12400
+tested all inputs for fYaw 12400
+updating fYaw to -9040
+410.00000000 -9040 -52 15
+distance to main uni: 115400985.92230666
+yaw to main uni: 21984.00000000
+Tested L2 node.
+wtf 75531353 -9040 -8605
+405.35244751 -9040 -14 61
+distance to main uni: 60298687.06143266
+yaw to main uni: 20384.00000000
+Tested L2 node.
+410.00000000 -9040 13 50
+distance to main uni: 21139459.51112819
+yaw to main uni: 6768.00000000
+Tested L2 node.
+tested all inputs for fYaw -9040
+updating fYaw to 12416
+tested all inputs for fYaw 12416
+updating fYaw to -9056
+tested all inputs for fYaw -9056
+updating fYaw to 12432
+tested all inputs for fYaw 12432
+updating fYaw to -9072
+410.00000000 -9072 20 -14
+distance to main uni: 21427320.14555950
+yaw to main uni: 6736.00000000
+Tested L2 node.
+tested all inputs for fYaw -9072
+updating fYaw to 12448
+tested all inputs for fYaw 12448
+updating fYaw to -9088
+tested all inputs for fYaw -9088
+updating fYaw to 12464
+tested all inputs for fYaw 12464
+updating fYaw to -9104
+wtf 75531353 -9104 -8783
+wtf 75531353 -9104 -8783
+410.00000000 -9104 14 13
+distance to main uni: 21427644.18446237
+yaw to main uni: 6736.00000000
+Tested L2 node.
+tested all inputs for fYaw -9104
+updating fYaw to 12480
+tested all inputs for fYaw 12480
+updating fYaw to -9120
+410.00000000 -9120 11 19
+distance to main uni: 21913001.25280298
+yaw to main uni: 9536.00000000
+Tested L2 node.
+410.00000000 -9120 57 -14
+distance to main uni: 21690282.46859695
+yaw to main uni: 6800.00000000
+Tested L2 node.
+tested all inputs for fYaw -9120
+updating fYaw to 12496
+tested all inputs for fYaw 12496
+updating fYaw to -9136
+410.00000000 -9136 -54 26
+distance to main uni: 39041936.00236285
+yaw to main uni: 17936.00000000
+Tested L2 node.
+tested all inputs for fYaw -9136
+updating fYaw to 12512
+tested all inputs for fYaw 12512
+updating fYaw to -9152
+410.00000000 -9152 -11 26
+distance to main uni: 21426967.19396193
+yaw to main uni: 6736.00000000
+Tested L2 node.
+wtf 75531353 -9152 -9601
+410.00000000 -9152 56 -10
+distance to main uni: 21689929.20874582
+yaw to main uni: 6800.00000000
+Tested L2 node.
+tested all inputs for fYaw -9152
+updating fYaw to 12528
+tested all inputs for fYaw 12528
+updating fYaw to -9168
+408.86953735 -9168 -55 30
+distance to main uni: 34332521.28684439
+yaw to main uni: 16992.00000000
+Tested L2 node.
+410.00000000 -9168 37 -64
+distance to main uni: 22082823.18110164
+yaw to main uni: 6736.00000000
+Tested L2 node.
+410.00000000 -9168 38 -66
+distance to main uni: 22082823.18110164
+yaw to main uni: 6736.00000000
+Tested L2 node.
+410.00000000 -9168 40 -69
+distance to main uni: 22082884.79851063
+yaw to main uni: 6736.00000000
+Tested L2 node.
+410.00000000 -9168 41 -71
+distance to main uni: 22082864.91554961
+yaw to main uni: 6736.00000000
+Tested L2 node.
+410.00000000 -9168 42 -73
+distance to main uni: 22082864.91554961
+yaw to main uni: 6736.00000000
+Tested L2 node.
+410.00000000 -9168 43 -75
+distance to main uni: 22082844.64715350
+yaw to main uni: 6736.00000000
+Tested L2 node.
+410.00000000 -9168 44 -77
+distance to main uni: 22082844.64715350
+yaw to main uni: 6736.00000000
+Tested L2 node.
+410.00000000 -9168 47 -82
+distance to main uni: 22082884.79851063
+yaw to main uni: 6736.00000000
+Tested L2 node.
+tested all inputs for fYaw -9168
+updating fYaw to 12544
+tested all inputs for fYaw 12544
+updating fYaw to -9184
+tested all inputs for fYaw -9184
+updating fYaw to 12560
+tested all inputs for fYaw 12560
+updating fYaw to -9200
+410.00000000 -9200 -58 -22
+distance to main uni: 21453845.68808734
+yaw to main uni: 6640.00000000
+Tested L2 node.
+tested all inputs for fYaw -9200
+updating fYaw to 12576
+tested all inputs for fYaw 12576
+updating fYaw to -9216
+tested all inputs for fYaw -9216
+updating fYaw to 12592
+tested all inputs for fYaw 12592
+updating fYaw to -9232
+410.00000000 -9232 -14 -42
+distance to main uni: 21715914.08531027
+yaw to main uni: 6704.00000000
+Tested L2 node.
+wtf 75531353 -9232 -9416
+tested all inputs for fYaw -9232
+updating fYaw to 12608
+tested all inputs for fYaw 12608
+updating fYaw to -9248
+tested all inputs for fYaw -9248
+updating fYaw to 12624
+tested all inputs for fYaw 12624
+updating fYaw to -9264
+363.65002441 -9264 -69 -128
+distance to main uni: 143832508.91644529
+yaw to main uni: 21616.00000000
+Tested L2 node.
+363.65002441 -9264 -66 -122
+distance to main uni: 143832508.91644529
+yaw to main uni: 21616.00000000
+Tested L2 node.
+tested all inputs for fYaw -9264
+updating fYaw to 12640
+tested all inputs for fYaw 12640
+updating fYaw to -9280
+410.00000000 -9280 -75 -124
+distance to main uni: 21925724.21493210
+yaw to main uni: 6640.00000000
+Tested L2 node.
+410.00000000 -9280 -74 -122
+distance to main uni: 21925724.21493210
+yaw to main uni: 6640.00000000
+Tested L2 node.
+wtf 75531353 -9280 -9026
+tested all inputs for fYaw -9280
+updating fYaw to 12656
+tested all inputs for fYaw 12656
+updating fYaw to -9296
+wtf 75531353 -9296 -9026
+tested all inputs for fYaw -9296
+updating fYaw to 12672
+tested all inputs for fYaw 12672
+updating fYaw to -9312
+wtf 75531353 -9312 -9379
+tested all inputs for fYaw -9312
+updating fYaw to 12688
+tested all inputs for fYaw 12688
+updating fYaw to -9328
+459.52734375 -9328 -128 98
+distance to main uni: 54380352.89982883
+yaw to main uni: 19744.00000000
+Tested L2 node.
+459.52734375 -9328 -116 89
+distance to main uni: 54380352.89982883
+yaw to main uni: 19744.00000000
+Tested L2 node.
+wtf 75531353 -9328 -9672
+tested all inputs for fYaw -9328
+updating fYaw to 12704
+tested all inputs for fYaw 12704
+updating fYaw to -9344
+410.00000000 -9344 41 -58
+distance to main uni: 22266191.32383758
+yaw to main uni: 6752.00000000
+Tested L2 node.
+tested all inputs for fYaw -9344
+updating fYaw to 12720
+tested all inputs for fYaw 12720
+updating fYaw to -9360
+tested all inputs for fYaw -9360
+updating fYaw to 12736
+tested all inputs for fYaw 12736
+updating fYaw to -9376
+wtf 75531353 -9376 -9194
+wtf 75531353 -9376 -9857
+tested all inputs for fYaw -9376
+updating fYaw to 12752
+tested all inputs for fYaw 12752
+updating fYaw to -9392
+tested all inputs for fYaw -9392
+updating fYaw to 12768
+tested all inputs for fYaw 12768
+updating fYaw to -9408
+tested all inputs for fYaw -9408
+updating fYaw to 12784
+tested all inputs for fYaw 12784
+updating fYaw to -9424
+tested all inputs for fYaw -9424
+updating fYaw to 12800
+tested all inputs for fYaw 12800
+updating fYaw to -9440
+tested all inputs for fYaw -9440
+updating fYaw to 12816
+tested all inputs for fYaw 12816
+updating fYaw to -9456
+410.00000000 -9456 -48 -28
+distance to main uni: 21820697.50339342
+yaw to main uni: 6672.00000000
+Tested L2 node.
+410.00000000 -9456 -40 12
+distance to main uni: 21716507.37503303
+yaw to main uni: 6704.00000000
+Tested L2 node.
+tested all inputs for fYaw -9456
+updating fYaw to 12832
+tested all inputs for fYaw 12832
+updating fYaw to -9472
+wtf 75531353 -9472 -9454
+tested all inputs for fYaw -9472
+updating fYaw to 12848
+tested all inputs for fYaw 12848
+updating fYaw to -9488
+wtf 75531353 -9488 -9026
+410.00000000 -9488 -41 18
+distance to main uni: 21715906.08780939
+yaw to main uni: 6704.00000000
+Tested L2 node.
+wtf 75531353 -9488 -9015
+410.00000000 -9488 43 -11
+distance to main uni: 21977950.33655006
+yaw to main uni: 6768.00000000
+Tested L2 node.
+tested all inputs for fYaw -9488
+updating fYaw to 12864
+tested all inputs for fYaw 12864
+updating fYaw to -9504
+wtf 75531353 -9504 -9884
+410.00000000 -9504 20 -41
+distance to main uni: 22082397.75530595
+yaw to main uni: 6736.00000000
+Tested L2 node.
+tested all inputs for fYaw -9504
+updating fYaw to 12880
+tested all inputs for fYaw 12880
+updating fYaw to -9520
+wtf 75531353 -9520 -9620
+wtf 75531353 -9520 -9524
+wtf 75531353 -9520 -9951
+tested all inputs for fYaw -9520
+updating fYaw to 12896
+tested all inputs for fYaw 12896
+updating fYaw to -9536
+tested all inputs for fYaw -9536
+updating fYaw to 12912
+tested all inputs for fYaw 12912
+updating fYaw to -9552
+wtf 75531353 -9552 -9435
+tested all inputs for fYaw -9552
+updating fYaw to 12928
+tested all inputs for fYaw 12928
+updating fYaw to -9568
+tested all inputs for fYaw -9568
+updating fYaw to 12944
+tested all inputs for fYaw 12944
+updating fYaw to -9584
+wtf 75531353 -9584 -9692
+tested all inputs for fYaw -9584
+updating fYaw to 12960
+tested all inputs for fYaw 12960
+updating fYaw to -9600
+wtf 75531353 -9600 -9104
+tested all inputs for fYaw -9600
+updating fYaw to 12976
+tested all inputs for fYaw 12976
+updating fYaw to -9616
+410.00000000 -9616 -57 8
+distance to main uni: 21820932.51515003
+yaw to main uni: 6672.00000000
+Tested L2 node.
+410.00000000 -9616 14 -58
+distance to main uni: 23259856.94416971
+yaw to main uni: 9328.00000000
+Tested L2 node.
+410.00000000 -9616 33 26
+distance to main uni: 21978455.52035265
+yaw to main uni: 6768.00000000
+Tested L2 node.
+tested all inputs for fYaw -9616
+updating fYaw to 12992
+tested all inputs for fYaw 12992
+updating fYaw to -9632
+tested all inputs for fYaw -9632
+updating fYaw to 13008
+tested all inputs for fYaw 13008
+updating fYaw to -9648
+tested all inputs for fYaw -9648
+updating fYaw to 13024
+tested all inputs for fYaw 13024
+updating fYaw to -9664
+410.00000000 -9664 11 -55
+distance to main uni: 23260179.53215024
+yaw to main uni: 9328.00000000
+Tested L2 node.
+tested all inputs for fYaw -9664
+updating fYaw to 13040
+tested all inputs for fYaw 13040
+updating fYaw to -9680
+wtf 75531353 -9680 -9267
+410.00000000 -9680 -16 -65
+distance to main uni: 22476092.02559111
+yaw to main uni: 6672.00000000
+Tested L2 node.
+wtf 75531353 -9680 -9692
+wtf 75531353 -9680 -10185
+wtf 75531353 -9680 -10185
+wtf 75531353 -9680 -10185
+tested all inputs for fYaw -9680
+updating fYaw to 13056
+tested all inputs for fYaw 13056
+updating fYaw to -9696
+410.00000000 -9696 -17 -64
+distance to main uni: 22476535.24738297
+yaw to main uni: 6672.00000000
+Tested L2 node.
+tested all inputs for fYaw -9696
+updating fYaw to 13072
+tested all inputs for fYaw 13072
+updating fYaw to -9712
+tested all inputs for fYaw -9712
+updating fYaw to 13088
+tested all inputs for fYaw 13088
+updating fYaw to -9728
+wtf 75531353 -9728 -9435
+410.00000000 -9728 19 43
+distance to main uni: 21978432.81120237
+yaw to main uni: 6768.00000000
+Tested L2 node.
+tested all inputs for fYaw -9728
+updating fYaw to 13104
+tested all inputs for fYaw 13104
+updating fYaw to -9744
+tested all inputs for fYaw -9744
+updating fYaw to 13120
+tested all inputs for fYaw 13120
+updating fYaw to -9760
+wtf 75531353 -9760 -9784
+wtf 75531353 -9760 -9764
+tested all inputs for fYaw -9760
+updating fYaw to 13136
+tested all inputs for fYaw 13136
+updating fYaw to -9776
+410.00000000 -9776 14 48
+distance to main uni: 21977965.62286139
+yaw to main uni: 6768.00000000
+Tested L2 node.
+tested all inputs for fYaw -9776
+updating fYaw to 13152
+tested all inputs for fYaw 13152
+updating fYaw to -9792
+410.00000000 -9792 -12 -45
+distance to main uni: 23259865.64771732
+yaw to main uni: 9328.00000000
+Tested L2 node.
+tested all inputs for fYaw -9792
+updating fYaw to 13168
+tested all inputs for fYaw 13168
+updating fYaw to -9808
+399.32321167 -9808 -22 33
+distance to main uni: 67688399.05619754
+yaw to main uni: 19600.00000000
+Tested L2 node.
+tested all inputs for fYaw -9808
+updating fYaw to 13184
+tested all inputs for fYaw 13184
+updating fYaw to -9824
+404.85003662 -9824 -128 18
+distance to main uni: 66066992.74316856
+yaw to main uni: 19680.00000000
+Tested L2 node.
+404.85003662 -9824 -127 18
+distance to main uni: 66066992.74316856
+yaw to main uni: 19680.00000000
+Tested L2 node.
+410.00000000 -9824 -125 18
+distance to main uni: 132570623.63248390
+yaw to main uni: 21472.00000000
+Tested L2 node.
+445.14846802 -9824 -123 17
+distance to main uni: 24533582.41352138
+yaw to main uni: 11680.00000000
+Tested L2 node.
+445.14846802 -9824 -122 17
+distance to main uni: 24533582.41352138
+yaw to main uni: 11680.00000000
+Tested L2 node.
+tested all inputs for fYaw -9824
+updating fYaw to 13200
+tested all inputs for fYaw 13200
+updating fYaw to -9840
+tested all inputs for fYaw -9840
+updating fYaw to 13216
+tested all inputs for fYaw 13216
+updating fYaw to -9856
+wtf 75531353 -9856 -9360
+wtf 75531353 -9856 -9360
+410.00000000 -9856 -104 124
+distance to main uni: 21715689.09783864
+yaw to main uni: 6704.00000000
+Tested L2 node.
+410.00000000 -9856 -103 123
+distance to main uni: 21715689.09783864
+yaw to main uni: 6704.00000000
+Tested L2 node.
+410.00000000 -9856 -102 122
+distance to main uni: 21715584.05831489
+yaw to main uni: 6704.00000000
+Tested L2 node.
+410.00000000 -9856 -93 111
+distance to main uni: 21715584.05831489
+yaw to main uni: 6704.00000000
+Tested L2 node.
+410.00000000 -9856 -80 95
+distance to main uni: 21715689.09783864
+yaw to main uni: 6704.00000000
+Tested L2 node.
+wtf 75531353 -9856 -9857
+tested all inputs for fYaw -9856
+updating fYaw to 13232
+tested all inputs for fYaw 13232
+updating fYaw to -9872
+wtf 75531353 -9872 -9764
+tested all inputs for fYaw -9872
+updating fYaw to 13248
+tested all inputs for fYaw 13248
+updating fYaw to -9888
+tested all inputs for fYaw -9888
+updating fYaw to 13264
+tested all inputs for fYaw 13264
+updating fYaw to -9904
+410.00000000 -9904 -35 -46
+distance to main uni: 22476339.14623652
+yaw to main uni: 6672.00000000
+Tested L2 node.
+410.00000000 -9904 -8 58
+distance to main uni: 21978130.75527880
+yaw to main uni: 6768.00000000
+Tested L2 node.
+wtf 75531353 -9904 -10026
+tested all inputs for fYaw -9904
+updating fYaw to 13280
+tested all inputs for fYaw 13280
+updating fYaw to -9920
+tested all inputs for fYaw -9920
+updating fYaw to 13296
+tested all inputs for fYaw 13296
+updating fYaw to -9936
+wtf 75531353 -9936 -9435
+wtf 75531353 -9936 -10213
+tested all inputs for fYaw -9936
+updating fYaw to 13312
+tested all inputs for fYaw 13312
+updating fYaw to -9952
+wtf 75531353 -9952 -9620
+tested all inputs for fYaw -9952
+updating fYaw to 13328
+tested all inputs for fYaw 13328
+updating fYaw to -9968
+410.00000000 -9968 -41 -38
+distance to main uni: 22476094.66171232
+yaw to main uni: 6672.00000000
+Tested L2 node.
+410.00000000 -9968 -30 47
+distance to main uni: 22082369.59986869
+yaw to main uni: 6736.00000000
+Tested L2 node.
+tested all inputs for fYaw -9968
+updating fYaw to 13344
+tested all inputs for fYaw 13344
+updating fYaw to -9984
+410.00000000 -9984 -36 -12
+distance to main uni: 23260031.52017796
+yaw to main uni: 9328.00000000
+Tested L2 node.
+wtf 75531353 -9984 -10376
+tested all inputs for fYaw -9984
+updating fYaw to 13360
+tested all inputs for fYaw 13360
+updating fYaw to -10000
+410.00000000 -10000 -38 -8
+distance to main uni: 22370968.35179792
+yaw to main uni: 6704.00000000
+Tested L2 node.
+tested all inputs for fYaw -10000
+updating fYaw to 13376
+tested all inputs for fYaw 13376
+updating fYaw to -10016
+tested all inputs for fYaw -10016
+updating fYaw to 13392
+tested all inputs for fYaw 13392
+updating fYaw to -10032
+tested all inputs for fYaw -10032
+updating fYaw to 13408
+tested all inputs for fYaw 13408
+updating fYaw to -10048
+tested all inputs for fYaw -10048
+updating fYaw to 13424
+tested all inputs for fYaw 13424
+updating fYaw to -10064
+tested all inputs for fYaw -10064
+updating fYaw to 13440
+tested all inputs for fYaw 13440
+updating fYaw to -10080
+410.00000000 -10080 26 -62
+distance to main uni: 23025864.12104527
+yaw to main uni: 6704.00000000
+Tested L2 node.
+tested all inputs for fYaw -10080
+updating fYaw to 13456
+tested all inputs for fYaw 13456
+updating fYaw to -10096
+410.00000000 -10096 26 -61
+distance to main uni: 24213201.50505612
+yaw to main uni: 9216.00000000
+Tested L2 node.
+tested all inputs for fYaw -10096
+updating fYaw to 13472
+tested all inputs for fYaw 13472
+updating fYaw to -10112
+322.95245361 -10112 -68 -17
+distance to main uni: 28465147.80554669
+yaw to main uni: 13328.00000000
+Tested L2 node.
+410.00000000 -10112 -52 -16
+distance to main uni: 22475971.45145455
+yaw to main uni: 6672.00000000
+Tested L2 node.
+410.00000000 -10112 -41 25
+distance to main uni: 22370916.68991023
+yaw to main uni: 6704.00000000
+Tested L2 node.
+tested all inputs for fYaw -10112
+updating fYaw to 13488
+tested all inputs for fYaw 13488
+updating fYaw to -10128
+410.00000000 -10128 -128 -23
+distance to main uni: 22397413.06199993
+yaw to main uni: 6624.00000000
+Tested L2 node.
+410.00000000 -10128 -127 -23
+distance to main uni: 22397413.06199993
+yaw to main uni: 6624.00000000
+Tested L2 node.
+410.00000000 -10128 -126 -23
+distance to main uni: 22397821.01902281
+yaw to main uni: 6624.00000000
+Tested L2 node.
+410.00000000 -10128 -125 -23
+distance to main uni: 22398228.38297681
+yaw to main uni: 6624.00000000
+Tested L2 node.
+wtf 75531353 -10128 -10506
+tested all inputs for fYaw -10128
+updating fYaw to 13504
+tested all inputs for fYaw 13504
+updating fYaw to -10144
+410.00000000 -10144 -21 -62
+distance to main uni: 22948400.89206723
+yaw to main uni: 6656.00000000
+Tested L2 node.
+tested all inputs for fYaw -10144
+updating fYaw to 13520
+tested all inputs for fYaw 13520
+updating fYaw to -10160
+tested all inputs for fYaw -10160
+updating fYaw to 13536
+tested all inputs for fYaw 13536
+updating fYaw to -10176
+wtf 75531353 -10176 -9924
+tested all inputs for fYaw -10176
+updating fYaw to 13552
+tested all inputs for fYaw 13552
+updating fYaw to -10192
+tested all inputs for fYaw -10192
+updating fYaw to 13568
+tested all inputs for fYaw 13568
+updating fYaw to -10208
+410.00000000 -10208 -26 -57
+distance to main uni: 22947946.98193468
+yaw to main uni: 6656.00000000
+Tested L2 node.
+wtf 75531353 -10208 -10405
+wtf 75531353 -10208 -10405
+tested all inputs for fYaw -10208
+updating fYaw to 13584
+tested all inputs for fYaw 13584
+updating fYaw to -10224
+tested all inputs for fYaw -10224
+updating fYaw to 13600
+tested all inputs for fYaw 13600
+updating fYaw to -10240
+tested all inputs for fYaw -10240
+updating fYaw to 13616
+tested all inputs for fYaw 13616
+updating fYaw to -10256
+tested all inputs for fYaw -10256
+updating fYaw to 13632
+tested all inputs for fYaw 13632
+updating fYaw to -10272
+410.00000000 -10272 -128 -107
+distance to main uni: 22869560.85575243
+yaw to main uni: 6608.00000000
+Tested L2 node.
+410.00000000 -10272 -126 -106
+distance to main uni: 22870423.14848573
+yaw to main uni: 6608.00000000
+Tested L2 node.
+410.00000000 -10272 -125 -105
+distance to main uni: 22870423.14848573
+yaw to main uni: 6608.00000000
+Tested L2 node.
+410.00000000 -10272 -124 -104
+distance to main uni: 22869992.59493111
+yaw to main uni: 6608.00000000
+Tested L2 node.
+410.00000000 -10272 -123 -103
+distance to main uni: 22869992.59493111
+yaw to main uni: 6608.00000000
+Tested L2 node.
+410.00000000 -10272 -122 -102
+distance to main uni: 22869560.85575243
+yaw to main uni: 6608.00000000
+Tested L2 node.
+410.00000000 -10272 -95 -80
+distance to main uni: 22869992.59493111
+yaw to main uni: 6608.00000000
+Tested L2 node.
+tested all inputs for fYaw -10272
+updating fYaw to 13648
+tested all inputs for fYaw 13648
+updating fYaw to -10288
+410.00000000 -10288 21 -68
+distance to main uni: 23315070.70815624
+yaw to main uni: 6688.00000000
+Tested L2 node.
+tested all inputs for fYaw -10288
+updating fYaw to 13664
+tested all inputs for fYaw 13664
+updating fYaw to -10304
+wtf 75531353 -10304 -9951
+tested all inputs for fYaw -10304
+updating fYaw to 13680
+tested all inputs for fYaw 13680
+updating fYaw to -10320
+tested all inputs for fYaw -10320
+updating fYaw to 13696
+tested all inputs for fYaw 13696
+updating fYaw to -10336
+tested all inputs for fYaw -10336
+updating fYaw to 13712
+tested all inputs for fYaw 13712
+updating fYaw to -10352
+tested all inputs for fYaw -10352
+updating fYaw to 13728
+tested all inputs for fYaw 13728
+updating fYaw to -10368
+410.00000000 -10368 -58 31
+distance to main uni: 22476662.07660143
+yaw to main uni: 6672.00000000
+Tested L2 node.
+410.00000000 -10368 -40 -40
+distance to main uni: 22947453.01965839
+yaw to main uni: 6656.00000000
+Tested L2 node.
+wtf 75531353 -10368 -10376
+wtf 75531353 -10368 -9924
+wtf 75531353 -10368 -9924
+tested all inputs for fYaw -10368
+updating fYaw to 13744
+tested all inputs for fYaw 13744
+updating fYaw to -10384
+tested all inputs for fYaw -10384
+updating fYaw to 13760
+tested all inputs for fYaw 13760
+updating fYaw to -10400
+tested all inputs for fYaw -10400
+updating fYaw to 13776
+tested all inputs for fYaw 13776
+updating fYaw to -10416
+410.00000000 -10416 -44 55
+distance to main uni: 22371408.40960061
+yaw to main uni: 6704.00000000
+Tested L2 node.
+wtf 75531353 -10416 -10277
+410.00000000 -10416 48 -22
+distance to main uni: 23105077.80518378
+yaw to main uni: 6752.00000000
+Tested L2 node.
+tested all inputs for fYaw -10416
+updating fYaw to 13792
+tested all inputs for fYaw 13792
+updating fYaw to -10432
+tested all inputs for fYaw -10432
+updating fYaw to 13808
+tested all inputs for fYaw 13808
+updating fYaw to -10448
+410.00000000 -10448 -96 127
+distance to main uni: 22371599.15328531
+yaw to main uni: 6704.00000000
+Tested L2 node.
+410.00000000 -10448 -94 124
+distance to main uni: 22371685.79882616
+yaw to main uni: 6704.00000000
+Tested L2 node.
+410.00000000 -10448 -93 123
+distance to main uni: 22371599.15328531
+yaw to main uni: 6704.00000000
+Tested L2 node.
+410.00000000 -10448 -88 116
+distance to main uni: 22371685.79882616
+yaw to main uni: 6704.00000000
+Tested L2 node.
+410.00000000 -10448 -81 107
+distance to main uni: 22371599.15328531
+yaw to main uni: 6704.00000000
+Tested L2 node.
+410.00000000 -10448 -8 -34
+distance to main uni: 23026075.96117463
+yaw to main uni: 6704.00000000
+Tested L2 node.
+tested all inputs for fYaw -10448
+updating fYaw to 13824
+tested all inputs for fYaw 13824
+updating fYaw to -10464
+wtf 75531353 -10464 -10116
+410.00000000 -10464 30 -42
+distance to main uni: 23209412.19140838
+yaw to main uni: 6720.00000000
+Tested L2 node.
+wtf 75531353 -10464 -10668
+tested all inputs for fYaw -10464
+updating fYaw to 13840
+tested all inputs for fYaw 13840
+updating fYaw to -10480
+tested all inputs for fYaw -10480
+updating fYaw to 13856
+tested all inputs for fYaw 13856
+updating fYaw to -10496
+410.00000000 -10496 -50 -21
+distance to main uni: 22947739.07813465
+yaw to main uni: 6656.00000000
+Tested L2 node.
+410.00000000 -10496 -15 -26
+distance to main uni: 23026249.39265846
+yaw to main uni: 6704.00000000
+Tested L2 node.
+tested all inputs for fYaw -10496
+updating fYaw to 13872
+tested all inputs for fYaw 13872
+updating fYaw to -10512
+tested all inputs for fYaw -10512
+updating fYaw to 13888
+tested all inputs for fYaw 13888
+updating fYaw to -10528
+410.00000000 -10528 19 36
+distance to main uni: 22921261.34748184
+yaw to main uni: 6736.00000000
+Tested L2 node.
+tested all inputs for fYaw -10528
+updating fYaw to 13904
+tested all inputs for fYaw 13904
+updating fYaw to -10544
+410.00000000 -10544 -128 -23
+distance to main uni: 22869927.73056679
+yaw to main uni: 6608.00000000
+Tested L2 node.
+410.00000000 -10544 -127 -23
+distance to main uni: 22869927.73056679
+yaw to main uni: 6608.00000000
+Tested L2 node.
+410.00000000 -10544 28 -34
+distance to main uni: 23209360.76249314
+yaw to main uni: 6720.00000000
+Tested L2 node.
+tested all inputs for fYaw -10544
+updating fYaw to 13920
+tested all inputs for fYaw 13920
+updating fYaw to -10560
+tested all inputs for fYaw -10560
+updating fYaw to 13936
+tested all inputs for fYaw 13936
+updating fYaw to -10576
+tested all inputs for fYaw -10576
+updating fYaw to 13952
+tested all inputs for fYaw 13952
+updating fYaw to -10592
+315.20101929 -10592 -101 -128
+distance to main uni: 24595888.17568684
+yaw to main uni: 9024.00000000
+Tested L2 node.
+315.20101929 -10592 -98 -124
+distance to main uni: 24595888.17568684
+yaw to main uni: 9024.00000000
+Tested L2 node.
+410.00000000 -10592 -27 17
+distance to main uni: 23025971.27485058
+yaw to main uni: 6704.00000000
+Tested L2 node.
+410.00000000 -10592 55 -44
+distance to main uni: 25043978.96644996
+yaw to main uni: 9184.00000000
+Tested L2 node.
+tested all inputs for fYaw -10592
+updating fYaw to 13968
+tested all inputs for fYaw 13968
+updating fYaw to -10608
+410.00000000 -10608 -110 -126
+distance to main uni: 23341736.18225999
+yaw to main uni: 6608.00000000
+Tested L2 node.
+410.00000000 -10608 -109 -125
+distance to main uni: 23341736.18225999
+yaw to main uni: 6608.00000000
+Tested L2 node.
+410.00000000 -10608 -108 -124
+distance to main uni: 23342150.91899153
+yaw to main uni: 6608.00000000
+Tested L2 node.
+410.00000000 -10608 -107 -123
+distance to main uni: 23342150.91899153
+yaw to main uni: 6608.00000000
+Tested L2 node.
+410.00000000 -10608 -106 -122
+distance to main uni: 23342150.91899153
+yaw to main uni: 6608.00000000
+Tested L2 node.
+410.00000000 -10608 -104 -119
+distance to main uni: 23341736.18225999
+yaw to main uni: 6608.00000000
+Tested L2 node.
+381.73782349 -10608 -25 21
+distance to main uni: 26642078.82292490
+yaw to main uni: 11392.00000000
+Tested L2 node.
+410.00000000 -10608 42 -59
+distance to main uni: 23681631.66094347
+yaw to main uni: 6704.00000000
+Tested L2 node.
+410.00000000 -10608 43 -36
+distance to main uni: 23394440.42017889
+yaw to main uni: 6736.00000000
+Tested L2 node.
+410.00000000 -10608 44 -62
+distance to main uni: 23681631.66094347
+yaw to main uni: 6704.00000000
+Tested L2 node.
+410.00000000 -10608 46 -65
+distance to main uni: 23681631.66094347
+yaw to main uni: 6704.00000000
+Tested L2 node.
+410.00000000 -10608 50 -71
+distance to main uni: 23681670.51895717
+yaw to main uni: 6704.00000000
+Tested L2 node.
+410.00000000 -10608 51 -72
+distance to main uni: 23681590.21053730
+yaw to main uni: 6704.00000000
+Tested L2 node.
+410.00000000 -10608 54 -77
+distance to main uni: 23681670.51895717
+yaw to main uni: 6704.00000000
+Tested L2 node.
+410.00000000 -10608 55 -78
+distance to main uni: 23681590.21053730
+yaw to main uni: 6704.00000000
+Tested L2 node.
+410.00000000 -10608 60 -86
+distance to main uni: 23681710.98291861
+yaw to main uni: 6704.00000000
+Tested L2 node.
+410.00000000 -10608 66 -95
+distance to main uni: 23681710.98291861
+yaw to main uni: 6704.00000000
+Tested L2 node.
+tested all inputs for fYaw -10608
+updating fYaw to 13984
+tested all inputs for fYaw 13984
+updating fYaw to -10624
+410.00000000 -10624 -49 -53
+distance to main uni: 23342436.00722573
+yaw to main uni: 6608.00000000
+Tested L2 node.
+wtf 75531353 -10624 -10405
+wtf 75531353 -10624 -10405
+wtf 75531353 -10624 -10405
+tested all inputs for fYaw -10624
+updating fYaw to 14000
+tested all inputs for fYaw 14000
+updating fYaw to -10640
+tested all inputs for fYaw -10640
+updating fYaw to 14016
+tested all inputs for fYaw 14016
+updating fYaw to -10656
+tested all inputs for fYaw -10656
+updating fYaw to 14032
+tested all inputs for fYaw 14032
+updating fYaw to -10672
+tested all inputs for fYaw -10672
+updating fYaw to 14048
+tested all inputs for fYaw 14048
+updating fYaw to -10688
+tested all inputs for fYaw -10688
+updating fYaw to 14064
+tested all inputs for fYaw 14064
+updating fYaw to -10704
+wtf 75531353 -10704 -11125
+410.00000000 -10704 52 15
+distance to main uni: 23288439.49116104
+yaw to main uni: 6768.00000000
+Tested L2 node.
+tested all inputs for fYaw -10704
+updating fYaw to 14080
+tested all inputs for fYaw 14080
+updating fYaw to -10720
+410.00000000 -10720 42 -22
+distance to main uni: 23393223.46333015
+yaw to main uni: 6736.00000000
+Tested L2 node.
+410.00000000 -10720 54 -33
+distance to main uni: 25043787.32552383
+yaw to main uni: 9184.00000000
+Tested L2 node.
+tested all inputs for fYaw -10720
+updating fYaw to 14096
+tested all inputs for fYaw 14096
+updating fYaw to -10736
+410.00000000 -10736 -29 39
+distance to main uni: 23025884.96192329
+yaw to main uni: 6704.00000000
+Tested L2 node.
+tested all inputs for fYaw -10736
+updating fYaw to 14112
+tested all inputs for fYaw 14112
+updating fYaw to -10752
+tested all inputs for fYaw -10752
+updating fYaw to 14128
+tested all inputs for fYaw 14128
+updating fYaw to -10768
+wtf 75531353 -10768 -10441
+tested all inputs for fYaw -10768
+updating fYaw to 14144
+tested all inputs for fYaw 14144
+updating fYaw to -10784
+wtf 75531353 -10784 -10543
+410.00000000 -10784 41 -11
+distance to main uni: 23393497.84029827
+yaw to main uni: 6736.00000000
+Tested L2 node.
+tested all inputs for fYaw -10784
+updating fYaw to 14160
+tested all inputs for fYaw 14160
+updating fYaw to -10800
+410.00000000 -10800 61 10
+distance to main uni: 23472594.13781630
+yaw to main uni: 6784.00000000
+Tested L2 node.
+tested all inputs for fYaw -10800
+updating fYaw to 14176
+tested all inputs for fYaw 14176
+updating fYaw to -10816
+tested all inputs for fYaw -10816
+updating fYaw to 14192
+tested all inputs for fYaw 14192
+updating fYaw to -10832
+tested all inputs for fYaw -10832
+updating fYaw to 14208
+tested all inputs for fYaw 14208
+updating fYaw to -10848
+410.00000000 -10848 -48 27
+distance to main uni: 23130771.78592139
+yaw to main uni: 6672.00000000
+Tested L2 node.
+wtf 75531353 -10848 -10970
+tested all inputs for fYaw -10848
+updating fYaw to 14224
+tested all inputs for fYaw 14224
+updating fYaw to -10864
+wtf 75531353 -10864 -10863
+tested all inputs for fYaw -10864
+updating fYaw to 14240
+tested all inputs for fYaw 14240
+updating fYaw to -10880
+wtf 75531353 -10880 -11078
+tested all inputs for fYaw -10880
+updating fYaw to 14256
+tested all inputs for fYaw 14256
+updating fYaw to -10896
+tested all inputs for fYaw -10896
+updating fYaw to 14272
+tested all inputs for fYaw 14272
+updating fYaw to -10912
+410.00000000 -10912 -125 97
+distance to main uni: 22948686.02712495
+yaw to main uni: 6656.00000000
+Tested L2 node.
+410.00000000 -10912 -116 90
+distance to main uni: 22948686.02712495
+yaw to main uni: 6656.00000000
+Tested L2 node.
+tested all inputs for fYaw -10912
+updating fYaw to 14288
+tested all inputs for fYaw 14288
+updating fYaw to -10928
+wtf 75531353 -10928 -11275
+wtf 75531353 -10928 -11275
+tested all inputs for fYaw -10928
+updating fYaw to 14304
+tested all inputs for fYaw 14304
+updating fYaw to -10944
+wtf 75531353 -10944 -10803
+wtf 75531353 -10944 -10963
+wtf 75531353 -10944 -10602
+wtf 75531353 -10944 -10825
+wtf 75531353 -10944 -10825
+tested all inputs for fYaw -10944
+updating fYaw to 14320
+tested all inputs for fYaw 14320
+updating fYaw to -10960
+410.00000000 -10960 -128 -98
+distance to main uni: 23630551.63859278
+yaw to main uni: 6576.00000000
+Tested L2 node.
+410.00000000 -10960 -127 -97
+distance to main uni: 23630551.63859278
+yaw to main uni: 6576.00000000
+Tested L2 node.
+410.00000000 -10960 -107 -82
+distance to main uni: 23630551.63859278
+yaw to main uni: 6576.00000000
+Tested L2 node.
+410.00000000 -10960 -25 -37
+distance to main uni: 23603207.80512861
+yaw to main uni: 6656.00000000
+Tested L2 node.
+wtf 75531353 -10960 -10963
+410.00000000 -10960 54 31
+distance to main uni: 23472193.23777401
+yaw to main uni: 6784.00000000
+Tested L2 node.
+tested all inputs for fYaw -10960
+updating fYaw to 14336
+tested all inputs for fYaw 14336
+updating fYaw to -10976
+wtf 75531353 -10976 -10661
+410.00000000 -10976 49 13
+distance to main uni: 23577701.58700097
+yaw to main uni: 6736.00000000
+Tested L2 node.
+wtf 75531353 -10976 -10661
+tested all inputs for fYaw -10976
+updating fYaw to 14352
+tested all inputs for fYaw 14352
+updating fYaw to -10992
+410.00000000 -10992 -68 -9
+distance to main uni: 23342056.16709711
+yaw to main uni: 6608.00000000
+Tested L2 node.
+410.00000000 -10992 -59 -41
+distance to main uni: 23630813.70799178
+yaw to main uni: 6576.00000000
+Tested L2 node.
+tested all inputs for fYaw -10992
+updating fYaw to 14368
+tested all inputs for fYaw 14368
+updating fYaw to -11008
+tested all inputs for fYaw -11008
+updating fYaw to 14384
+tested all inputs for fYaw 14384
+updating fYaw to -11024
+410.00000000 -11024 21 44
+distance to main uni: 24766902.94512271
+yaw to main uni: 9200.00000000
+Tested L2 node.
+tested all inputs for fYaw -11024
+updating fYaw to 14400
+tested all inputs for fYaw 14400
+updating fYaw to -11040
+410.00000000 -11040 -69 9
+distance to main uni: 23342186.91820895
+yaw to main uni: 6608.00000000
+Tested L2 node.
+wtf 75531353 -11040 -10909
+tested all inputs for fYaw -11040
+updating fYaw to 14416
+tested all inputs for fYaw 14416
+updating fYaw to -11056
+tested all inputs for fYaw -11056
+updating fYaw to 14432
+tested all inputs for fYaw 14432
+updating fYaw to -11072
+410.00000000 -11072 -128 19
+distance to main uni: 23342366.22913478
+yaw to main uni: 6608.00000000
+Tested L2 node.
+410.00000000 -11072 -127 19
+distance to main uni: 23342366.22913478
+yaw to main uni: 6608.00000000
+Tested L2 node.
+410.00000000 -11072 -126 19
+distance to main uni: 23342000.38251146
+yaw to main uni: 6608.00000000
+Tested L2 node.
+410.00000000 -11072 -125 19
+distance to main uni: 23341635.12992149
+yaw to main uni: 6608.00000000
+Tested L2 node.
+410.00000000 -11072 -124 19
+distance to main uni: 23341635.12992149
+yaw to main uni: 6608.00000000
+Tested L2 node.
+410.00000000 -11072 -46 -49
+distance to main uni: 23814100.28928534
+yaw to main uni: 6592.00000000
+Tested L2 node.
+410.00000000 -11072 -37 -15
+distance to main uni: 23602833.82559349
+yaw to main uni: 6656.00000000
+Tested L2 node.
+wtf 75531353 -11072 -11435
+410.00000000 -11072 17 49
+distance to main uni: 24766868.07925712
+yaw to main uni: 9200.00000000
+Tested L2 node.
+tested all inputs for fYaw -11072
+updating fYaw to 14448
+tested all inputs for fYaw 14448
+updating fYaw to -11088
+410.00000000 -11088 9 -83
+distance to main uni: 24180581.94135923
+yaw to main uni: 6624.00000000
+Tested L2 node.
+410.00000000 -11088 9 -81
+distance to main uni: 24180581.94135923
+yaw to main uni: 6624.00000000
+Tested L2 node.
+410.00000000 -11088 9 -80
+distance to main uni: 24180781.72881789
+yaw to main uni: 6624.00000000
+Tested L2 node.
+410.00000000 -11088 9 -78
+distance to main uni: 24180983.72426203
+yaw to main uni: 6624.00000000
+Tested L2 node.
+410.00000000 -11088 9 -76
+distance to main uni: 24180983.72426203
+yaw to main uni: 6624.00000000
+Tested L2 node.
+380.48171997 -11088 10 -70
+distance to main uni: 28570951.35506668
+yaw to main uni: 10880.00000000
+Tested L2 node.
+tested all inputs for fYaw -11088
+updating fYaw to 14464
+tested all inputs for fYaw 14464
+updating fYaw to -11104
+410.00000000 -11104 8 -69
+distance to main uni: 24180454.79925554
+yaw to main uni: 6624.00000000
+Tested L2 node.
+wtf 75531353 -11104 -11597
+379.72805786 -11104 14 -36
+distance to main uni: 133297888.79499319
+yaw to main uni: 19680.00000000
+Tested L2 node.
+410.00000000 -11104 58 13
+distance to main uni: 23760459.66976338
+yaw to main uni: 6752.00000000
+Tested L2 node.
+tested all inputs for fYaw -11104
+updating fYaw to 14480
+tested all inputs for fYaw 14480
+updating fYaw to -11120
+wtf 75531353 -11120 -10639
+wtf 75531353 -11120 -10639
+tested all inputs for fYaw -11120
+updating fYaw to 14496
+tested all inputs for fYaw 14496
+updating fYaw to -11136
+400.83050537 -11136 12 -32
+distance to main uni: 133297796.36003888
+yaw to main uni: 19680.00000000
+Tested L2 node.
+410.00000000 -11136 39 -63
+distance to main uni: 28795447.78118800
+yaw to main uni: 10928.00000000
+Tested L2 node.
+410.00000000 -11136 43 -70
+distance to main uni: 28795447.78118800
+yaw to main uni: 10928.00000000
+Tested L2 node.
+410.00000000 -11136 47 -77
+distance to main uni: 28795447.78118800
+yaw to main uni: 10928.00000000
+Tested L2 node.
+tested all inputs for fYaw -11136
+updating fYaw to 14512
+tested all inputs for fYaw 14512
+updating fYaw to -11152
+410.00000000 -11152 11 56
+distance to main uni: 23394246.83429967
+yaw to main uni: 6736.00000000
+Tested L2 node.
+wtf 75531353 -11152 -11386
+tested all inputs for fYaw -11152
+updating fYaw to 14528
+tested all inputs for fYaw 14528
+updating fYaw to -11168
+410.00000000 -11168 -8 -28
+distance to main uni: 23786669.78075249
+yaw to main uni: 6672.00000000
+Tested L2 node.
+tested all inputs for fYaw -11168
+updating fYaw to 14544
+tested all inputs for fYaw 14544
+updating fYaw to -11184
+410.00000000 -11184 -10 -25
+distance to main uni: 23787021.25048405
+yaw to main uni: 6672.00000000
+Tested L2 node.
+430.76956177 -11184 8 -25
+distance to main uni: 60496746.09011403
+yaw to main uni: 17360.00000000
+Tested L2 node.
+tested all inputs for fYaw -11184
+updating fYaw to 14560
+tested all inputs for fYaw 14560
+updating fYaw to -11200
+wtf 75531353 -11200 -11548
+wtf 75531353 -11200 -11548
+410.00000000 -11200 -33 -52
+distance to main uni: 23997684.64760990
+yaw to main uni: 6608.00000000
+Tested L2 node.
+wtf 75531353 -11200 -11227
+tested all inputs for fYaw -11200
+updating fYaw to 14576
+tested all inputs for fYaw 14576
+updating fYaw to -11216
+wtf 75531353 -11216 -11227
+408.86953735 -11216 -11 -16
+distance to main uni: 71333932.60850483
+yaw to main uni: 18016.00000000
+Tested L2 node.
+248.50001526 -11216 -11 -15
+distance to main uni: 219556391.90787590
+yaw to main uni: 20400.00000000
+Tested L2 node.
+440.35546875 -11216 -10 -17
+distance to main uni: 50004264.14829373
+yaw to main uni: 16416.00000000
+Tested L2 node.
+tested all inputs for fYaw -11216
+updating fYaw to 14592
+tested all inputs for fYaw 14592
+updating fYaw to -11232
+410.00000000 -11232 -41 -58
+distance to main uni: 24102682.84745041
+yaw to main uni: 6576.00000000
+Tested L2 node.
+wtf 75531353 -11232 -11071
+414.79299927 -11232 -15 -8
+distance to main uni: 60496754.07981712
+yaw to main uni: 17360.00000000
+Tested L2 node.
+410.00000000 -11232 34 -30
+distance to main uni: 23970243.13116060
+yaw to main uni: 6688.00000000
+Tested L2 node.
+tested all inputs for fYaw -11232
+updating fYaw to 14608
+tested all inputs for fYaw 14608
+updating fYaw to -11248
+wtf 75531353 -11248 -11704
+wtf 75531353 -11248 -11704
+410.00000000 -11248 -21 13
+distance to main uni: 23786290.34898103
+yaw to main uni: 6672.00000000
+Tested L2 node.
+410.00000000 -11248 -16 16
+distance to main uni: 121883073.07335050
+yaw to main uni: 19504.00000000
+Tested L2 node.
+tested all inputs for fYaw -11248
+updating fYaw to 14624
+tested all inputs for fYaw 14624
+updating fYaw to -11264
+wtf 75531353 -11264 -11386
+wtf 75531353 -11264 -11386
+410.00000000 -11264 -21 18
+distance to main uni: 23786612.56520474
+yaw to main uni: 6672.00000000
+Tested L2 node.
+wtf 75531353 -11264 -11386
+tested all inputs for fYaw -11264
+updating fYaw to 14640
+tested all inputs for fYaw 14640
+updating fYaw to -11280
+410.00000000 -11280 -21 22
+distance to main uni: 23786566.58894360
+yaw to main uni: 6672.00000000
+Tested L2 node.
+tested all inputs for fYaw -11280
+updating fYaw to 14656
+tested all inputs for fYaw 14656
+updating fYaw to -11296
+wtf 75531353 -11296 -11386
+wtf 75531353 -11296 -11386
+410.00000000 -11296 -17 27
+distance to main uni: 127584683.42907788
+yaw to main uni: 19600.00000000
+Tested L2 node.
+tested all inputs for fYaw -11296
+updating fYaw to 14672
+tested all inputs for fYaw 14672
+updating fYaw to -11312
+410.00000000 -11312 -42 -39
+distance to main uni: 23997021.07089411
+yaw to main uni: 6608.00000000
+Tested L2 node.
+410.00000000 -11312 25 57
+distance to main uni: 23577511.70452955
+yaw to main uni: 6736.00000000
+Tested L2 node.
+tested all inputs for fYaw -11312
+updating fYaw to 14688
+tested all inputs for fYaw 14688
+updating fYaw to -11328
+410.00000000 -11328 -43 -37
+distance to main uni: 23997830.51902726
+yaw to main uni: 6608.00000000
+Tested L2 node.
+410.00000000 -11328 25 58
+distance to main uni: 27701192.18484540
+yaw to main uni: 11264.00000000
+Tested L2 node.
+tested all inputs for fYaw -11328
+updating fYaw to 14704
+tested all inputs for fYaw 14704
+updating fYaw to -11344
+410.00000000 -11344 -61 -14
+distance to main uni: 25273392.76582456
+yaw to main uni: 8944.00000000
+Tested L2 node.
+wtf 75531353 -11344 -11646
+370.68417358 -11344 70 -16
+distance to main uni: 125232474.19250993
+yaw to main uni: 19168.00000000
+Tested L2 node.
+370.68417358 -11344 76 -17
+distance to main uni: 125232474.19250993
+yaw to main uni: 19168.00000000
+Tested L2 node.
+tested all inputs for fYaw -11344
+updating fYaw to 14720
+tested all inputs for fYaw 14720
+updating fYaw to -11360
+wtf 75531353 -11360 -10909
+410.00000000 -11360 44 46
+distance to main uni: 23761123.18154083
+yaw to main uni: 6752.00000000
+Tested L2 node.
+tested all inputs for fYaw -11360
+updating fYaw to 14736
+tested all inputs for fYaw 14736
+updating fYaw to -11376
+410.00000000 -11376 -22 37
+distance to main uni: 23786404.05930213
+yaw to main uni: 6672.00000000
+Tested L2 node.
+248.50001526 -11376 -19 38
+distance to main uni: 236881099.16255310
+yaw to main uni: 20496.00000000
+Tested L2 node.
+tested all inputs for fYaw -11376
+updating fYaw to 14752
+tested all inputs for fYaw 14752
+updating fYaw to -11392
+wtf 75531353 -11392 -11904
+wtf 75531353 -11392 -11904
+wtf 75531353 -11392 -11443
+tested all inputs for fYaw -11392
+updating fYaw to 14768
+tested all inputs for fYaw 14768
+updating fYaw to -11408
+410.00000000 -11408 28 21
+distance to main uni: 23970494.01423967
+yaw to main uni: 6688.00000000
+Tested L2 node.
+wtf 75531353 -11408 -11646
+tested all inputs for fYaw -11408
+updating fYaw to 14784
+tested all inputs for fYaw 14784
+updating fYaw to -11424
+410.00000000 -11424 -23 42
+distance to main uni: 23787144.25897266
+yaw to main uni: 6672.00000000
+Tested L2 node.
+410.00000000 -11424 26 25
+distance to main uni: 23970196.87118168
+yaw to main uni: 6688.00000000
+Tested L2 node.
+410.00000000 -11424 49 -45
+distance to main uni: 24441646.83915528
+yaw to main uni: 6672.00000000
+Tested L2 node.
+tested all inputs for fYaw -11424
+updating fYaw to 14800
+tested all inputs for fYaw 14800
+updating fYaw to -11440
+410.00000000 -11440 -40 51
+distance to main uni: 23602794.15579393
+yaw to main uni: 6656.00000000
+Tested L2 node.
+tested all inputs for fYaw -11440
+updating fYaw to 14816
+tested all inputs for fYaw 14816
+updating fYaw to -11456
+wtf 75531353 -11456 -11491
+tested all inputs for fYaw -11456
+updating fYaw to 14832
+tested all inputs for fYaw 14832
+updating fYaw to -11472
+wtf 75531353 -11472 -11597
+410.00000000 -11472 20 34
+distance to main uni: 23970603.95917391
+yaw to main uni: 6688.00000000
+Tested L2 node.
+tested all inputs for fYaw -11472
+updating fYaw to 14848
+tested all inputs for fYaw 14848
+updating fYaw to -11488
+400.07684326 -11488 -28 -37
+distance to main uni: 28571002.33846236
+yaw to main uni: 10880.00000000
+Tested L2 node.
+tested all inputs for fYaw -11488
+updating fYaw to 14864
+tested all inputs for fYaw 14864
+updating fYaw to -11504
+wtf 75531353 -11504 -11972
+wtf 75531353 -11504 -11386
+tested all inputs for fYaw -11504
+updating fYaw to 14880
+tested all inputs for fYaw 14880
+updating fYaw to -11520
+410.00000000 -11520 13 -48
+distance to main uni: 24363866.24323734
+yaw to main uni: 6624.00000000
+Tested L2 node.
+tested all inputs for fYaw -11520
+updating fYaw to 14896
+tested all inputs for fYaw 14896
+updating fYaw to -11536
+410.00000000 -11536 -54 8
+distance to main uni: 23997843.36105851
+yaw to main uni: 6608.00000000
+Tested L2 node.
+wtf 75531353 -11536 -11283
+tested all inputs for fYaw -11536
+updating fYaw to 14912
+tested all inputs for fYaw 14912
+updating fYaw to -11552
+410.00000000 -11552 49 -33
+distance to main uni: 24442725.40987042
+yaw to main uni: 6672.00000000
+Tested L2 node.
+427.57424927 -11552 65 19
+distance to main uni: 79248320.55018820
+yaw to main uni: 17984.00000000
+Tested L2 node.
+tested all inputs for fYaw -11552
+updating fYaw to 14928
+tested all inputs for fYaw 14928
+updating fYaw to -11568
+wtf 75531353 -11568 -11180
+wtf 75531353 -11568 -11646
+wtf 75531353 -11568 -11180
+410.00000000 -11568 49 -31
+distance to main uni: 24441731.81683933
+yaw to main uni: 6672.00000000
+Tested L2 node.
+tested all inputs for fYaw -11568
+updating fYaw to 14944
+tested all inputs for fYaw 14944
+updating fYaw to -11584
+tested all inputs for fYaw -11584
+updating fYaw to 14960
+tested all inputs for fYaw 14960
+updating fYaw to -11600
+wtf 75531353 -11600 -11227
+410.00000000 -11600 69 -19
+distance to main uni: 24520658.39209225
+yaw to main uni: 6720.00000000
+Tested L2 node.
+410.00000000 -11600 79 -21
+distance to main uni: 24520658.39209225
+yaw to main uni: 6720.00000000
+Tested L2 node.
+410.00000000 -11600 94 -24
+distance to main uni: 24520300.16484123
+yaw to main uni: 6720.00000000
+Tested L2 node.
+tested all inputs for fYaw -11600
+updating fYaw to 14976
+tested all inputs for fYaw 14976
+updating fYaw to -11616
+tested all inputs for fYaw -11616
+updating fYaw to 14992
+tested all inputs for fYaw 14992
+updating fYaw to -11632
+410.00000000 -11632 49 -23
+distance to main uni: 24441952.63197063
+yaw to main uni: 6672.00000000
+Tested L2 node.
+tested all inputs for fYaw -11632
+updating fYaw to 15008
+tested all inputs for fYaw 15008
+updating fYaw to -11648
+410.00000000 -11648 31 13
+distance to main uni: 24258171.25820172
+yaw to main uni: 6656.00000000
+Tested L2 node.
+tested all inputs for fYaw -11648
+updating fYaw to 15024
+tested all inputs for fYaw 15024
+updating fYaw to -11664
+wtf 75531353 -11664 -11548
+tested all inputs for fYaw -11664
+updating fYaw to 15040
+tested all inputs for fYaw 15040
+updating fYaw to -11680
+410.00000000 -11680 59 34
+distance to main uni: 24232114.09420517
+yaw to main uni: 6736.00000000
+Tested L2 node.
+427.57424927 -11680 60 34
+distance to main uni: 68047412.41220175
+yaw to main uni: 17440.00000000
+Tested L2 node.
+tested all inputs for fYaw -11680
+updating fYaw to 15056
+tested all inputs for fYaw 15056
+updating fYaw to -11696
+wtf 75531353 -11696 -11654
+tested all inputs for fYaw -11696
+updating fYaw to 15072
+tested all inputs for fYaw 15072
+updating fYaw to -11712
+wtf 75531353 -11712 -11704
+410.00000000 -11712 -14 -24
+distance to main uni: 24363425.28709746
+yaw to main uni: 6624.00000000
+Tested L2 node.
+410.00000000 -11712 39 -57
+distance to main uni: 26789549.59755449
+yaw to main uni: 8848.00000000
+Tested L2 node.
+tested all inputs for fYaw -11712
+updating fYaw to 15088
+tested all inputs for fYaw 15088
+updating fYaw to -11728
+410.00000000 -11728 -27 66
+distance to main uni: 23786436.98295598
+yaw to main uni: 6672.00000000
+Tested L2 node.
+410.00000000 -11728 48 -8
+distance to main uni: 24441669.44824522
+yaw to main uni: 6672.00000000
+Tested L2 node.
+tested all inputs for fYaw -11728
+updating fYaw to 15104
+tested all inputs for fYaw 15104
+updating fYaw to -11744
+wtf 75531353 -11744 -11754
+tested all inputs for fYaw -11744
+updating fYaw to 15120
+tested all inputs for fYaw 15120
+updating fYaw to -11760
+410.00000000 -11760 -22 -7
+distance to main uni: 24364160.89230319
+yaw to main uni: 6624.00000000
+Tested L2 node.
+410.00000000 -11760 27 -68
+distance to main uni: 24941792.04903689
+yaw to main uni: 6592.00000000
+Tested L2 node.
+410.00000000 -11760 28 -70
+distance to main uni: 24942006.46618672
+yaw to main uni: 6592.00000000
+Tested L2 node.
+410.00000000 -11760 29 -74
+distance to main uni: 24941792.04903689
+yaw to main uni: 6592.00000000
+Tested L2 node.
+410.00000000 -11760 30 -76
+distance to main uni: 24942006.46618672
+yaw to main uni: 6592.00000000
+Tested L2 node.
+410.00000000 -11760 32 -82
+distance to main uni: 24941935.13176826
+yaw to main uni: 6592.00000000
+Tested L2 node.
+410.00000000 -11760 35 -91
+distance to main uni: 24941864.98517399
+yaw to main uni: 6592.00000000
+Tested L2 node.
+410.00000000 -11760 38 -54
+distance to main uni: 24835882.22754247
+yaw to main uni: 6624.00000000
+Tested L2 node.
+410.00000000 -11760 39 -103
+distance to main uni: 24941864.98517399
+yaw to main uni: 6592.00000000
+Tested L2 node.
+407.86465454 -11760 56 43
+distance to main uni: 68044562.49548857
+yaw to main uni: 17440.00000000
+Tested L2 node.
+tested all inputs for fYaw -11760
+updating fYaw to 15136
+tested all inputs for fYaw 15136
+updating fYaw to -11776
+358.87683105 -11776 -41 30
+distance to main uni: 32126245.25986211
+yaw to main uni: 12448.00000000
+Tested L2 node.
+410.00000000 -11776 66 13
+distance to main uni: 24520588.89154584
+yaw to main uni: 6720.00000000
+Tested L2 node.
+tested all inputs for fYaw -11776
+updating fYaw to 15152
+tested all inputs for fYaw 15152
+updating fYaw to -11792
+wtf 75531353 -11792 -11921
+wtf 75531353 -11792 -11921
+wtf 75531353 -11792 -11804
+tested all inputs for fYaw -11792
+updating fYaw to 15168
+tested all inputs for fYaw 15168
+updating fYaw to -11808
+410.00000000 -11808 -54 43
+distance to main uni: 23997913.54255765
+yaw to main uni: 6608.00000000
+Tested L2 node.
+410.00000000 -11808 -43 -53
+distance to main uni: 24680800.95044099
+yaw to main uni: 6528.00000000
+Tested L2 node.
+410.00000000 -11808 -42 34
+distance to main uni: 24181365.33287680
+yaw to main uni: 6624.00000000
+Tested L2 node.
+410.00000000 -11808 -22 22
+distance to main uni: 24364255.74691950
+yaw to main uni: 6624.00000000
+Tested L2 node.
+wtf 75531353 -11808 -12023
+tested all inputs for fYaw -11808
+updating fYaw to 15184
+tested all inputs for fYaw 15184
+updating fYaw to -11824
+410.00000000 -11824 -42 36
+distance to main uni: 24180791.28071883
+yaw to main uni: 6624.00000000
+Tested L2 node.
+wtf 75531353 -11824 -12023
+399.82562256 -11824 57 54
+distance to main uni: 131049535.10534106
+yaw to main uni: 19248.00000000
+Tested L2 node.
+399.82562256 -11824 58 55
+distance to main uni: 131049535.10534106
+yaw to main uni: 19248.00000000
+Tested L2 node.
