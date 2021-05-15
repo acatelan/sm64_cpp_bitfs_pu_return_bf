@@ -12,7 +12,6 @@
 #include "Trig.h"
 #include "Magic.h"
 #include "Inputs.h"
-#include <functional>
 
 Slot saveStateTemp = game.alloc_slot();
 Slot saveStateNext = game.alloc_slot();
@@ -135,7 +134,7 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 						*/
 
 						check_freefall_outcome(input_x, input_y, fYaw, true, isLeaf, recurse,
-							[&](bool isLeaf, Slot* saveStateNext) { calc_next_node(true, saveStateNext); });
+							[](bool isLeaf, Slot* saveStateNext) { calc_next_node(true, saveStateNext); });
 					}
 				}
 			}
