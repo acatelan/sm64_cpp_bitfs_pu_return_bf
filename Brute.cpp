@@ -12,26 +12,12 @@
 #include "Trig.h"
 #include "Magic.h"
 #include "Inputs.h"
+#include <functional>
+
+Slot saveStateTemp = game.alloc_slot();
+Slot saveStateNext = game.alloc_slot();
 
 void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startIndex, Slot* saveStateTemp, Slot* saveStateNext) {
-	/*start with hacked position
-	* game.load_state(saveState);
-	* for (int i = 0; i < 30; i++) {
-	*     *marioX(game) = 1434318.625;
-	*	  *marioY(game) = 2972.337646484375;
-	*	  *marioZ(game) = 6946403.0;
-	*	  *marioHSpd(game) = -160000;
-	*	  *marioAction(game) = 0x04000440;
-	*	  set_inputs(game, Inputs(0b0000000000010000, 0, 100));
-	*	  game.advance_frame();
-	* marioX(game) = 1434318.625;
-	* *marioY(game) = 2972.337646484375;
-	* *marioZ(game) = 6946403.0;
-	* *marioHSpd(game) = -36758512.0;
-	* *marioAction(game) = 0x04000440;
-	* game.save_state(saveState);
-	*/
-
 	//favor angles facing the real universe
 	game.load_state(saveState);
 	float fyaw_to_main_uni = atan2(*marioX(game), *marioZ(game)) * 32768 / M_PI;
@@ -55,9 +41,9 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 
 	while (true) {
 		int16_t fYaw = int(fyaw_to_main_uni) + 16 * hau_index * hau_offset_sign;
-		fYaw = ((fYaw + 32768) % 65536) - 32768;
 
-		if (fYaw == int(fyaw_to_main_uni) && hau_index > 0) {
+		/* End when all HAUs have been tested */
+		if (hau_index > 2048) {
 			break;
 		}
 
@@ -65,14 +51,12 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 			printf("updating fYaw to %d\n", fYaw);
 		}
 
-		//check if Mario moves directly into freefall
-		bool is_freefall_angle = false;
+		/* Get initial state variables now so we can revert back to them later */
 		game.load_state(saveState);
 		float hSpd = *marioHSpd(game);
 		float x = *marioX(game);
 		float y = *marioY(game);
 		float z = *marioZ(game);
-
 		float* marioFloorNormalX = (float*)(*marioFloorPtr(game) + 0x1C);
 		float* marioFloorNormalY = (float*)(*marioFloorPtr(game) + 0x20);
 		float* marioFloorNormalZ = (float*)(*marioFloorPtr(game) + 0x24);
@@ -81,60 +65,15 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 		int16_t* marioAreaCameraYaw = (int16_t*)(*marioAreaCameraPtr + 0x2);
 		int16_t camYaw = *marioAreaCameraYaw;
 
+		//check if Mario moves directly into freefall
+		bool is_freefall_angle = false;
 		*marioFYaw(game) = fYaw;
 		set_inputs(game, Inputs(0b0000000000010000, 0, 0));
 		game.advance_frame();
 
 		if (*marioAction(game) == 0x0100088C) { //freefall
-			is_freefall_angle = true;
-
-			while (true) {
-				set_inputs(game, Inputs(0b0000000000010000, 0, 0));
-				game.advance_frame();
-
-				if (abs(*marioX(game)) < 10000.0 && abs(*marioZ(game)) < 10000.0) {
-					printf("MAIN MAP: %.9f %.9f %.9f %d", *marioX(game), *marioY(game), *marioZ(game), fYaw);
-					fprintf(stderr, "found something\n");
-				}
-
-				if (abs(*marioHSpd(game)) < 1000.0) {
-					break;
-				}
-
-				if (*marioAction(game) == 0x04000471) { //freefall land
-					game.advance_frame();
-
-					if (*marioAction(game) == 0x04000471) { //freefall land
-						if (isLeaf == false) {
-							float new_fyaw_to_main_uni = float(atan2(*marioX(game), *marioZ(game)) * 32768.0 / M_PI);
-							new_fyaw_to_main_uni = new_fyaw_to_main_uni - fmodf(new_fyaw_to_main_uni, 16);
-
-							printf("%.9f %d\n", *marioY(game), fYaw);
-							printf("distance to main uni: %.9f\n", sqrt(pow(*marioX(game), 2) + pow(*marioY(game), 2)));
-							printf("yaw to main uni: %.9f\n", new_fyaw_to_main_uni);
-
-							if (recurse == true) {
-								//test if this node will return to main map
-								game.save_state(saveStateTemp);
-
-								//allow camera yaw to stabilize
-								for (int i = 0; i < 10; i++) {
-									set_inputs(game, Inputs(0b0000000000010000, 0, 0));
-									*marioActionTimer(game) = 1;
-									game.advance_frame();
-								}
-
-								*marioAction(game) = 0x04000440;
-								game.save_state(saveStateNext);
-								calc_next_node(true, saveStateNext);
-								game.load_state(saveStateTemp);
-							}
-						}
-					}
-
-					break;
-				}
-			}
+			is_freefall_angle = check_freefall_outcome(0, 0, fYaw, false, isLeaf, recurse,
+				[](bool isLeaf, Slot* saveStateNext) { calc_next_node(isLeaf, saveStateNext); });
 		}
 
 		if (is_freefall_angle == false) {
@@ -147,7 +86,7 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 						continue;
 					}
 
-					//add to mapping on first hau iteration
+					//calculate intended input
 					*marioAreaCameraYaw = camYaw;
 
 					if (input_yawmag_map.count(pair<int8_t, int8_t>(input_x, input_y)) == 0) {
@@ -157,60 +96,36 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 						if (yawmags_tested.count(input_yawmag_map[pair<int8_t, int8_t>(input_x, input_y)]) == 1) {
 							continue;
 						}
+					} else {
+						*marioIntYaw(game) = int(input_yawmag_map[pair<int8_t, int8_t>(input_x, input_y)].first);
+						*marioIntMag(game) = float(input_yawmag_map[pair<int8_t, int8_t>(input_x, input_y)].second);
 					}
 
-					//input inbounds precheck
-					*marioIntYaw(game) = int(input_yawmag_map[pair<int8_t, int8_t>(input_x, input_y)].first);
-					*marioIntMag(game) = float(input_yawmag_map[pair<int8_t, int8_t>(input_x, input_y)].second);
-					*marioFYaw(game) = fYaw;
-					*marioMYaw(game) = fYaw;
-					*marioHSpd(game) = hSpd;
-					*marioXSlidSpd(game) = *marioHSpd(game) * gSineTable[(uint16_t)(*marioFYaw(game)) >> 4];
-					*marioZSlidSpd(game) = *marioHSpd(game) * gCosineTable[(uint16_t)(*marioFYaw(game)) >> 4];
-
-					*marioX(game) = x;
-					*marioY(game) = y;
-					*marioZ(game) = z;
-
-					//mark input as tested
 					yawmags_tested.insert(pair<int16_t, float>(*marioIntYaw(game), *marioIntMag(game)));
 
-					update_sliding(*marioFloorNormalX, *marioFloorNormalZ, *marioFloorType);
-					*marioX(game) = float(*marioX(game) + *marioXSlidSpd(game) * *marioFloorNormalY / 4.0);
-					*marioZ(game) = float(*marioZ(game) + *marioZSlidSpd(game) * *marioFloorNormalY / 4.0);
-
-					if (check_if_inbounds(*marioX(game), *marioZ(game)) == true) {
-						//printf("Step 1 Predicted: %.9f %.9f %d %d\n", *marioX(game), *marioZ(game), *marioFYaw(game), *marioMYaw(game));
-
-						*marioX(game) = float(*marioX(game) + *marioHSpd(game) * gSineTable[(uint16_t)(*marioFYaw(game)) >> 4] / 4.0);
-						*marioZ(game) = float(*marioZ(game) + *marioHSpd(game) * gCosineTable[(uint16_t)(*marioFYaw(game)) >> 4] / 4.0);
-
-						if (check_if_inbounds(*marioX(game), *marioZ(game)) == false) {
-							continue;
-						}
-						//printf("Step 2 Predicted: %.9f %.9f %d %d\n", *marioX(game), *marioZ(game), *marioFYaw(game), *marioMYaw(game));
-					}
-					else {
+					/* input inbounds precheck */
+					update_mario_state(x, y, z, hSpd, fYaw);				
+					if (input_precheck(marioFloorNormalX, marioFloorNormalY, marioFloorNormalZ, marioFloorType) == false) {
 						continue;
 					}
 
+					/* If the precheck passes, test crouchslide */
 					game.load_state(saveState);
 					*marioFYaw(game) = fYaw;
 					*marioMYaw(game) = fYaw;
-
 					*marioXSlidSpd(game) = *marioHSpd(game) * gSineTable[(uint16_t)(*marioFYaw(game)) >> 4];
 					*marioZSlidSpd(game) = *marioHSpd(game) * gCosineTable[(uint16_t)(*marioFYaw(game)) >> 4];
 
-					set_inputs(game, Inputs(0b0010000000010000, input_x, input_y));
+					set_inputs(game, Inputs(0b0010000000010000, input_x, input_y)); /* Z and R buttons with joystick input */
 					game.advance_frame();
 
 					//printf("%d %d\n", *marioFYaw(game) + 32768, *marioMYaw(game));
 					//printf("Step 1 Actual: %.9f %.9f %d %d\n", *marioX(game), *marioZ(game), *marioFYaw(game), *marioMYaw(game));
 
+					/* Check if Mario bonks in crouchslide. If so, this input won't work. */
 					if (abs(*marioHSpd(game)) < 1000.0) {
 						continue;
-					}
-					else if (*marioAction(game) == 0x0100088C) {
+					} else if (*marioAction(game) == 0x0100088C) {
 						/*
 						* if (input_yawmag_map[pair<int8_t, int8_t>(input_x, input_y)] != pair<int16_t, float>(*marioIntYaw(game), *marioIntMag(game))) {
 						*     printf("(%d, %.9f) (%d, %.9f)\n", input_yawmag_map[pair<int8_t, int8_t>(input_x, input_y)].first, input_yawmag_map[pair<int8_t, int8_t>(input_x, input_y)].second, *marioIntYaw(game), *marioIntMag(game));
@@ -218,57 +133,8 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 						*     printf("%d %d\n", input_x, input_y);
 						* }
 						*/
-						while (true) {
-							set_inputs(game, Inputs(0b0000000000010000, 0, 0));
-							game.advance_frame();
 
-							//printf("Step 2+ Actual: %.9f %.9f %d %d\n", *marioX(game), *marioZ(game), *marioFYaw(game), *marioMYaw(game));
-							if (abs(*marioX(game)) < 10000.0 && abs(*marioZ(game)) < 10000.0) {
-								printf("MAIN MAP: %.9f %.9f %.9f %d %d %d\n", *marioX(game), *marioY(game), *marioZ(game), fYaw, input_x, input_y);
-								fprintf(stderr, "found something\n");
-							}
-
-							if (abs(*marioHSpd(game)) < 1000.0) {
-								break;
-							}
-
-							if (*marioAction(game) == 0x04000471) {
-								game.advance_frame();
-
-								if (*marioAction(game) == 0x04000471) { //freefall land
-									if (isLeaf == false) {
-										float new_fyaw_to_main_uni = float(atan2(*marioX(game), *marioZ(game)) * 32768.0 / M_PI);
-										new_fyaw_to_main_uni = new_fyaw_to_main_uni - fmodf(new_fyaw_to_main_uni, 16);
-
-										printf("%.9f %d %d %d\n", *marioY(game), fYaw, input_x, input_y);
-										printf("distance to main uni: %.9f\n", sqrt(pow(*marioX(game), 2) + pow(*marioY(game), 2) + pow(*marioZ(game), 2)));
-										printf("yaw to main uni: %.9f\n", new_fyaw_to_main_uni);
-
-										if (recurse == true) {
-											//test if this node will return to main map
-											game.save_state(saveStateTemp);
-
-											//allow camera yaw to stabilize
-											for (int i = 0; i < 10; i++) {
-												set_inputs(game, Inputs(0b0000000000010000, 0, 0));
-												*marioActionTimer(game) = 1;
-												game.advance_frame();
-											}
-
-											*marioAction(game) = 0x04000440; //walking
-											game.save_state(saveStateNext);
-											calc_next_node(true, saveStateNext);
-											game.load_state(saveStateTemp);
-										}
-									}
-								}
-
-								break;
-							}
-						}
-					}
-					else if (isLeaf == false) {
-						printf("wtf %u %d %d\n", *marioAction(game), fYaw, *marioFYaw(game));
+						check_freefall_outcome(input_x, input_y, fYaw, true, isLeaf, recurse, [&] { calc_next_node(true, saveStateNext); });
 					}
 				}
 			}
@@ -280,8 +146,7 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 
 		if (hau_offset_sign == 1 && hau_index != 0) {
 			hau_offset_sign = -1;
-		}
-		else {
+		} else {
 			hau_offset_sign = 1;
 			hau_index += 1;
 		}
@@ -298,4 +163,127 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 
 	printf("fin\n");
 	return;
+}
+
+bool input_precheck(float* marioFloorNormalX, float* marioFloorNormalY, float* marioFloorNormalZ, int16_t* marioFloorType)
+{
+	update_sliding(*marioFloorNormalX, *marioFloorNormalZ, *marioFloorType);
+	*marioX(game) = float(*marioX(game) + *marioXSlidSpd(game) * *marioFloorNormalY / 4.0);
+	*marioZ(game) = float(*marioZ(game) + *marioZSlidSpd(game) * *marioFloorNormalY / 4.0);
+
+	if (check_if_inbounds(*marioX(game), *marioZ(game)) == true) {
+		//printf("Step 1 Predicted: %.9f %.9f %d %d\n", *marioX(game), *marioZ(game), *marioFYaw(game), *marioMYaw(game));
+
+		*marioX(game) = float(*marioX(game) + *marioHSpd(game) * gSineTable[(uint16_t)(*marioFYaw(game)) >> 4] / 4.0);
+		*marioZ(game) = float(*marioZ(game) + *marioHSpd(game) * gCosineTable[(uint16_t)(*marioFYaw(game)) >> 4] / 4.0);
+
+		if (check_if_inbounds(*marioX(game), *marioZ(game)) == false) {
+			return false;
+		}
+		//printf("Step 2 Predicted: %.9f %.9f %d %d\n", *marioX(game), *marioZ(game), *marioFYaw(game), *marioMYaw(game));
+	}
+	else {
+		return false;
+	}
+
+	return true;
+}
+
+void update_mario_state(float x, float y, float z, float hSpd, int16_t fYaw)
+{
+	*marioFYaw(game) = fYaw;
+	*marioMYaw(game) = fYaw;
+	*marioHSpd(game) = hSpd;
+	*marioXSlidSpd(game) = *marioHSpd(game) * gSineTable[(uint16_t)(*marioFYaw(game)) >> 4];
+	*marioZSlidSpd(game) = *marioHSpd(game) * gCosineTable[(uint16_t)(*marioFYaw(game)) >> 4];
+	*marioX(game) = x;
+	*marioY(game) = y;
+	*marioZ(game) = z;
+}
+
+bool check_if_pos_in_main_universe(float x, float z)
+{
+	return (abs(x) < 10000.0f && abs(z) < 10000.0f);
+}
+
+bool check_freefall_outcome(int16_t input_x, int16_t input_y, int16_t fYaw, bool input_matters, bool isLeaf, bool recurse, std::function<void(bool, Slot*)> execute_recursion)
+{
+	/* If the frame limit is reached, something fluky happened like a pedro spot. Move on in this case */
+	int frame;
+	for (frame = 0; frame < 300; frame++) {
+		set_inputs(game, Inputs(0b0000000000010000, 0, 0)); /* R button only, no joystick input */
+		game.advance_frame();
+
+		/* THIS IS ULTIMATELY WHAT WE ARE LOOKING FOR */
+		if (check_if_pos_in_main_universe(*marioX(game), *marioZ(game))) {
+			if (input_matters) {
+				printf("FRAME ENDED IN MAIN UNIVERSE: %.9f %.9f %.9f %d %d %d", *marioX(game), *marioY(game), *marioZ(game), fYaw, input_x, input_y);
+			} else {
+				printf("FRAME ENDED IN MAIN UNIVERSE: %.9f %.9f %.9f %d", *marioX(game), *marioY(game), *marioZ(game), fYaw);
+			}
+			
+			fprintf(stderr, "found something\n");
+		}
+		/* Continue execution regardless of whether the main universe was entered */
+
+		/* This basically only happens if MAaio hits something and his speed zeroes. No need to keep checking if this happens. */
+		if (abs(*marioHSpd(game)) < 1000.0) {
+			break;
+		}
+
+		/* If Mario lands, this position is a candidate for a next level node, depending on what happens after. */
+		if (*marioAction(game) == 0x04000471) { //freefall land
+			/*  Check to see if landing spot is stable or if Mario continues moving into the air, a slope etc.
+			 *  TO-DO: Try all numbers of dust frames with inputs as these will all yield significantly different speeds.
+			 */
+			for (int i = 0; i < 3; i++) {
+				game.advance_frame();
+				*marioActionTimer(game) = 1; /* don't let Mario leave this action and lose his speed */
+			}
+				
+
+			if (*marioAction(game) == 0x04000471) { /* freefall land */
+				if (isLeaf == false) {
+					float mewFYawToMainUni = float(atan2(*marioX(game), *marioZ(game)) * 32768.0 / M_PI);
+					mewFYawToMainUni = mewFYawToMainUni - fmodf(mewFYawToMainUni, 16);
+
+					if (input_matters) {
+						printf("Found new node: %.9f %d %d %d\n", *marioY(game), fYaw, input_x, input_y);
+					}
+					else {
+						printf("Found new node: %.9f %d\n", *marioY(game), fYaw);
+					}
+					
+					printf("Distance to main universe: %.9f\n", sqrt(pow(*marioX(game), 2) + pow(*marioY(game), 2)));
+					printf("yaw to main uni: %.9f\n", mewFYawToMainUni);
+
+					if (recurse == true) {
+						/* test if this node will return to main map */
+						game.save_state(&saveStateTemp);
+
+						/* allow camera yaw to stabilize, otherwise the solution is unlikely to validate */
+						for (int i = 0; i < 10; i++) {
+							set_inputs(game, Inputs(0b0000000000010000, 0, 0)); /* R button only, no joystick input */
+							*marioActionTimer(game) = 1; /* don't let Mario leave this action and lose his speed */
+							game.advance_frame();
+						}
+
+						*marioAction(game) = 0x04000440; /* walking */
+						game.save_state(&saveStateNext);
+						execute_recursion(isLeaf, &saveStateNext);
+						game.load_state(&saveStateTemp);
+						return true;
+					}
+				}
+			}
+
+			break;
+		}
+	}
+
+	if (frame == 300) {
+		printf("Something weird happened: %.9f %d\n", *marioX(game), *marioY(game), *marioZ(game), *marioHSpd(game), fYaw);
+	}
+
+	return false;
 }
