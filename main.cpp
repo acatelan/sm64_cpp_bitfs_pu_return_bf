@@ -69,11 +69,11 @@ vector<Inputs> load_m64(const char* filename) {
 }
 
 int main(int argc, char* argv[]) {
-	vector<Inputs> m64 = load_m64("BitFS_poc_final_6.m64");
+	vector<Inputs> m64 = load_m64(".\\BitFS_poc_final_6.m64");
 
 	Slot backup = game.alloc_slot();
-	Slot backupTemp = game.alloc_slot();
-	Slot backupL2 = game.alloc_slot();
+	Slot saveStateTemp = game.alloc_slot();
+	Slot saveStateNext = game.alloc_slot();
 
 	//Run through the m64
 	for (int frame = 0; frame < m64.size(); frame++) {
@@ -147,7 +147,7 @@ int main(int argc, char* argv[]) {
 
 	fprintf(stderr, "starting brute force\n");
 
-	calc_next_node(false, &backup, true, 133, &backupTemp, &backupL2);
+	calc_next_node(false, &backup, true, 133, &saveStateTemp, &saveStateNext);
 
 	fprintf(stderr, "finished or crashed\n");
 
