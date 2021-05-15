@@ -78,7 +78,7 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 				[](bool isLeaf, Slot* s) { calc_next_node(isLeaf, s); });
 		}
 
-		if (is_freefall_angle == false && (isLeaf == false || distance_precheck(x, y, z, hSpd, marioFloorNormalY, marioFloorType) == true)) {
+		if (is_freefall_angle == false) {
 			set<pair<int16_t, float>> yawmags_tested;
 
 			for (int16_t input_x = -128; input_x < 128; input_x++) {
