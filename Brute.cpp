@@ -43,16 +43,20 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 			printf("updating fYaw to %d\n", fYaw);
 		}
 
-		/* Get initial state variables now so we can revert back to them later */
+		/* Get initial state variables now so we always have access to them. This reduces how often we need to load state */
 		game.load_state(saveState);
 		float hSpd = *marioHSpd(game);
 		float x = *marioX(game);
 		float y = *marioY(game);
 		float z = *marioZ(game);
 		float* marioFloorNormalX = (float*)(*marioFloorPtr(game) + 0x1C);
+		float floorNormalX = *marioFloorNormalX;
 		float* marioFloorNormalY = (float*)(*marioFloorPtr(game) + 0x20);
+		float floorNormalY = *marioFloorNormalY;
 		float* marioFloorNormalZ = (float*)(*marioFloorPtr(game) + 0x24);
+		float floorNormalZ = *marioFloorNormalZ;
 		int16_t* marioFloorType = (int16_t*)(*marioFloorPtr(game) + 0x0);
+		int16_t floorType = *marioFloorType;
 		uint64_t* marioAreaCameraPtr = (uint64_t*)(*marioAreaPtr(game) + 0x48);
 		int16_t* marioAreaCameraYaw = (int16_t*)(*marioAreaCameraPtr + 0x2);
 		int16_t camYaw = *marioAreaCameraYaw;
@@ -68,7 +72,7 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 				[](bool isLeaf, Slot* s) { calc_next_node(isLeaf, s); });
 		}
 
-		if (is_freefall_angle == false) {
+		if (is_freefall_angle == false && (isLeaf == false || distance_precheck(x, y, z, hSpd, marioFloorNormalY, marioFloorType) == true)) {
 			set<pair<int16_t, float>> yawmags_tested;
 
 			for (int16_t input_x = -128; input_x < 128; input_x++) {
@@ -97,7 +101,7 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 
 					/* input inbounds precheck */
 					update_mario_state(x, y, z, hSpd, fYaw);				
-					if (input_precheck(marioFloorNormalX, marioFloorNormalY, marioFloorNormalZ, marioFloorType) == false) {
+					if (input_precheck(floorNormalX, floorNormalY, floorNormalZ, floorType) == false) {
 						continue;
 					}
 
@@ -159,11 +163,63 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 	return;
 }
 
-bool input_precheck(float* marioFloorNormalX, float* marioFloorNormalY, float* marioFloorNormalZ, int16_t* marioFloorType)
+bool distance_precheck(float x, float y, float z, float hSpd, float* marioFloorNormalY, int16_t* marioFloorType)
 {
-	update_sliding(*marioFloorNormalX, *marioFloorNormalZ, *marioFloorType);
-	*marioX(game) = float(*marioX(game) + *marioXSlidSpd(game) * *marioFloorNormalY / 4.0);
-	*marioZ(game) = float(*marioZ(game) + *marioZSlidSpd(game) * *marioFloorNormalY / 4.0);
+	float lossFactorMin;
+	float lossFactorMax;
+	float dist_to_main_uni = sqrt(pow(x, 2) + pow(z, 2));
+	if (*marioFloorType == 0x15) {
+		lossFactorMin = 0.89;
+		lossFactorMax = 0.94;
+	}
+	else if (*marioFloorType == 0x13) {
+		lossFactorMin = 0.95;
+		lossFactorMax = 1.0;
+	}
+	else {
+		lossFactorMin = 0.89;
+		lossFactorMax = 0.94;
+	}
+
+	float crouchSlideDistMin[4];
+	float crouchSlideDistMax[4];
+
+	/* Check if crouchslide qfs could reach the main universe based on distance, or if they overshoot */
+	for (int qf = 0; qf < 4; qf++) {
+		crouchSlideDistMin[qf] = abs(hSpd) * lossFactorMin * *marioFloorNormalY * qf / 4.0f;
+		crouchSlideDistMax[qf] = abs(hSpd) * lossFactorMax * *marioFloorNormalY * qf / 4.0f;
+
+		if (crouchSlideDistMin[qf] <= dist_to_main_uni && crouchSlideDistMax[qf] >= dist_to_main_uni) {
+			return true;
+		}
+		else if (crouchSlideDistMin[qf] >= dist_to_main_uni && crouchSlideDistMax[qf] >= dist_to_main_uni) {
+			return false;
+		}
+	}
+
+	/* If a full frame of crouchsliding won't reach the main map, proceed with freefall frames.
+	*  NOTE: I'm excluding situations where there is a crouchslide slideoff in 2-4 qf. These are rare in BitFS but they can happen.
+	*/
+	for (int qf = 0; qf >= 0; qf++) {
+		float distMin = crouchSlideDistMin[0] + abs(hSpd) * lossFactorMin * qf / 4.0f;
+		float distMax = crouchSlideDistMax[0] + abs(hSpd) * lossFactorMax * qf / 4.0f;
+
+		if (distMin <= dist_to_main_uni && distMax >= dist_to_main_uni) {
+			return true;
+		}
+		else if (distMin >= dist_to_main_uni && distMax >= dist_to_main_uni) {
+			return false;
+		}
+	}
+
+	return true;
+}
+
+bool input_precheck(float floorNormalX, float floorNormalY, float floorNormalZ, int16_t floorType)
+{
+	update_sliding(floorNormalX, floorNormalY, floorNormalZ);
+	*marioX(game) = float(*marioX(game) + *marioXSlidSpd(game) * floorNormalY / 4.0);
+	*marioZ(game) = float(*marioZ(game) + *marioZSlidSpd(game) * floorNormalY / 4.0);
 
 	if (check_if_inbounds(*marioX(game), *marioZ(game)) == true) {
 		//printf("Step 1 Predicted: %.9f %.9f %d %d\n", *marioX(game), *marioZ(game), *marioFYaw(game), *marioMYaw(game));
@@ -224,8 +280,6 @@ bool check_freefall_outcome(
 			} else {
 				printf("FRAME ENDED IN MAIN UNIVERSE: %.9f %.9f %.9f %d", *marioX(game), *marioY(game), *marioZ(game), fYaw);
 			}
-			
-			fprintf(stderr, "found something\n");
 		}
 		/* Continue execution regardless of whether the main universe was entered */
 
@@ -257,8 +311,8 @@ bool check_freefall_outcome(
 						printf("Found new node: %.9f %d\n", *marioY(game), fYaw);
 					}
 					
-					printf("Distance to main universe: %.9f\n", sqrt(pow(*marioX(game), 2) + pow(*marioY(game), 2)));
-					printf("yaw to main uni: %.9f\n", mewFYawToMainUni);
+					printf("Distance to main universe: %.9f\n", sqrt(pow(*marioX(game), 2) + pow(*marioZ(game), 2)));
+					printf("Yaw to main universe: %.9f\n", mewFYawToMainUni);
 
 					if (recurse == true) {
 						/* test if this node will return to main map */
@@ -285,7 +339,7 @@ bool check_freefall_outcome(
 	}
 
 	if (frame == 300) {
-		printf("Something weird happened: %.9f %d\n", *marioX(game), *marioY(game), *marioZ(game), *marioHSpd(game), fYaw);
+		printf("Something weird happened: %.9f %.9f %.9f %.9f %d\n", *marioX(game), *marioY(game), *marioZ(game), *marioHSpd(game), fYaw);
 	}
 
 	return false;
