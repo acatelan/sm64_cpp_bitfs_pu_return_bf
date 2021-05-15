@@ -27,13 +27,13 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 	int hau_offset_sign = 1;
 
 	/*
-	printf("marioX - %.9f, marioX^2 - %.9f\n", *marioX(game), pow(*marioX(game), 2));
-	printf("marioY - %.9f, marioY^2 - %.9f\n", *marioY(game), pow(*marioY(game), 2));
-	printf("marioZ - %.9f, marioZ^2 - %.9f\n", *marioZ(game), pow(*marioZ(game), 2));
+	printf("marioX - %.8f, marioX^2 - %.8f\n", *marioX(game), pow(*marioX(game), 2));
+	printf("marioY - %.8f, marioY^2 - %.8f\n", *marioY(game), pow(*marioY(game), 2));
+	printf("marioZ - %.8f, marioZ^2 - %.8f\n", *marioZ(game), pow(*marioZ(game), 2));
 	*/
 
 	if (isLeaf == false) {
-		printf("starting dist: %.9f\n", sqrt(pow(*marioX(game), 2) + pow(*marioY(game), 2) + pow(*marioZ(game), 2)));
+		printf("starting dist: %.8f\n", sqrt(pow(*marioX(game), 2) + pow(*marioY(game), 2) + pow(*marioZ(game), 2)));
 		printf("starting yaw: %.1f\n", fyaw_to_main_uni - fmodf(fyaw_to_main_uni, 16));
 	}
 
@@ -120,7 +120,7 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 					game.advance_frame();
 
 					//printf("%d %d\n", *marioFYaw(game) + 32768, *marioMYaw(game));
-					//printf("Step 1 Actual: %.9f %.9f %d %d\n", *marioX(game), *marioZ(game), *marioFYaw(game), *marioMYaw(game));
+					//printf("Step 1 Actual: %.8f %.8f %d %d\n", *marioX(game), *marioZ(game), *marioFYaw(game), *marioMYaw(game));
 
 					/* Check if Mario bonks in crouchslide. If so, this input won't work. */
 					if (abs(*marioHSpd(game)) < 1000.0) {
@@ -128,13 +128,14 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 					} else if (*marioAction(game) == 0x0100088C) {
 						/*
 						* if (input_yawmag_map[pair<int8_t, int8_t>(input_x, input_y)] != pair<int16_t, float>(*marioIntYaw(game), *marioIntMag(game))) {
-						*     printf("(%d, %.9f) (%d, %.9f)\n", input_yawmag_map[pair<int8_t, int8_t>(input_x, input_y)].first, input_yawmag_map[pair<int8_t, int8_t>(input_x, input_y)].second, *marioIntYaw(game), *marioIntMag(game));
+						*     printf("(%d, %.8f) (%d, %.8f)\n", input_yawmag_map[pair<int8_t, int8_t>(input_x, input_y)].first, input_yawmag_map[pair<int8_t, int8_t>(input_x, input_y)].second, *marioIntYaw(game), *marioIntMag(game));
 						*     printf("%#X %#X\n", input_yawmag_map[pair<int8_t, int8_t>(input_x, input_y)].first - 1187, *marioIntYaw(game) - 1187);
 						*     printf("%d %d\n", input_x, input_y);
 						* }
 						*/
 
-						check_freefall_outcome(input_x, input_y, fYaw, true, isLeaf, recurse, [&] { calc_next_node(true, saveStateNext); });
+						check_freefall_outcome(input_x, input_y, fYaw, true, isLeaf, recurse,
+							[&](bool isLeaf, Slot* saveStateNext) { calc_next_node(true, saveStateNext); });
 					}
 				}
 			}

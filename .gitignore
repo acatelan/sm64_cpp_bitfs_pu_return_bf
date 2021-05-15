@@ -41,9 +41,12 @@
 *.pdb
 *.lastbuildstate
 *.tlog
+*.log
 
 #Visual Studio Project files
+.vscode/
 .vs/
 Debug/
 x64/
 UpgradeLog.htm
+
