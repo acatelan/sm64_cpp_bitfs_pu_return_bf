@@ -61,6 +61,12 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 		int16_t* marioAreaCameraYaw = (int16_t*)(*marioAreaCameraPtr + 0x2);
 		int16_t camYaw = *marioAreaCameraYaw;
 
+		/* Distance precheck */
+		if (isLeaf == true && distance_precheck(x, y, z, hSpd, marioFloorNormalY, marioFloorType) == false) {
+			printf("L2 node failed distance precheck.\n");
+			return;
+		}
+
 		//check if Mario moves directly into freefall
 		bool is_freefall_angle = false;
 		*marioFYaw(game) = fYaw;
@@ -181,38 +187,35 @@ bool distance_precheck(float x, float y, float z, float hSpd, float* marioFloorN
 		lossFactorMax = 0.94;
 	}
 
-	float crouchSlideDistMin[4];
-	float crouchSlideDistMax[4];
+	float crouchSlideDistMin[5];
+	float crouchSlideDistMax[5];
 
 	/* Check if crouchslide qfs could reach the main universe based on distance, or if they overshoot */
-	for (int qf = 0; qf < 4; qf++) {
+	for (int qf = 0; qf <= 4; qf++) {
 		crouchSlideDistMin[qf] = abs(hSpd) * lossFactorMin * *marioFloorNormalY * qf / 4.0f;
 		crouchSlideDistMax[qf] = abs(hSpd) * lossFactorMax * *marioFloorNormalY * qf / 4.0f;
 
 		if (crouchSlideDistMin[qf] <= dist_to_main_uni && crouchSlideDistMax[qf] >= dist_to_main_uni) {
 			return true;
 		}
-		else if (crouchSlideDistMin[qf] >= dist_to_main_uni && crouchSlideDistMax[qf] >= dist_to_main_uni) {
-			return false;
+	}
+
+	/* If a full frame of crouchsliding won't reach the main map, proceed with freefall frames. */
+	for (int crouchslideQf = 0; crouchslideQf <= 4; crouchslideQf++) {
+		for (int qf = 1; qf > 0; qf++) {
+			float distMin = crouchSlideDistMin[crouchslideQf] + abs(hSpd) * lossFactorMin * qf / 4.0f;
+			float distMax = crouchSlideDistMax[crouchslideQf] + abs(hSpd) * lossFactorMax * qf / 4.0f;
+
+			if (distMin <= dist_to_main_uni && distMax >= dist_to_main_uni) {
+				return true;
+			}
+			else if (distMin >= dist_to_main_uni && distMax >= dist_to_main_uni) {
+				break;
+			}
 		}
 	}
 
-	/* If a full frame of crouchsliding won't reach the main map, proceed with freefall frames.
-	*  NOTE: I'm excluding situations where there is a crouchslide slideoff in 2-4 qf. These are rare in BitFS but they can happen.
-	*/
-	for (int qf = 0; qf >= 0; qf++) {
-		float distMin = crouchSlideDistMin[0] + abs(hSpd) * lossFactorMin * qf / 4.0f;
-		float distMax = crouchSlideDistMax[0] + abs(hSpd) * lossFactorMax * qf / 4.0f;
-
-		if (distMin <= dist_to_main_uni && distMax >= dist_to_main_uni) {
-			return true;
-		}
-		else if (distMin >= dist_to_main_uni && distMax >= dist_to_main_uni) {
-			return false;
-		}
-	}
-
-	return true;
+	return false;
 }
 
 bool input_precheck(float floorNormalX, float floorNormalY, float floorNormalZ, int16_t floorType)
@@ -276,7 +279,7 @@ bool check_freefall_outcome(
 		/* THIS IS ULTIMATELY WHAT WE ARE LOOKING FOR */
 		if (check_if_pos_in_main_universe(*marioX(game), *marioZ(game))) {
 			if (input_matters) {
-				printf("FRAME ENDED IN MAIN UNIVERSE: %.9f %.9f %.9f %d %d %d", *marioX(game), *marioY(game), *marioZ(game), fYaw, input_x, input_y);
+				printf("FRAME ENDED IN MAIN UNIVERSE: %.9f %.9f %.9f %d %d %d\n", *marioX(game), *marioY(game), *marioZ(game), fYaw, input_x, input_y);
 			} else {
 				printf("FRAME ENDED IN MAIN UNIVERSE: %.9f %.9f %.9f %d", *marioX(game), *marioY(game), *marioZ(game), fYaw);
 			}
