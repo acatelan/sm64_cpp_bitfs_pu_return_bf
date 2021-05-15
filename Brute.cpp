@@ -41,10 +41,6 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 	while (true) {
 		int16_t fYaw = int(fyaw_to_main_uni) + 16 * hau_index * hau_offset_sign;
 
-		/* End when all HAUs have been tested */
-		if (hau_index > 2048) {
-			break;
-		}
 
 		if (isLeaf == false) {
 			printf("updating fYaw to %d\n", fYaw);
@@ -156,6 +152,7 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 			return;
 		}
 
+		/* End when all HAUs have been tested */
 		if (hau_index > 2048) {
 			break;
 		}
