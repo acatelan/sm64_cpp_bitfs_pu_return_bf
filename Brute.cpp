@@ -13,9 +13,6 @@
 #include "Magic.h"
 #include "Inputs.h"
 
-Slot saveStateTemp = game.alloc_slot();
-Slot saveStateNext = game.alloc_slot();
-
 void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startIndex, Slot* saveStateTemp, Slot* saveStateNext) {
 	//favor angles facing the real universe
 	game.load_state(saveState);
@@ -67,8 +64,8 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 		game.advance_frame();
 
 		if (*marioAction(game) == 0x0100088C) { //freefall
-			is_freefall_angle = check_freefall_outcome(0, 0, fYaw, false, isLeaf, recurse,
-				[](bool isLeaf, Slot* saveStateNext) { calc_next_node(isLeaf, saveStateNext); });
+			is_freefall_angle = check_freefall_outcome(0, 0, fYaw, false, isLeaf, recurse, saveStateTemp, saveStateNext,
+				[](bool isLeaf, Slot* s) { calc_next_node(isLeaf, s); });
 		}
 
 		if (is_freefall_angle == false) {
@@ -129,8 +126,8 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 						* }
 						*/
 
-						check_freefall_outcome(input_x, input_y, fYaw, true, isLeaf, recurse,
-							[](bool isLeaf, Slot* saveStateNext) { calc_next_node(true, saveStateNext); });
+						check_freefall_outcome(input_x, input_y, fYaw, true, isLeaf, recurse, saveStateTemp, saveStateNext,
+							[](bool isLeaf, Slot* s) { calc_next_node(true, s); });
 					}
 				}
 			}
@@ -203,7 +200,16 @@ bool check_if_pos_in_main_universe(float x, float z)
 	return (abs(x) < 10000.0f && abs(z) < 10000.0f);
 }
 
-bool check_freefall_outcome(int16_t input_x, int16_t input_y, int16_t fYaw, bool input_matters, bool isLeaf, bool recurse, std::function<void(bool, Slot*)> execute_recursion)
+bool check_freefall_outcome(
+	int16_t input_x,
+	int16_t input_y,
+	int16_t fYaw,
+	bool input_matters,
+	bool isLeaf,
+	bool recurse,
+	Slot* saveStateTemp,
+	Slot* saveStateNext,
+	std::function<void(bool, Slot*)> execute_recursion)
 {
 	/* If the frame limit is reached, something fluky happened like a pedro spot. Move on in this case */
 	int frame;
@@ -256,7 +262,7 @@ bool check_freefall_outcome(int16_t input_x, int16_t input_y, int16_t fYaw, bool
 
 					if (recurse == true) {
 						/* test if this node will return to main map */
-						game.save_state(&saveStateTemp);
+						game.save_state(saveStateTemp);
 
 						/* allow camera yaw to stabilize, otherwise the solution is unlikely to validate */
 						for (int i = 0; i < 10; i++) {
@@ -266,9 +272,9 @@ bool check_freefall_outcome(int16_t input_x, int16_t input_y, int16_t fYaw, bool
 						}
 
 						*marioAction(game) = 0x04000440; /* walking */
-						game.save_state(&saveStateNext);
-						execute_recursion(isLeaf, &saveStateNext);
-						game.load_state(&saveStateTemp);
+						game.save_state(saveStateNext);
+						execute_recursion(isLeaf, saveStateNext);
+						game.load_state(saveStateTemp);
 						return true;
 					}
 				}
