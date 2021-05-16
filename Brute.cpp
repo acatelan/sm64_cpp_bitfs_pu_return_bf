@@ -70,8 +70,10 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 		game.advance_frame();
 
 		if (*marioAction(game) == 0x0100088C) { //freefall
-			is_freefall_angle = check_freefall_outcome(0, 0, fYaw, false, isLeaf, recurse, saveStateTemp, saveStateNext, &crouchslide_returned_to_main_uni,
-				[](bool isLeaf, Slot* s) { calc_next_node(isLeaf, s); });
+			for (int dust_frames = 0; dust_frames < 4; dust_frames++) {
+				is_freefall_angle = check_freefall_outcome(0, 0, fYaw, false, isLeaf, recurse, saveStateTemp, saveStateNext, &crouchslide_returned_to_main_uni, dust_frames,
+					[](bool isLeaf, Slot* s) { calc_next_node(isLeaf, s); });
+			}
 		}
 
 		/* For leaf nodes, check to see if the crouchslide distance can even possibly return to the main universe */
@@ -146,8 +148,11 @@ void calc_next_node(bool isLeaf, Slot* saveState, bool recurse, int16_t startInd
 						* }
 						*/
 
-						check_freefall_outcome(input_x, input_y, fYaw, true, isLeaf, recurse, saveStateTemp, saveStateNext, &crouchslide_returned_to_main_uni,
-							[](bool isLeaf, Slot* s) { calc_next_node(true, s); });
+						for (int dust_frames = 0; dust_frames < 4; dust_frames++) {
+							check_freefall_outcome(input_x, input_y, fYaw, true, isLeaf, recurse, saveStateTemp, saveStateNext, &crouchslide_returned_to_main_uni, dust_frames,
+								[](bool isLeaf, Slot* s) { calc_next_node(true, s); });
+						}
+						
 					}
 				}
 			}
@@ -269,9 +274,21 @@ void update_mario_state(float x, float y, float z, float hSpd, int16_t fYaw)
 	*marioZ(game) = z;
 }
 
-bool check_if_pos_in_main_universe(float x, float z)
+bool check_if_pos_in_main_universe(float x, float z, bool input_matters, bool* crouchslide_returned_to_main_uni, int16_t fYaw, int16_t input_x, int16_t input_y)
 {
-	return (abs(x) < 10000.0f && abs(z) < 10000.0f);
+	if (abs(x) < 10000.0f && abs(z) < 10000.0f) {
+		if (input_matters) {
+			printf("FRAME ENDED IN MAIN UNIVERSE: %.9f %.9f %.9f %d %d %d\n", *marioX(game), *marioY(game), *marioZ(game), fYaw, input_x, input_y);
+			*crouchslide_returned_to_main_uni = true;
+		}
+		else {
+			printf("FRAME ENDED IN MAIN UNIVERSE: %.9f %.9f %.9f %d\n", *marioX(game), *marioY(game), *marioZ(game), fYaw);
+		}
+
+		return true;
+	}
+
+	return false;
 }
 
 bool check_freefall_outcome(
@@ -284,6 +301,7 @@ bool check_freefall_outcome(
 	Slot* saveStateTemp,
 	Slot* saveStateNext,
 	bool* crouchslide_returned_to_main_uni,
+	int dust_frames,
 	std::function<void(bool, Slot*)> execute_recursion)
 {
 	/* If the frame limit is reached, something fluky happened like a pedro spot. Move on in this case */
@@ -293,14 +311,7 @@ bool check_freefall_outcome(
 		game.advance_frame();
 
 		/* THIS IS ULTIMATELY WHAT WE ARE LOOKING FOR */
-		if (check_if_pos_in_main_universe(*marioX(game), *marioZ(game))) {
-			if (input_matters) {
-				printf("FRAME ENDED IN MAIN UNIVERSE: %.9f %.9f %.9f %d %d %d\n", *marioX(game), *marioY(game), *marioZ(game), fYaw, input_x, input_y);
-				*crouchslide_returned_to_main_uni = true;
-			} else {
-				printf("FRAME ENDED IN MAIN UNIVERSE: %.9f %.9f %.9f %d", *marioX(game), *marioY(game), *marioZ(game), fYaw);
-			}
-		}
+		check_if_pos_in_main_universe(*marioX(game), *marioZ(game), input_matters, crouchslide_returned_to_main_uni, fYaw, input_x, input_y);
 		/* Continue execution regardless of whether the main universe was entered */
 
 		/* This basically only happens if MAaio hits something and his speed zeroes. No need to keep checking if this happens. */
@@ -313,13 +324,26 @@ bool check_freefall_outcome(
 			/*  Check to see if landing spot is stable or if Mario continues moving into the air, a slope etc.
 			 *  TO-DO: Try all numbers of dust frames with inputs as these will all yield significantly different speeds.
 			 */
-			for (int i = 0; i < 3; i++) {
-				game.advance_frame();
-				*marioActionTimer(game) = 1; /* don't let Mario leave this action and lose his speed */
-			}
+			for (int i = 0; i < 6; i++) {
+				if (i < dust_frames) {
+					set_inputs(game, Inputs(0b0000000000010000, 127, 127)); /* R button and joystick input for dust (cuts speed by 2% on flat surfaces) */
+				}
+				else {
+					set_inputs(game, Inputs(0b0000000000010000, 0, 0)); /* R button only, no joystick input */
+				}
 				
+				game.advance_frame();
 
-			if (*marioAction(game) == 0x04000471) { /* freefall land */
+				/* This is highly unlikely but it could happen due to changing speed, might as well check */
+				if (check_if_pos_in_main_universe(*marioX(game), *marioZ(game), input_matters, crouchslide_returned_to_main_uni, fYaw, input_x, input_y)) {
+					printf("Dust frames required: %d\n", dust_frames);
+				}
+
+				*marioActionTimer(game) = 1; /* don't let Mario leave this action and lose his speed */
+				//printf("0x%.8X %.9f \n", *marioAction(game), *marioHSpd(game));
+			}
+
+			if (*marioAction(game) == 0x04000471 && abs(*marioHSpd(game)) > 1000.0f) { /* freefall land */
 				if (isLeaf == false) {
 					float mewFYawToMainUni = float(atan2(*marioX(game), *marioZ(game)) * 32768.0 / M_PI);
 					mewFYawToMainUni = mewFYawToMainUni - fmodf(mewFYawToMainUni, 16);
@@ -347,6 +371,7 @@ bool check_freefall_outcome(
 
 						*marioAction(game) = 0x04000440; /* walking */
 						game.save_state(saveStateNext);
+						printf("Testing L2 node with %d dust frames\n", dust_frames);
 						execute_recursion(isLeaf, saveStateNext);
 						game.load_state(saveStateTemp);
 						return true;
