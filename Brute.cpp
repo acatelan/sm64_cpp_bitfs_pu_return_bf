@@ -321,9 +321,7 @@ bool check_freefall_outcome(
 
 		/* If Mario lands, this position is a candidate for a next level node, depending on what happens after. */
 		if (*marioAction(game) == 0x04000471) { //freefall land
-			/*  Check to see if landing spot is stable or if Mario continues moving into the air, a slope etc.
-			 *  TO-DO: Try all numbers of dust frames with inputs as these will all yield significantly different speeds.
-			 */
+			/* Check to see if landing spot is stable or if Mario continues moving into the air, a slope etc. */
 			for (int i = 0; i < 6; i++) {
 				if (i < dust_frames) {
 					set_inputs(game, Inputs(0b0000000000010000, 127, 127)); /* R button and joystick input for dust (cuts speed by 2% on flat surfaces) */
