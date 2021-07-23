@@ -1,12 +1,18 @@
+#include <fstream>;
 #include "Start.h"
 
 void sync_game(vector<Inputs> m64, Slot* backup) {
 	//Run through the m64
 	for (int frame = 0; frame < m64.size(); frame++) {
 		//hacks to get m64 to sync
+
+		//God I hope we don't need to deal with anything more than just setting the inputs on each frame
 		if (frame == 3020) {
 			*marioX(game) = -2250.1f;
 			*marioZ(game) = -715;
+
+			//*marioX(game) = start.mario.x;
+			//*marioZ(game) = start.mario.z;
 		}
 
 		if (frame == 3051) {
@@ -15,6 +21,13 @@ void sync_game(vector<Inputs> m64, Slot* backup) {
 			*bullyZ(game) = -731.34f;
 			*bullyYaw1(game) = 16384;
 			*bullyHSpd(game) = 50000000.0;
+
+			/*
+			*bullyX(game) = start.bullies[0].x;
+			*bullyY(game) = start.bullies[0].y;
+			*bullyZ(game) = start.bullies[0].z;
+			*bullyYaw1(game) = start.bullies[0].yaw;
+			*bullyHSpd(game) = start.bullies[0].spd;*/
 		}
 
 		if (frame == 3076) {
@@ -23,12 +36,25 @@ void sync_game(vector<Inputs> m64, Slot* backup) {
 			*bullyZ(game) = -573.61f;
 			*bullyYaw1(game) = 0;
 			*bullyHSpd(game) = 50000000.0;
+
+			/*
+			*bullyX(game) = start.bullies[1].x;
+			*bullyY(game) = start.bullies[1].y;
+			*bullyZ(game) = start.bullies[1].z;
+			*bullyYaw1(game) = start.bullies[1].yaw;
+			*bullyHSpd(game) = start.bullies[1].spd;*/
 		}
 
 
 		if (frame == 3099) {
 			*trackPlatAction(game) = 2;
 			*trackPlatX(game) = -1331.77f;
+
+			//if we need more variables, update this
+
+			/*
+			*trackPlatAction(game) = start.platform.action;
+			*trackPlatX(game) = start.platform.x;*/
 		}
 
 
@@ -38,6 +64,13 @@ void sync_game(vector<Inputs> m64, Slot* backup) {
 			*bullyZ(game) = -461.0;
 			*bullyYaw1(game) = -32768;
 			*bullyHSpd(game) = 14063606.0;
+
+			/*
+			*bullyX(game) = start.bullies[2].x;
+			*bullyY(game) = start.bullies[2].y;
+			*bullyZ(game) = start.bullies[2].z;
+			*bullyYaw1(game) = start.bullies[2].yaw;
+			*bullyHSpd(game) = start.bullies[2].spd;*/
 		}
 
 		//Deactivating all of the objects but the bully, Mario, the
@@ -56,6 +89,10 @@ void sync_game(vector<Inputs> m64, Slot* backup) {
 		}
 
 		if (frame == 3274) {
+			*marioX(game) = -46397032.000000000;
+			*marioY(game) = 7892.000000000;
+			*marioZ(game) = -790833.312500000;
+			*marioHSpd(game) = 58000000;
 			game.save_state(backup);
 			break;
 		}
@@ -139,115 +176,36 @@ vector<Inputs> load_m64(const char* filename) {
 	return frames;
 }
 
+void from_json(const json& j, Mario& m) {
+	j.at("x").get_to(m.x);
+	j.at("z").get_to(m.z);
+}
+
+void from_json(const json& j, Bully& b) {
+	j.at("x").get_to(b.x);
+	j.at("y").get_to(b.y);
+	j.at("z").get_to(b.z);
+	j.at("spd").get_to(b.spd);
+	j.at("yaw").get_to(b.yaw);
+}
+
+void from_json(const json& j, Platform& p) {
+	//if we need more variables, update this
+	j.at("action").get_to(p.action);
+	j.at("x").get_to(p.x);
+}
+
+void from_json(const json& j, Start& s) {
+	j.at("Mario").get_to(s.mario);
+	j.at("Bullies").get_to(s.bullies);
+	j.at("Platform").get_to(s.platform);
+}
+
 vector<Start> read_starts(const char* filename) {
-	vector<Start> starts;
-	FILE* f;
+	json j;
+	ifstream f(filename);
 
-	size_t err;
+	f >> j;
 
-	try {
-		if ((err = fopen_s(&f, filename, "rb")) != 0) {
-			cerr << "Bad input open: " << err << endl;
-			exit(1);
-		}
-
-		while (true) {
-			float x;
-
-			fread(&x, sizeof(float), 1, f);
-
-			if (feof(f) || ferror(f)) {
-				break;
-			}
-
-			float y;
-
-			fread(&y, sizeof(float), 1, f);
-
-			if (feof(f) || ferror(f)) {
-				break;
-			}
-
-			float z;
-
-			fread(&z, sizeof(float), 1, f);
-
-			if (feof(f) || ferror(f)) {
-				break;
-			}
-
-			float bx;
-
-			fread(&bx, sizeof(float), 1, f);
-
-			if (feof(f) || ferror(f)) {
-				break;
-			}
-
-			float by;
-
-			fread(&by, sizeof(float), 1, f);
-
-			if (feof(f) || ferror(f)) {
-				break;
-			}
-
-			float bz;
-
-			fread(&bz, sizeof(float), 1, f);
-
-			if (feof(f) || ferror(f)) {
-				break;
-			}
-
-			uint16_t bYaw;
-
-			fread(&bYaw, sizeof(uint16_t), 1, f);
-
-			if (feof(f) || ferror(f)) {
-				break;
-			}
-
-			float bSpd;
-
-			fread(&bSpd, sizeof(float), 1, f);
-
-			if (feof(f) || ferror(f)) {
-				break;
-			}
-
-			uint32_t pa;
-
-			fread(&pa, sizeof(uint32_t), 1, f);
-
-			if (feof(f) || ferror(f)) {
-				break;
-			}
-
-			float px;
-
-			fread(&px, sizeof(float), 1, f);
-
-			if (feof(f) || ferror(f)) {
-				break;
-			}
-
-			float pz;
-
-			fread(&pz, sizeof(float), 1, f);
-
-			if (feof(f) || ferror(f)) {
-				break;
-			}
-
-			starts.push_back(Start(x, y, z, bx, by, bz, bYaw, bSpd, pa, px, pz));
-		}
-	}
-	catch (invalid_argument& e) {
-		cerr << e.what() << endl;
-	}
-
-	fclose(f);
-
-	return starts;
+	return j.get<vector<Start>>();
 }

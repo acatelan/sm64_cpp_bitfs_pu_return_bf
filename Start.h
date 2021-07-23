@@ -1,5 +1,10 @@
 #pragma once
 
+#include "json.hpp"
+
+// for convenience
+using json = nlohmann::json;
+
 #include "Game.h"
 #include "Inputs.h"
 #include "Macros.h"
@@ -8,37 +13,65 @@
 #ifndef START_H
 #define START_H
 
+class Mario {
+public:
+	float x;
+	float z;
+
+	Mario(float mX, float mZ) {
+		x = mX;
+		z = mZ;
+	}
+
+	Mario() {
+	}
+};
+
+class Bully {
+public:
+	float x;
+	float y;
+	float z;
+	float spd;
+	uint16_t yaw;
+
+	Bully(float bX, float bY, float bZ, float bSpd, uint16_t bYaw) {
+		x = bX;
+		y = bY;
+		z = bZ;
+		spd = bSpd;
+		yaw = bYaw;
+	}
+
+	Bully() {
+	}
+};
+
+class Platform {
+public:
+	uint32_t action;
+	float x;
+
+	Platform(uint32_t pAction, float pX) {
+		action = pAction;
+		x = pX;
+	}
+
+	Platform() {
+	}
+};
+
 class Start
 {
 public:
-	float marioX;
-	float marioY;
-	float marioZ;
+	Mario mario;
+	vector<Bully> bullies;
+	Platform platform;
 
-	float bullyX;
-	float bullyY;
-	float bullyZ;
-	uint16_t bullyYaw;
-	float bullySpd;
-
-	uint32_t platAction;
-	float platX;
-	float platZ;
-
-	Start(float mX, float mY, float mZ, float bX, float bY, float bZ, uint16_t bYaw, float bSpd, uint32_t pAction, float pX, float pZ) {
-		marioX = mX;
-		marioY = mY;
-		marioZ = mZ;
-		
-		bullyX = bX;
-		bullyY = bY;
-		bullyZ = bZ;
-		bullyYaw = bYaw;
-		bullySpd = bSpd;
-
-		platAction = pAction;
-		platX = pX;
-		platZ = pZ;
+	Start(Mario m, vector<Bully> b, Platform p) {
+		mario = m;
+		bullies = b;
+		platform = p;
 	}
 
 	Start() {
@@ -47,6 +80,7 @@ public:
 	vector<Slot> set_start(Game* game, const char* filename, const char* dll_filename);
 };
 
+void sync_game(vector<Inputs> m64, Slot* backup);
 vector<Inputs> load_m64(const char* filename);
 vector<Start> read_starts(const char* filename);
 
