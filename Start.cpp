@@ -89,10 +89,10 @@ void sync_game(vector<Inputs> m64, Slot* backup) {
 		}
 
 		if (frame == 3274) {
-			*marioX(game) = -46397032.000000000;
-			*marioY(game) = 7892.000000000;
-			*marioZ(game) = -790833.312500000;
-			*marioHSpd(game) = 58000000;
+			//*marioX(game) = -46397032.000000000;
+			//*marioY(game) = 7892.000000000;
+			//*marioZ(game) = -790833.312500000;
+			//*marioHSpd(game) = 58000000;
 			game.save_state(backup);
 			break;
 		}
